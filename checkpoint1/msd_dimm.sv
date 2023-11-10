@@ -1,3 +1,4 @@
+
 module msd_dimm;
  
 int traceFile,out_file;
@@ -14,13 +15,13 @@ int rowCounter;
  int debug_en;
 
   initial begin
-	$value$plusargs("ip_file=%s", ip_file);
-	$value$plusargs("op_file=%s", op_file);
-	$value$plusargs("debug_en=%d",debug_en);
+	void'($value$plusargs("ip_file=%s", ip_file));
+	void'($value$plusargs("op_file=%s", op_file));
+	void'($value$plusargs("debug_en=%d",debug_en));
   end
   initial begin
     if(debug_en)
-    $display("Reading and displaying values from trace.txt...");
+    $display("Reading and displaying values from trace trace files...");
 
     // Open the file for reading and writing .
 
