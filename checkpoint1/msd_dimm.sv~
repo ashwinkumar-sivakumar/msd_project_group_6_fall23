@@ -1,6 +1,6 @@
 module msd_dimm;
  
-int traceFile;
+int traceFile,out_file;
 int valuesRead;
 logic[11:0]core;
 logic[1:0]operation;
@@ -25,6 +25,7 @@ int rowCounter;
     // Open the file for reading.
     
    traceFile = $fopen(ip_file, "r");
+   out_file = $fopen("output.txt", "w");
    // traceFile =$fopen("trace.txt","r");
     if (traceFile == 0) begin
        if(debug_en)
@@ -42,12 +43,16 @@ int rowCounter;
 
       if (valuesRead == 4) begin
         if(debug_en)
-         $display ( "from row %d the value of time =%d  core=%12d operation=%2h address=%h time=%t",rowCounter,time_unit,core,operation,address,$time);
+        $display ( "from row %d the value of time =%d  core=%12d operation=%2h address=%h",rowCounter,time_unit,core,operation,address);
+        $fwrite(out_file,"from row %d the value of time =%d \t core=%12d \t operation=%2h \t address=%h \n",rowCounter,time_unit,core,operation,address);
         rowCounter++;
 
       end 
-  // need to add error handling here if the rows and columns are not given
-	  
+     if (valuesRead != 4) begin
+        if(debug_en)
+       // $display("Error:Invalid inputs");
+        $finish;
+      end
     end
 
     // Close the file.
