@@ -46,11 +46,8 @@ int rowCounter;
         rowCounter++;
 
       end 
-    /* if (valuesRead != 4) begin
-        if(debug_en)
-        $display("Error:Invalid inputs");
-        $finish;
-      end */
+  // need to add error handling here if the rows and columns are not given
+	  
     end
 
     // Close the file.
