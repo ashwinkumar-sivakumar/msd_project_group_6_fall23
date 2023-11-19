@@ -23,8 +23,12 @@ def generate_trace_file():
             bank = random.randint(0, 2**2 - 1) # 2 bit
             high_column =random.randint(0, 2**6 - 1) #6 bit
             row =random.randint(0, 2**16 - 1) # 16 bits
-            address = (byte_sel & 0b11) << 32 | (low_column & 0b1111) << 28 |(channel & 0b1) << 26 | (bank_group & 0b111) << 23 | (bank & 0b11) << 21 | (high_column & 0b111111) << 12 | (row & 0b1111111111111111)  
+            
             #address 34 bits
+            address = (row & 0b1111111111111111) << 18|(high_column & 0b111111) << 12 |(bank & 0b11) << 10 |(bank_group & 0b111) << 7 |(channel & 0b1) << 6 |(low_column & 0b1111) << 2 |(byte_sel & 0b11) << 0     
+
+            #address = (0b0111111111111111 & 0b1111111111111111) << 18|(0b101010 & 0b111111) << 12 |(0b01 & 0b11) << 10 |(0b000 & 0b111) << 7 |(0b0 & 0b1) << 6 |(0b1010 & 0b1111) << 2 |(0b11 & 0b11) << 0     
+
 
 
             # Write the values to the file
