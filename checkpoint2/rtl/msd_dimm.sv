@@ -88,7 +88,7 @@ module msd_dimm;
   end 
  
   always@(sim_time) begin
-         if ((q_ip_time.size() == 0) && (q_mc.size() ==0) && (q_full ==0) && (last_line !=0)) begin
+         if ((q_ip_time.size() == 0) && (q_mc.size() ==0) && (q_full ==0) && (last_line==rowCounter)) begin
             // Both input queue and memory controller queue are empty
             #1 $finish;
          end 
@@ -151,4 +151,3 @@ module msd_dimm;
        $fclose(out_file);
   end 
 endmodule
-
