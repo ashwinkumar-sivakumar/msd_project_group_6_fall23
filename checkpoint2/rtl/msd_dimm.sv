@@ -38,7 +38,7 @@ module msd_dimm;
           $display("%t \t channel=%d RD1 bankg=%d bank=%d column=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
           $display("%t \t channel=%d PRE bankg=%d bank=%d ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
        end
-       if (q_out_temp[37:36] == 2) begin
+        if (q_out_temp[37:36] == 1) begin
           $display("\t\t*********Write operation********* Value of operation=%0d",q_out_temp[37:36]);
           $display("%t \t channel=%d ACT0 bankg=%d bank=%d row =%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
           $display("%t \t channel=%d ACT1 bankg=%d bank=%d row=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
