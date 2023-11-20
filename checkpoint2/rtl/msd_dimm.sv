@@ -30,7 +30,7 @@ module msd_dimm;
   endtask
 
   task output_command(input[37:0] q_out_temp);
-       if (q_out_temp[37:36] == 0 || q_out_temp[37:36] == 1) begin //Read operation. mem controller point of view instruction fetch is also read.
+       if (q_out_temp[37:36] == 0 || q_out_temp[37:36] == 2) begin //Read operation. mem controller point of view instruction fetch is also read.
           $display("\t\t*********Read operation********* Value of operation=%0d",q_out_temp[37:36]);
           $display("%t \t channel=%d ACT0 bankg=%d bank=%d row =%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
           $display("%t \t channel=%d ACT1 bankg=%d bank=%d row=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
@@ -38,8 +38,8 @@ module msd_dimm;
           $display("%t \t channel=%d RD1 bankg=%d bank=%d column=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
           $display("%t \t channel=%d PRE bankg=%d bank=%d ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
        end
-        if (q_out_temp[37:36] == 1) begin
-          $display("\t\t*********Write operation********* Value of operation=%0d",q_out_temp[37:36]);
+       if (q_out_temp[37:36] == 1) begin
+         $display("\t\t*********Write operation********* Value of operation=%0d",q_out_temp[37:36]);
           $display("%t \t channel=%d ACT0 bankg=%d bank=%d row =%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
           $display("%t \t channel=%d ACT1 bankg=%d bank=%d row=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
           $display("%t \t channel=%d WR0 bankg=%d bank=%d column=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
@@ -52,7 +52,7 @@ module msd_dimm;
        q_out_temp=q_mc[0];
        $display("q_out_temp= %0h ",q_out_temp);
        output_command(q_out_temp);
-       q_mc.pop_front();
+        void' (q_mc.pop_front());
        $display(">>>@time:%t Removing a queue %h elements from queue..  sim_time = %0d --> q_mc.size = %0d\n",$time,q_out_temp, sim_time, q_mc.size());
        display_q;        
        last_line ++;
@@ -132,6 +132,10 @@ module msd_dimm;
              valuesRead = 0;
              // Read values from the file.
              valuesRead = $fscanf(traceFile, "%d %d %d %h", time_unit, core, operation, address);
+              if((address[6]!=0) || (operation>=3) || (core >=12)) begin
+              $display("Error trace file is not proper");
+              $finish;
+              end
              q_ip_time.push_back(time_unit);
              q_ip_oper.push_back(operation);
              q_ip_addr.push_back(address);
@@ -145,10 +149,12 @@ module msd_dimm;
              end 
        end
        // Close the file.
-       q_ip_time.pop_back();
-       q_ip_oper.pop_back();
-       q_ip_addr.pop_back();
+       void' (q_ip_time.pop_back());
+       void' (q_ip_oper.pop_back());
+       void' (q_ip_addr.pop_back());
        $fclose(traceFile);
        $fclose(out_file);
   end
 endmodule
+
+
