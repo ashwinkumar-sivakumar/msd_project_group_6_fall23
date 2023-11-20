@@ -39,7 +39,7 @@ module msd_dimm;
           $display("%t \t channel=%d PRE bankg=%d bank=%d ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
        end
        if (q_out_temp[37:36] == 1) begin
-         $display("\t\t*********Write operation********* Value of operation=%0d",q_out_temp[37:36]);
+          $display("\t\t*********write operation********* Value of operation=%0d",q_out_temp[37:36]);
           $display("%t \t channel=%d ACT0 bankg=%d bank=%d row =%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
           $display("%t \t channel=%d ACT1 bankg=%d bank=%d row=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
           $display("%t \t channel=%d WR0 bankg=%d bank=%d column=%d",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
@@ -132,9 +132,9 @@ module msd_dimm;
              valuesRead = 0;
              // Read values from the file.
              valuesRead = $fscanf(traceFile, "%d %d %d %h", time_unit, core, operation, address);
-              if((address[6]!=0) || (operation>=3) || (core >=12)) begin
-              $display("Error trace file is not proper");
-              $finish;
+              if ((address[6]!=0) || (operation>=3) || (core >=12)) begin
+                 $display("Error trace file is not proper");
+                 $finish;
               end
              q_ip_time.push_back(time_unit);
              q_ip_oper.push_back(operation);
@@ -156,5 +156,8 @@ module msd_dimm;
        $fclose(out_file);
   end
 endmodule
+
+
+
 
 
