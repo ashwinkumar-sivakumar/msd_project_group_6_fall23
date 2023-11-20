@@ -33,20 +33,20 @@ module msd_dimm;
 
   task output_command(input[37:0] q_out_temp);
        if (q_out_temp[37:36] == 0 || q_out_temp[37:36] == 2) begin //Read operation. mem controller point of view instruction fetch is also read.
-          $fwrite(out_file,"\t\t*********Read operation********* Value of operation=%0d \n",q_out_temp[37:36]);
-          $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
-          $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row=%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
-          $fwrite(out_file,"%t \t channel=%d RD0 bankg=%d bank=%d column=%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
-          $fwrite(out_file,"%t \t channel=%d RD1 bankg=%d bank=%d column=%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
-          $fwrite(out_file,"%t \t channel=%d PRE bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
+          $fwrite(out_file,"\t\t*********Read operation********* Value of operation=%0d address =%h \n",q_out_temp[37:36],q_out_temp[33:0]);
+          $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
+          $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
+          $fwrite(out_file,"%t \t channel=%d RD0  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+          $fwrite(out_file,"%t \t channel=%d RD1  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+          $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
        end
        if (q_out_temp[37:36] == 1) begin
-          $fwrite(out_file,"\t\t*********write operation********* Value of operation=%0d \n",q_out_temp[37:36]);
-          $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
-          $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row=%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
-          $fwrite(out_file,"%t \t channel=%d WR0 bankg=%d bank=%d column=%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
-          $fwrite(out_file,"%t \t channel=%d WR1 bankg=%d bank=%d column=%d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[17:12]);
-          $fwrite(out_file,"%t \t channel=%d REF bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
+          $fwrite(out_file,"\t\t*********write operation********* Value of operation=%0d address =%h \n",q_out_temp[37:36],q_out_temp[33:0]);
+          $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
+          $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);
+          $fwrite(out_file,"%t \t channel=%d WR0  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+          $fwrite(out_file,"%t \t channel=%d WR1  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+          $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
        end 
   endtask
 
@@ -78,9 +78,9 @@ module msd_dimm;
   always@(sim_time) begin
          if (q_mc.size() == 15) begin
             q_full=1;
-           if (debug_en)begin
-            $write("The queue is full stall cpu request until the queue request are satisfied \n");
-           end
+           
+            $fwrite(out_file," \n -----@time %t The queue is full stall cpu request until the queue request are satisfied and removed----- \n",$time);
+           
          end else
             q_full=0;
          if (q_mc.size() == 0) begin
@@ -105,16 +105,16 @@ module msd_dimm;
             $write("value of last_line=%d, rowCounter=%d \n",last_line,rowCounter);
            
             // Both input queue and memory controller queue are empty
-             #1 $finish;
+             #4 $finish;
          end
   end 
         
   task display_q;
-       $write("MEMORY_CONTROLLER Q: ");
+       $write("-----Displaying the values in Queue:\n ");
        for (int i=0; i<q_mc.size(); i++)begin
            $write("%h \n", q_mc[i]);
        end
-       $write("\n\n");
+       $write("---------------------------------\n");
   endtask
 
   initial begin
@@ -126,7 +126,7 @@ module msd_dimm;
 
   initial begin
        if (debug_en)begin
-          $fwrite(out_file,"Reading and displaying values from trace trace files...");
+          $display("Reading and displaying values from trace trace files...");
        end
        // Open the file for reading and writing .
        traceFile = $fopen(ip_file, "r");
@@ -151,7 +151,7 @@ module msd_dimm;
              valuesRead = $fscanf(traceFile, "%d %d %d %h", time_unit, core, operation, address);
               if ((address[6]!=0) || (operation>=3) || (core >=12)) begin
                 if (debug_en) begin
-                 $fwrite(out_file,"Error trace file is not proper, Opening default trace file\n");
+                 $display("Error: trace file is not proper, Opening default trace file\n");
                  traceFile =$fopen("default_trace.txt","r");
                 end
                  continue;
