@@ -1,5 +1,5 @@
- module msd_dimm;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
-     
+ module msd_dimm;     
+      
   int traceFile,out_file;
   int valuesRead;
   logic[11:0]core;
@@ -19,9 +19,9 @@
   int sim_t;
   int q_full,q_empty;
   int violation_flag;
-     
+           
   always #1 sim_time = sim_time+1;
-     
+           
   task add_to_mc_q;
        local_var = {q_ip_oper.pop_front(), q_ip_addr.pop_front()};
        q_mc.push_back(local_var);
@@ -30,7 +30,7 @@
           display_q;
        end 
   endtask
-     
+           
   task output_command(input[37:0] q_out_temp);
        if (q_out_temp[37:36] == 0 || q_out_temp[37:36] == 2) begin //Read operation. mem controller point of view instruction fetch is also read.
           $fwrite(out_file,"\t\t*********Read operation********* Value of operation=%0d address =%h \n",q_out_temp[37:36],q_out_temp[33:0]);
@@ -49,7 +49,7 @@
           $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
        end 
   endtask
-     
+           
   task rem_from_mc_q;
        q_out_temp=q_mc[0];
        if (debug_en)begin
@@ -63,9 +63,9 @@
        end    
        last_line ++; 
   endtask
-     
+           
   always@(sim_time) begin
-         if ((q_ip_time.size() != 0) &&(q_full==0))begin
+         if ((q_ip_time.size() != 0) &&(q_mc.size() != 16))begin
             sim_t=q_ip_time.pop_front;
             wait(sim_t<=sim_time);
             if (debug_en)begin
@@ -74,9 +74,9 @@
             add_to_mc_q;
          end 
   end   
-     
+           
   always@(sim_time) begin
-         if (q_mc.size() == 15) begin
+         if (q_mc.size() == 16) begin
             q_full=1;
             $fwrite(out_file," \n -----@time %t The queue is full stall cpu request until the queue request are satisfied and removed----- \n",$time);
          end else
@@ -89,14 +89,14 @@
          end else
             q_empty=0;
   end   
-     
+           
   always@(sim_time) begin 
          if ((q_mc.size() != 0)||(q_full==1)) begin
             if (sim_time % 2 == 0)
             rem_from_mc_q;
          end 
   end   
-     
+           
   always@(sim_time) begin
          if ((q_ip_time.size() == 0) && (q_mc.size() ==0) && (q_full ==0) && (last_line == rowCounter)) begin
             if (debug_en)
@@ -105,7 +105,7 @@
             #4 $finish;
          end 
   end   
-     
+           
   task display_q;
        $write("-----Displaying the values in Queue:\n ");
        for (int i=0; i<q_mc.size(); i++)begin
@@ -113,7 +113,7 @@
        end 
        $write("---------------------------------\n");
   endtask
-     
+           
   initial begin
        sim_time=0;
        void'($value$plusargs("ip_file=%s", ip_file));
@@ -121,7 +121,7 @@
        void'($value$plusargs("debug_en=%d",debug_en));
        violation_flag = 0;
   end   
-     
+           
   initial begin
        if (debug_en)begin
           $display("Reading and displaying values from trace trace files...");
