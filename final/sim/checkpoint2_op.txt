@@ -1,0 +1,3119 @@
+from row           0 the value of time =          0 	 core=   0 	 operation=0 	 address=000000000 
+from row           1 the value of time =          1 	 core=   1 	 operation=1 	 address=00007f4bf 
+from row           2 the value of time =          2 	 core=   2 	 operation=2 	 address=00008193a 
+from row           3 the value of time =          3 	 core=   3 	 operation=0 	 address=0000c2db5 
+from row           4 the value of time =          4 	 core=   4 	 operation=1 	 address=000104230 
+from row           5 the value of time =          5 	 core=   5 	 operation=2 	 address=0001486af 
+from row           6 the value of time =          6 	 core=   6 	 operation=0 	 address=000190b2a 
+from row           7 the value of time =          7 	 core=   7 	 operation=1 	 address=0001e0fa5 
+from row           8 the value of time =          8 	 core=   8 	 operation=2 	 address=000210020 
+from row           9 the value of time =          9 	 core=   9 	 operation=0 	 address=00024849f 
+from row          10 the value of time =         10 	 core=  10 	 operation=1 	 address=00028491a 
+from row          11 the value of time =         11 	 core=  11 	 operation=2 	 address=0002c2d95 
+from row          12 the value of time =         12 	 core=   0 	 operation=0 	 address=000301210 
+from row          13 the value of time =         13 	 core=   1 	 operation=1 	 address=00034068f 
+from row          14 the value of time =         14 	 core=   2 	 operation=2 	 address=000381b0a 
+from row          15 the value of time =         15 	 core=   3 	 operation=0 	 address=0003c2f85 
+from row          16 the value of time =         16 	 core=   4 	 operation=1 	 address=000404000 
+from row          17 the value of time =         17 	 core=   5 	 operation=2 	 address=0004484bf 
+from row          18 the value of time =         18 	 core=   6 	 operation=0 	 address=00049093a 
+from row          19 the value of time =         19 	 core=   7 	 operation=1 	 address=0004e0db5 
+from row          20 the value of time =         20 	 core=   8 	 operation=2 	 address=000510230 
+from row          21 the value of time =         21 	 core=   9 	 operation=0 	 address=0005486af 
+from row          22 the value of time =         22 	 core=  10 	 operation=1 	 address=000584b2a 
+from row          23 the value of time =         23 	 core=  11 	 operation=2 	 address=0005c2fa5 
+from row          24 the value of time =         24 	 core=   0 	 operation=0 	 address=000601020 
+from row          25 the value of time =         25 	 core=   1 	 operation=1 	 address=00064049f 
+from row          26 the value of time =         26 	 core=   2 	 operation=2 	 address=00068191a 
+from row          27 the value of time =         27 	 core=   3 	 operation=0 	 address=0006c2d95 
+from row          28 the value of time =         28 	 core=   4 	 operation=1 	 address=000704210 
+from row          29 the value of time =         29 	 core=   5 	 operation=2 	 address=00074868f 
+from row          30 the value of time =         30 	 core=   6 	 operation=0 	 address=000790b0a 
+from row          31 the value of time =         31 	 core=   7 	 operation=1 	 address=0007e0f85 
+from row          32 the value of time =         32 	 core=   8 	 operation=2 	 address=3fffc0000 
+from row          33 the value of time =       1000 	 core=   0 	 operation=0 	 address=000000000 
+from row          34 the value of time =       1001 	 core=  11 	 operation=1 	 address=3fffc1485 
+ 
+ -----time=                   0,@sim_time =                    0 
+ 
+ -----time=                   0,@sim_time =                    0 
+ 
+ -----time=                   1,@sim_time =                    1 
+ 
+ -----time=                   1,@sim_time =                    1 
+ 
+ -----time=                   2,@sim_time =                    2 
+ 
+ -----Entered IDLE state 
+ 
+ -----time=                   2,@sim_time =                    2 
+ 
+ -----Entered START state 
+ 
+ -----time=                   3,@sim_time =                    3 
+ 
+ -----time=                   3,@sim_time =                    3 
+ 
+ -----time=                   4,@sim_time =                    4 
+ 
+ -----Entered ACT state 
+                  12 	 channel=0 ACT0 bankg=0 bank=0 row =0000 
+                  12 	 channel=0 ACT1 bankg=0 bank=0 row=0000 
+ 
+ -----time=                  13,@sim_time =                   13 
+ 
+ -----time=                  13,@sim_time =                   13 
+ 
+ -----time=                  14,@sim_time =                   14 
+ 
+ -----Entered RD state 
+ 
+ -----@time                   15 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   16 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   16 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   17 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   17 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   18 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   18 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   19 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   19 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   20 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   20 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  20 	 channel=0 RD0  bankg=0 bank=0 column=000 
+                  20 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----@time                   21 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  21,@sim_time =                   21 
+ 
+ -----@time                   21 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   22 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   22 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  22,@sim_time =                   22 
+ 
+ -----Entered PRE state 
+                  22 	 channel=0 PRE  bankg=0 bank=0 
+                   22 	 done=0 
+ 
+ -----@time                   22 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  22,@sim_time =                   22 
+ 
+ -----Entered START state 
+ 
+ -----@time                   23 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  23,@sim_time =                   23 
+ 
+ -----@time                   23 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   24 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   24 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  24,@sim_time =                   24 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                   25 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   25 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   26 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   26 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   27 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   27 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   28 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   28 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   29 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   29 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   30 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   30 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   31 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   31 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   32 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   32 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  32 	 channel=0 ACT0 bankg=1 bank=1 row =0001 
+                  32 	 channel=0 ACT1 bankg=1 bank=1 row=0001 
+ 
+ -----@time                   33 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  33,@sim_time =                   33 
+ 
+ -----@time                   33 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   34 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   34 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  34,@sim_time =                   34 
+ 
+ -----Entered WR state 
+ 
+ -----@time                   35 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   35 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   36 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   36 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   37 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   37 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   38 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   38 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   39 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   39 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   40 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   40 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  40 	 channel=0 WR0  bankg=1 bank=1 column=3ff 
+                  40 	 channel=0 WR1  bankg=1 bank=1 column=3ff 
+ 
+ -----@time                   41 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  41,@sim_time =                   41 
+ 
+ -----@time                   41 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   42 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   42 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  42,@sim_time =                   42 
+ 
+ -----Entered PRE state 
+                  42 	 channel=0 PRE  bankg=1 bank=1 
+                   42 	 done=0 
+ 
+ -----@time                   42 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  42,@sim_time =                   42 
+ 
+ -----Entered START state 
+ 
+ -----@time                   43 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  43,@sim_time =                   43 
+ 
+ -----@time                   43 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   44 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   44 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  44,@sim_time =                   44 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                   45 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   45 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   46 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   46 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   47 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   47 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   48 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   48 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   49 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   49 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   50 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   50 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   51 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   51 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   52 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   52 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  52 	 channel=0 ACT0 bankg=2 bank=2 row =0002 
+                  52 	 channel=0 ACT1 bankg=2 bank=2 row=0002 
+ 
+ -----@time                   53 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  53,@sim_time =                   53 
+ 
+ -----@time                   53 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   54 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   54 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  54,@sim_time =                   54 
+ 
+ -----Entered RD state 
+ 
+ -----@time                   55 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   55 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   56 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   56 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   57 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   57 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   58 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   58 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   59 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   59 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   60 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   60 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  60 	 channel=0 RD0  bankg=2 bank=2 column=01e 
+                  60 	 channel=0 RD1  bankg=2 bank=2 column=01e 
+ 
+ -----@time                   61 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  61,@sim_time =                   61 
+ 
+ -----@time                   61 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   62 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   62 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  62,@sim_time =                   62 
+ 
+ -----Entered PRE state 
+                  62 	 channel=0 PRE  bankg=2 bank=2 
+                   62 	 done=0 
+ 
+ -----@time                   62 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  62,@sim_time =                   62 
+ 
+ -----Entered START state 
+ 
+ -----@time                   63 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  63,@sim_time =                   63 
+ 
+ -----@time                   63 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   64 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   64 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  64,@sim_time =                   64 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                   65 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   65 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   66 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   66 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   67 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   67 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   68 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   68 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   69 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   69 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   70 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   70 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   71 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   71 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   72 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   72 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  72 	 channel=0 ACT0 bankg=3 bank=3 row =0003 
+                  72 	 channel=0 ACT1 bankg=3 bank=3 row=0003 
+ 
+ -----@time                   73 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  73,@sim_time =                   73 
+ 
+ -----@time                   73 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   74 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   74 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  74,@sim_time =                   74 
+ 
+ -----Entered RD state 
+ 
+ -----@time                   75 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   75 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   76 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   76 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   77 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   77 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   78 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   78 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   79 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   79 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   80 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   80 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  80 	 channel=0 RD0  bankg=3 bank=3 column=02d 
+                  80 	 channel=0 RD1  bankg=3 bank=3 column=02d 
+ 
+ -----@time                   81 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  81,@sim_time =                   81 
+ 
+ -----@time                   81 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   82 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   82 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  82,@sim_time =                   82 
+ 
+ -----Entered PRE state 
+                  82 	 channel=0 PRE  bankg=3 bank=3 
+                   82 	 done=0 
+ 
+ -----@time                   82 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  82,@sim_time =                   82 
+ 
+ -----Entered START state 
+ 
+ -----@time                   83 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  83,@sim_time =                   83 
+ 
+ -----@time                   83 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   84 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   84 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  84,@sim_time =                   84 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                   85 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   85 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   86 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   86 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   87 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   87 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   88 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   88 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   89 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   89 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   90 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   90 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   91 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   91 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   92 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   92 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  92 	 channel=0 ACT0 bankg=4 bank=0 row =0004 
+                  92 	 channel=0 ACT1 bankg=4 bank=0 row=0004 
+ 
+ -----@time                   93 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  93,@sim_time =                   93 
+ 
+ -----@time                   93 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   94 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   94 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  94,@sim_time =                   94 
+ 
+ -----Entered WR state 
+ 
+ -----@time                   95 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   95 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   96 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   96 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   97 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   97 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   98 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   98 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   99 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   99 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  100 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  100 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 100 	 channel=0 WR0  bankg=4 bank=0 column=04c 
+                 100 	 channel=0 WR1  bankg=4 bank=0 column=04c 
+ 
+ -----@time                  101 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 101,@sim_time =                  101 
+ 
+ -----@time                  101 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  102 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  102 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 102,@sim_time =                  102 
+ 
+ -----Entered PRE state 
+                 102 	 channel=0 PRE  bankg=4 bank=0 
+                  102 	 done=0 
+ 
+ -----@time                  102 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 102,@sim_time =                  102 
+ 
+ -----Entered START state 
+ 
+ -----@time                  103 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 103,@sim_time =                  103 
+ 
+ -----@time                  103 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  104 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  104 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 104,@sim_time =                  104 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  105 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  105 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  106 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  106 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  107 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  107 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  108 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  108 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  109 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  109 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  110 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  110 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  111 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  111 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  112 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  112 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 112 	 channel=0 ACT0 bankg=5 bank=1 row =0005 
+                 112 	 channel=0 ACT1 bankg=5 bank=1 row=0005 
+ 
+ -----@time                  113 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 113,@sim_time =                  113 
+ 
+ -----@time                  113 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  114 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  114 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 114,@sim_time =                  114 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  115 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  115 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  116 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  116 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  117 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  117 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  118 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  118 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  119 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  119 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  120 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  120 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 120 	 channel=0 RD0  bankg=5 bank=1 column=08b 
+                 120 	 channel=0 RD1  bankg=5 bank=1 column=08b 
+ 
+ -----@time                  121 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 121,@sim_time =                  121 
+ 
+ -----@time                  121 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  122 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  122 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 122,@sim_time =                  122 
+ 
+ -----Entered PRE state 
+                 122 	 channel=0 PRE  bankg=5 bank=1 
+                  122 	 done=0 
+ 
+ -----@time                  122 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 122,@sim_time =                  122 
+ 
+ -----Entered START state 
+ 
+ -----@time                  123 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 123,@sim_time =                  123 
+ 
+ -----@time                  123 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  124 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  124 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 124,@sim_time =                  124 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  125 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  125 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  126 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  126 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  127 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  127 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  128 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  128 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  129 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  129 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  130 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  130 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  131 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  131 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  132 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  132 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 132 	 channel=0 ACT0 bankg=6 bank=2 row =0006 
+                 132 	 channel=0 ACT1 bankg=6 bank=2 row=0006 
+ 
+ -----@time                  133 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 133,@sim_time =                  133 
+ 
+ -----@time                  133 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  134 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  134 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 134,@sim_time =                  134 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  135 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  135 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  136 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  136 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  137 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  137 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  138 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  138 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  139 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  139 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  140 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  140 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 140 	 channel=0 RD0  bankg=6 bank=2 column=10a 
+                 140 	 channel=0 RD1  bankg=6 bank=2 column=10a 
+ 
+ -----@time                  141 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 141,@sim_time =                  141 
+ 
+ -----@time                  141 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  142 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  142 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 142,@sim_time =                  142 
+ 
+ -----Entered PRE state 
+                 142 	 channel=0 PRE  bankg=6 bank=2 
+                  142 	 done=0 
+ 
+ -----@time                  142 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 142,@sim_time =                  142 
+ 
+ -----Entered START state 
+ 
+ -----@time                  143 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 143,@sim_time =                  143 
+ 
+ -----@time                  143 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  144 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  144 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 144,@sim_time =                  144 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  145 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  145 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  146 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  146 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  147 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  147 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  148 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  148 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  149 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  149 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  150 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  150 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  151 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  151 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  152 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  152 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 152 	 channel=0 ACT0 bankg=7 bank=3 row =0007 
+                 152 	 channel=0 ACT1 bankg=7 bank=3 row=0007 
+ 
+ -----@time                  153 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 153,@sim_time =                  153 
+ 
+ -----@time                  153 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  154 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  154 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 154,@sim_time =                  154 
+ 
+ -----Entered WR state 
+ 
+ -----@time                  155 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  155 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  156 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  156 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  157 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  157 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  158 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  158 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  159 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  159 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  160 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  160 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 160 	 channel=0 WR0  bankg=7 bank=3 column=209 
+                 160 	 channel=0 WR1  bankg=7 bank=3 column=209 
+ 
+ -----@time                  161 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 161,@sim_time =                  161 
+ 
+ -----@time                  161 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  162 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  162 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 162,@sim_time =                  162 
+ 
+ -----Entered PRE state 
+                 162 	 channel=0 PRE  bankg=7 bank=3 
+                  162 	 done=0 
+ 
+ -----@time                  162 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 162,@sim_time =                  162 
+ 
+ -----Entered START state 
+ 
+ -----@time                  163 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 163,@sim_time =                  163 
+ 
+ -----@time                  163 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  164 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  164 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 164,@sim_time =                  164 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  165 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  165 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  166 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  166 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  167 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  167 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  168 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  168 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  169 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  169 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  170 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  170 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  171 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  171 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  172 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  172 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 172 	 channel=0 ACT0 bankg=0 bank=0 row =0008 
+                 172 	 channel=0 ACT1 bankg=0 bank=0 row=0008 
+ 
+ -----@time                  173 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 173,@sim_time =                  173 
+ 
+ -----@time                  173 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  174 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  174 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 174,@sim_time =                  174 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  175 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  175 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  176 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  176 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  177 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  177 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  178 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  178 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  179 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  179 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  180 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  180 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 180 	 channel=0 RD0  bankg=0 bank=0 column=108 
+                 180 	 channel=0 RD1  bankg=0 bank=0 column=108 
+ 
+ -----@time                  181 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 181,@sim_time =                  181 
+ 
+ -----@time                  181 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  182 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  182 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 182,@sim_time =                  182 
+ 
+ -----Entered PRE state 
+                 182 	 channel=0 PRE  bankg=0 bank=0 
+                  182 	 done=0 
+ 
+ -----@time                  182 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 182,@sim_time =                  182 
+ 
+ -----Entered START state 
+ 
+ -----@time                  183 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 183,@sim_time =                  183 
+ 
+ -----@time                  183 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  184 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  184 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 184,@sim_time =                  184 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  185 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  185 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  186 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  186 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  187 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  187 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  188 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  188 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  189 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  189 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  190 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  190 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  191 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  191 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  192 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  192 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 192 	 channel=0 ACT0 bankg=1 bank=1 row =0009 
+                 192 	 channel=0 ACT1 bankg=1 bank=1 row=0009 
+ 
+ -----@time                  193 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 193,@sim_time =                  193 
+ 
+ -----@time                  193 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  194 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  194 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 194,@sim_time =                  194 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  195 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  195 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  196 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  196 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  197 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  197 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  198 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  198 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  199 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  199 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  200 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  200 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 200 	 channel=0 RD0  bankg=1 bank=1 column=087 
+                 200 	 channel=0 RD1  bankg=1 bank=1 column=087 
+ 
+ -----@time                  201 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 201,@sim_time =                  201 
+ 
+ -----@time                  201 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  202 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  202 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 202,@sim_time =                  202 
+ 
+ -----Entered PRE state 
+                 202 	 channel=0 PRE  bankg=1 bank=1 
+                  202 	 done=0 
+ 
+ -----@time                  202 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 202,@sim_time =                  202 
+ 
+ -----Entered START state 
+ 
+ -----@time                  203 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 203,@sim_time =                  203 
+ 
+ -----@time                  203 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  204 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  204 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 204,@sim_time =                  204 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  205 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  205 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  206 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  206 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  207 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  207 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  208 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  208 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  209 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  209 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  210 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  210 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  211 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  211 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  212 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  212 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 212 	 channel=0 ACT0 bankg=2 bank=2 row =000a 
+                 212 	 channel=0 ACT1 bankg=2 bank=2 row=000a 
+ 
+ -----@time                  213 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 213,@sim_time =                  213 
+ 
+ -----@time                  213 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  214 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  214 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 214,@sim_time =                  214 
+ 
+ -----Entered WR state 
+ 
+ -----@time                  215 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  215 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  216 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  216 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  217 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  217 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  218 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  218 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  219 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  219 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  220 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  220 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 220 	 channel=0 WR0  bankg=2 bank=2 column=046 
+                 220 	 channel=0 WR1  bankg=2 bank=2 column=046 
+ 
+ -----@time                  221 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 221,@sim_time =                  221 
+ 
+ -----@time                  221 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  222 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  222 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 222,@sim_time =                  222 
+ 
+ -----Entered PRE state 
+                 222 	 channel=0 PRE  bankg=2 bank=2 
+                  222 	 done=0 
+ 
+ -----@time                  222 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 222,@sim_time =                  222 
+ 
+ -----Entered START state 
+ 
+ -----@time                  223 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 223,@sim_time =                  223 
+ 
+ -----@time                  223 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  224 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  224 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 224,@sim_time =                  224 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  225 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  225 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  226 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  226 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  227 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  227 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  228 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  228 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  229 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  229 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  230 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  230 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  231 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  231 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  232 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  232 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 232 	 channel=0 ACT0 bankg=3 bank=3 row =000b 
+                 232 	 channel=0 ACT1 bankg=3 bank=3 row=000b 
+ 
+ -----@time                  233 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 233,@sim_time =                  233 
+ 
+ -----@time                  233 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  234 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  234 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 234,@sim_time =                  234 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  235 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  235 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  236 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  236 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  237 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  237 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  238 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  238 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  239 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  239 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  240 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  240 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 240 	 channel=0 RD0  bankg=3 bank=3 column=025 
+                 240 	 channel=0 RD1  bankg=3 bank=3 column=025 
+ 
+ -----@time                  241 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 241,@sim_time =                  241 
+ 
+ -----@time                  241 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  242 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  242 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 242,@sim_time =                  242 
+ 
+ -----Entered PRE state 
+                 242 	 channel=0 PRE  bankg=3 bank=3 
+                  242 	 done=0 
+ 
+ -----@time                  242 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 242,@sim_time =                  242 
+ 
+ -----Entered START state 
+ 
+ -----@time                  243 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 243,@sim_time =                  243 
+ 
+ -----@time                  243 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  244 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  244 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 244,@sim_time =                  244 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  245 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  245 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  246 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  246 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  247 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  247 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  248 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  248 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  249 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  249 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  250 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  250 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  251 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  251 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  252 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  252 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 252 	 channel=0 ACT0 bankg=4 bank=0 row =000c 
+                 252 	 channel=0 ACT1 bankg=4 bank=0 row=000c 
+ 
+ -----@time                  253 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 253,@sim_time =                  253 
+ 
+ -----@time                  253 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  254 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  254 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 254,@sim_time =                  254 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  255 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  255 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  256 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  256 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  257 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  257 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  258 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  258 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  259 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  259 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  260 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  260 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 260 	 channel=0 RD0  bankg=4 bank=0 column=014 
+                 260 	 channel=0 RD1  bankg=4 bank=0 column=014 
+ 
+ -----@time                  261 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 261,@sim_time =                  261 
+ 
+ -----@time                  261 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  262 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  262 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 262,@sim_time =                  262 
+ 
+ -----Entered PRE state 
+                 262 	 channel=0 PRE  bankg=4 bank=0 
+                  262 	 done=0 
+ 
+ -----@time                  262 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 262,@sim_time =                  262 
+ 
+ -----Entered START state 
+ 
+ -----@time                  263 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 263,@sim_time =                  263 
+ 
+ -----@time                  263 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  264 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  264 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 264,@sim_time =                  264 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  265 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  265 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  266 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  266 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  267 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  267 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  268 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  268 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  269 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  269 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  270 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  270 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  271 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  271 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  272 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  272 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 272 	 channel=0 ACT0 bankg=5 bank=1 row =000d 
+                 272 	 channel=0 ACT1 bankg=5 bank=1 row=000d 
+ 
+ -----@time                  273 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 273,@sim_time =                  273 
+ 
+ -----@time                  273 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  274 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  274 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 274,@sim_time =                  274 
+ 
+ -----Entered WR state 
+ 
+ -----@time                  275 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  275 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  276 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  276 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  277 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  277 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  278 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  278 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  279 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  279 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  280 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  280 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 280 	 channel=0 WR0  bankg=5 bank=1 column=003 
+                 280 	 channel=0 WR1  bankg=5 bank=1 column=003 
+ 
+ -----@time                  281 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 281,@sim_time =                  281 
+ 
+ -----@time                  281 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  282 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  282 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 282,@sim_time =                  282 
+ 
+ -----Entered PRE state 
+                 282 	 channel=0 PRE  bankg=5 bank=1 
+                  282 	 done=0 
+ 
+ -----@time                  282 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 282,@sim_time =                  282 
+ 
+ -----Entered START state 
+ 
+ -----@time                  283 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 283,@sim_time =                  283 
+ 
+ -----@time                  283 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  284 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  284 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 284,@sim_time =                  284 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  285 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  285 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  286 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  286 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  287 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  287 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  288 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  288 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  289 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  289 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  290 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  290 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  291 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  291 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  292 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  292 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 292 	 channel=0 ACT0 bankg=6 bank=2 row =000e 
+                 292 	 channel=0 ACT1 bankg=6 bank=2 row=000e 
+ 
+ -----@time                  293 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 293,@sim_time =                  293 
+ 
+ -----@time                  293 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  294 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  294 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 294,@sim_time =                  294 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  295 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  295 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  296 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  296 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  297 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  297 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  298 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  298 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  299 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  299 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  300 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  300 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 300 	 channel=0 RD0  bankg=6 bank=2 column=012 
+                 300 	 channel=0 RD1  bankg=6 bank=2 column=012 
+ 
+ -----@time                  301 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 301,@sim_time =                  301 
+ 
+ -----@time                  301 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  302 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  302 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 302,@sim_time =                  302 
+ 
+ -----Entered PRE state 
+                 302 	 channel=0 PRE  bankg=6 bank=2 
+                  302 	 done=0 
+ 
+ -----@time                  302 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 302,@sim_time =                  302 
+ 
+ -----Entered START state 
+ 
+ -----@time                  303 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 303,@sim_time =                  303 
+ 
+ -----@time                  303 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  304 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  304 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 304,@sim_time =                  304 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  305 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  305 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  306 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  306 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  307 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  307 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  308 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  308 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  309 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  309 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  310 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  310 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  311 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  311 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  312 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  312 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 312 	 channel=0 ACT0 bankg=7 bank=3 row =000f 
+                 312 	 channel=0 ACT1 bankg=7 bank=3 row=000f 
+ 
+ -----@time                  313 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 313,@sim_time =                  313 
+ 
+ -----@time                  313 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  314 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  314 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 314,@sim_time =                  314 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  315 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  315 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  316 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  316 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  317 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  317 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  318 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  318 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  319 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  319 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  320 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  320 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 320 	 channel=0 RD0  bankg=7 bank=3 column=021 
+                 320 	 channel=0 RD1  bankg=7 bank=3 column=021 
+ 
+ -----@time                  321 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 321,@sim_time =                  321 
+ 
+ -----@time                  321 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  322 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  322 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 322,@sim_time =                  322 
+ 
+ -----Entered PRE state 
+                 322 	 channel=0 PRE  bankg=7 bank=3 
+                  322 	 done=0 
+ 
+ -----@time                  322 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 322,@sim_time =                  322 
+ 
+ -----Entered START state 
+ 
+ -----@time                  323 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 323,@sim_time =                  323 
+ 
+ -----@time                  323 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  324 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  324 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 324,@sim_time =                  324 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  325 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  325 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  326 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  326 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  327 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  327 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  328 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  328 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  329 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  329 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  330 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  330 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  331 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  331 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  332 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  332 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 332 	 channel=0 ACT0 bankg=0 bank=0 row =0010 
+                 332 	 channel=0 ACT1 bankg=0 bank=0 row=0010 
+ 
+ -----@time                  333 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 333,@sim_time =                  333 
+ 
+ -----@time                  333 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  334 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  334 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 334,@sim_time =                  334 
+ 
+ -----Entered WR state 
+ 
+ -----@time                  335 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  335 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  336 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  336 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  337 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  337 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  338 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  338 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  339 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  339 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  340 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  340 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 340 	 channel=0 WR0  bankg=0 bank=0 column=040 
+                 340 	 channel=0 WR1  bankg=0 bank=0 column=040 
+ 
+ -----@time                  341 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 341,@sim_time =                  341 
+ 
+ -----@time                  341 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  342 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  342 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 342,@sim_time =                  342 
+ 
+ -----Entered PRE state 
+                 342 	 channel=0 PRE  bankg=0 bank=0 
+                  342 	 done=0 
+ 
+ -----@time                  342 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 342,@sim_time =                  342 
+ 
+ -----Entered START state 
+ 
+ -----@time                  343 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 343,@sim_time =                  343 
+ 
+ -----@time                  343 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  344 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  344 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 344,@sim_time =                  344 
+ 
+ -----Entered ACT state 
+ 
+ -----@time                  345 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  345 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  346 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  346 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  347 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  347 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  348 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  348 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  349 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  349 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  350 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  350 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  351 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  351 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  352 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  352 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 352 	 channel=0 ACT0 bankg=1 bank=1 row =0011 
+                 352 	 channel=0 ACT1 bankg=1 bank=1 row=0011 
+ 
+ -----@time                  353 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 353,@sim_time =                  353 
+ 
+ -----@time                  353 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  354 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  354 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 354,@sim_time =                  354 
+ 
+ -----Entered RD state 
+ 
+ -----@time                  355 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  355 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  356 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  356 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  357 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  357 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  358 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  358 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  359 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  359 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  360 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  360 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 360 	 channel=0 RD0  bankg=1 bank=1 column=08f 
+                 360 	 channel=0 RD1  bankg=1 bank=1 column=08f 
+ 
+ -----@time                  361 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 361,@sim_time =                  361 
+ 
+ -----@time                  361 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  362 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  362 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 362,@sim_time =                  362 
+ 
+ -----Entered PRE state 
+                 362 	 channel=0 PRE  bankg=1 bank=1 
+                  362 	 done=0 
+ 
+ -----time=                 363,@sim_time =                  363 
+ 
+ -----time=                 364,@sim_time =                  364 
+ 
+ -----Entered START state 
+ 
+ -----time=                 365,@sim_time =                  365 
+ 
+ -----time=                 366,@sim_time =                  366 
+ 
+ -----Entered ACT state 
+                 374 	 channel=0 ACT0 bankg=2 bank=2 row =0012 
+                 374 	 channel=0 ACT1 bankg=2 bank=2 row=0012 
+ 
+ -----time=                 375,@sim_time =                  375 
+ 
+ -----time=                 376,@sim_time =                  376 
+ 
+ -----Entered RD state 
+                 382 	 channel=0 RD0  bankg=2 bank=2 column=10e 
+                 382 	 channel=0 RD1  bankg=2 bank=2 column=10e 
+ 
+ -----time=                 383,@sim_time =                  383 
+ 
+ -----time=                 384,@sim_time =                  384 
+ 
+ -----Entered PRE state 
+                 384 	 channel=0 PRE  bankg=2 bank=2 
+                  384 	 done=0 
+ 
+ -----time=                 385,@sim_time =                  385 
+ 
+ -----time=                 386,@sim_time =                  386 
+ 
+ -----Entered START state 
+ 
+ -----time=                 387,@sim_time =                  387 
+ 
+ -----time=                 388,@sim_time =                  388 
+ 
+ -----Entered ACT state 
+                 396 	 channel=0 ACT0 bankg=3 bank=3 row =0013 
+                 396 	 channel=0 ACT1 bankg=3 bank=3 row=0013 
+ 
+ -----time=                 397,@sim_time =                  397 
+ 
+ -----time=                 398,@sim_time =                  398 
+ 
+ -----Entered WR state 
+                 404 	 channel=0 WR0  bankg=3 bank=3 column=20d 
+                 404 	 channel=0 WR1  bankg=3 bank=3 column=20d 
+ 
+ -----time=                 405,@sim_time =                  405 
+ 
+ -----time=                 406,@sim_time =                  406 
+ 
+ -----Entered PRE state 
+                 406 	 channel=0 PRE  bankg=3 bank=3 
+                  406 	 done=0 
+ 
+ -----time=                 407,@sim_time =                  407 
+ 
+ -----time=                 408,@sim_time =                  408 
+ 
+ -----Entered START state 
+ 
+ -----time=                 409,@sim_time =                  409 
+ 
+ -----time=                 410,@sim_time =                  410 
+ 
+ -----Entered ACT state 
+                 418 	 channel=0 ACT0 bankg=4 bank=0 row =0014 
+                 418 	 channel=0 ACT1 bankg=4 bank=0 row=0014 
+ 
+ -----time=                 419,@sim_time =                  419 
+ 
+ -----time=                 420,@sim_time =                  420 
+ 
+ -----Entered RD state 
+                 426 	 channel=0 RD0  bankg=4 bank=0 column=10c 
+                 426 	 channel=0 RD1  bankg=4 bank=0 column=10c 
+ 
+ -----time=                 427,@sim_time =                  427 
+ 
+ -----time=                 428,@sim_time =                  428 
+ 
+ -----Entered PRE state 
+                 428 	 channel=0 PRE  bankg=4 bank=0 
+                  428 	 done=0 
+ 
+ -----time=                 429,@sim_time =                  429 
+ 
+ -----time=                 430,@sim_time =                  430 
+ 
+ -----Entered START state 
+ 
+ -----time=                 431,@sim_time =                  431 
+ 
+ -----time=                 432,@sim_time =                  432 
+ 
+ -----Entered ACT state 
+                 440 	 channel=0 ACT0 bankg=5 bank=1 row =0015 
+                 440 	 channel=0 ACT1 bankg=5 bank=1 row=0015 
+ 
+ -----time=                 441,@sim_time =                  441 
+ 
+ -----time=                 442,@sim_time =                  442 
+ 
+ -----Entered RD state 
+                 448 	 channel=0 RD0  bankg=5 bank=1 column=08b 
+                 448 	 channel=0 RD1  bankg=5 bank=1 column=08b 
+ 
+ -----time=                 449,@sim_time =                  449 
+ 
+ -----time=                 450,@sim_time =                  450 
+ 
+ -----Entered PRE state 
+                 450 	 channel=0 PRE  bankg=5 bank=1 
+                  450 	 done=0 
+ 
+ -----time=                 451,@sim_time =                  451 
+ 
+ -----time=                 452,@sim_time =                  452 
+ 
+ -----Entered START state 
+ 
+ -----time=                 453,@sim_time =                  453 
+ 
+ -----time=                 454,@sim_time =                  454 
+ 
+ -----Entered ACT state 
+                 462 	 channel=0 ACT0 bankg=6 bank=2 row =0016 
+                 462 	 channel=0 ACT1 bankg=6 bank=2 row=0016 
+ 
+ -----time=                 463,@sim_time =                  463 
+ 
+ -----time=                 464,@sim_time =                  464 
+ 
+ -----Entered WR state 
+                 470 	 channel=0 WR0  bankg=6 bank=2 column=04a 
+                 470 	 channel=0 WR1  bankg=6 bank=2 column=04a 
+ 
+ -----time=                 471,@sim_time =                  471 
+ 
+ -----time=                 472,@sim_time =                  472 
+ 
+ -----Entered PRE state 
+                 472 	 channel=0 PRE  bankg=6 bank=2 
+                  472 	 done=0 
+ 
+ -----time=                 473,@sim_time =                  473 
+ 
+ -----time=                 474,@sim_time =                  474 
+ 
+ -----Entered START state 
+ 
+ -----time=                 475,@sim_time =                  475 
+ 
+ -----time=                 476,@sim_time =                  476 
+ 
+ -----Entered ACT state 
+                 484 	 channel=0 ACT0 bankg=7 bank=3 row =0017 
+                 484 	 channel=0 ACT1 bankg=7 bank=3 row=0017 
+ 
+ -----time=                 485,@sim_time =                  485 
+ 
+ -----time=                 486,@sim_time =                  486 
+ 
+ -----Entered RD state 
+                 492 	 channel=0 RD0  bankg=7 bank=3 column=029 
+                 492 	 channel=0 RD1  bankg=7 bank=3 column=029 
+ 
+ -----time=                 493,@sim_time =                  493 
+ 
+ -----time=                 494,@sim_time =                  494 
+ 
+ -----Entered PRE state 
+                 494 	 channel=0 PRE  bankg=7 bank=3 
+                  494 	 done=0 
+ 
+ -----time=                 495,@sim_time =                  495 
+ 
+ -----time=                 496,@sim_time =                  496 
+ 
+ -----Entered START state 
+ 
+ -----time=                 497,@sim_time =                  497 
+ 
+ -----time=                 498,@sim_time =                  498 
+ 
+ -----Entered ACT state 
+                 506 	 channel=0 ACT0 bankg=0 bank=0 row =0018 
+                 506 	 channel=0 ACT1 bankg=0 bank=0 row=0018 
+ 
+ -----time=                 507,@sim_time =                  507 
+ 
+ -----time=                 508,@sim_time =                  508 
+ 
+ -----Entered RD state 
+                 514 	 channel=0 RD0  bankg=0 bank=0 column=018 
+                 514 	 channel=0 RD1  bankg=0 bank=0 column=018 
+ 
+ -----time=                 515,@sim_time =                  515 
+ 
+ -----time=                 516,@sim_time =                  516 
+ 
+ -----Entered PRE state 
+                 516 	 channel=0 PRE  bankg=0 bank=0 
+                  516 	 done=0 
+ 
+ -----time=                 517,@sim_time =                  517 
+ 
+ -----time=                 518,@sim_time =                  518 
+ 
+ -----Entered START state 
+ 
+ -----time=                 519,@sim_time =                  519 
+ 
+ -----time=                 520,@sim_time =                  520 
+ 
+ -----Entered ACT state 
+                 528 	 channel=0 ACT0 bankg=1 bank=1 row =0019 
+                 528 	 channel=0 ACT1 bankg=1 bank=1 row=0019 
+ 
+ -----time=                 529,@sim_time =                  529 
+ 
+ -----time=                 530,@sim_time =                  530 
+ 
+ -----Entered WR state 
+                 536 	 channel=0 WR0  bankg=1 bank=1 column=007 
+                 536 	 channel=0 WR1  bankg=1 bank=1 column=007 
+ 
+ -----time=                 537,@sim_time =                  537 
+ 
+ -----time=                 538,@sim_time =                  538 
+ 
+ -----Entered PRE state 
+                 538 	 channel=0 PRE  bankg=1 bank=1 
+                  538 	 done=0 
+ 
+ -----time=                 539,@sim_time =                  539 
+ 
+ -----time=                 540,@sim_time =                  540 
+ 
+ -----Entered START state 
+ 
+ -----time=                 541,@sim_time =                  541 
+ 
+ -----time=                 542,@sim_time =                  542 
+ 
+ -----Entered ACT state 
+                 550 	 channel=0 ACT0 bankg=2 bank=2 row =001a 
+                 550 	 channel=0 ACT1 bankg=2 bank=2 row=001a 
+ 
+ -----time=                 551,@sim_time =                  551 
+ 
+ -----time=                 552,@sim_time =                  552 
+ 
+ -----Entered RD state 
+                 558 	 channel=0 RD0  bankg=2 bank=2 column=016 
+                 558 	 channel=0 RD1  bankg=2 bank=2 column=016 
+ 
+ -----time=                 559,@sim_time =                  559 
+ 
+ -----time=                 560,@sim_time =                  560 
+ 
+ -----Entered PRE state 
+                 560 	 channel=0 PRE  bankg=2 bank=2 
+                  560 	 done=0 
+ 
+ -----time=                 561,@sim_time =                  561 
+ 
+ -----time=                 562,@sim_time =                  562 
+ 
+ -----Entered START state 
+ 
+ -----time=                 563,@sim_time =                  563 
+ 
+ -----time=                 564,@sim_time =                  564 
+ 
+ -----Entered ACT state 
+                 572 	 channel=0 ACT0 bankg=3 bank=3 row =001b 
+                 572 	 channel=0 ACT1 bankg=3 bank=3 row=001b 
+ 
+ -----time=                 573,@sim_time =                  573 
+ 
+ -----time=                 574,@sim_time =                  574 
+ 
+ -----Entered RD state 
+                 580 	 channel=0 RD0  bankg=3 bank=3 column=025 
+                 580 	 channel=0 RD1  bankg=3 bank=3 column=025 
+ 
+ -----time=                 581,@sim_time =                  581 
+ 
+ -----time=                 582,@sim_time =                  582 
+ 
+ -----Entered PRE state 
+                 582 	 channel=0 PRE  bankg=3 bank=3 
+                  582 	 done=0 
+ 
+ -----time=                 583,@sim_time =                  583 
+ 
+ -----time=                 584,@sim_time =                  584 
+ 
+ -----Entered START state 
+ 
+ -----time=                 585,@sim_time =                  585 
+ 
+ -----time=                 586,@sim_time =                  586 
+ 
+ -----Entered ACT state 
+                 594 	 channel=0 ACT0 bankg=4 bank=0 row =001c 
+                 594 	 channel=0 ACT1 bankg=4 bank=0 row=001c 
+ 
+ -----time=                 595,@sim_time =                  595 
+ 
+ -----time=                 596,@sim_time =                  596 
+ 
+ -----Entered WR state 
+                 602 	 channel=0 WR0  bankg=4 bank=0 column=044 
+                 602 	 channel=0 WR1  bankg=4 bank=0 column=044 
+ 
+ -----time=                 603,@sim_time =                  603 
+ 
+ -----time=                 604,@sim_time =                  604 
+ 
+ -----Entered PRE state 
+                 604 	 channel=0 PRE  bankg=4 bank=0 
+                  604 	 done=0 
+ 
+ -----time=                 605,@sim_time =                  605 
+ 
+ -----time=                 606,@sim_time =                  606 
+ 
+ -----Entered START state 
+ 
+ -----time=                 607,@sim_time =                  607 
+ 
+ -----time=                 608,@sim_time =                  608 
+ 
+ -----Entered ACT state 
+                 616 	 channel=0 ACT0 bankg=5 bank=1 row =001d 
+                 616 	 channel=0 ACT1 bankg=5 bank=1 row=001d 
+ 
+ -----time=                 617,@sim_time =                  617 
+ 
+ -----time=                 618,@sim_time =                  618 
+ 
+ -----Entered RD state 
+                 624 	 channel=0 RD0  bankg=5 bank=1 column=083 
+                 624 	 channel=0 RD1  bankg=5 bank=1 column=083 
+ 
+ -----time=                 625,@sim_time =                  625 
+ 
+ -----time=                 626,@sim_time =                  626 
+ 
+ -----Entered PRE state 
+                 626 	 channel=0 PRE  bankg=5 bank=1 
+                  626 	 done=0 
+ 
+ -----time=                 627,@sim_time =                  627 
+ 
+ -----time=                 628,@sim_time =                  628 
+ 
+ -----Entered START state 
+ 
+ -----time=                 629,@sim_time =                  629 
+ 
+ -----time=                 630,@sim_time =                  630 
+ 
+ -----Entered ACT state 
+                 638 	 channel=0 ACT0 bankg=6 bank=2 row =001e 
+                 638 	 channel=0 ACT1 bankg=6 bank=2 row=001e 
+ 
+ -----time=                 639,@sim_time =                  639 
+ 
+ -----time=                 640,@sim_time =                  640 
+ 
+ -----Entered RD state 
+                 646 	 channel=0 RD0  bankg=6 bank=2 column=102 
+                 646 	 channel=0 RD1  bankg=6 bank=2 column=102 
+ 
+ -----time=                 647,@sim_time =                  647 
+ 
+ -----time=                 648,@sim_time =                  648 
+ 
+ -----Entered PRE state 
+                 648 	 channel=0 PRE  bankg=6 bank=2 
+                  648 	 done=0 
+ 
+ -----time=                 649,@sim_time =                  649 
+ 
+ -----time=                 650,@sim_time =                  650 
+ 
+ -----Entered START state 
+ 
+ -----time=                 651,@sim_time =                  651 
+ 
+ -----time=                 652,@sim_time =                  652 
+ 
+ -----Entered ACT state 
+                 660 	 channel=0 ACT0 bankg=7 bank=3 row =001f 
+                 660 	 channel=0 ACT1 bankg=7 bank=3 row=001f 
+ 
+ -----time=                 661,@sim_time =                  661 
+ 
+ -----time=                 662,@sim_time =                  662 
+ 
+ -----Entered WR state 
+                 668 	 channel=0 WR0  bankg=7 bank=3 column=201 
+                 668 	 channel=0 WR1  bankg=7 bank=3 column=201 
+ 
+ -----time=                 669,@sim_time =                  669 
+ 
+ -----time=                 670,@sim_time =                  670 
+ 
+ -----Entered PRE state 
+                 670 	 channel=0 PRE  bankg=7 bank=3 
+                  670 	 done=0 
+ 
+ -----time=                 671,@sim_time =                  671 
+ 
+ -----time=                 672,@sim_time =                  672 
+ 
+ -----Entered START state 
+ 
+ -----time=                 673,@sim_time =                  673 
+ 
+ -----time=                 674,@sim_time =                  674 
+ 
+ -----Entered ACT state 
+                 682 	 channel=0 ACT0 bankg=0 bank=0 row =ffff 
+                 682 	 channel=0 ACT1 bankg=0 bank=0 row=ffff 
+ 
+ -----time=                 683,@sim_time =                  683 
+ 
+ -----time=                 684,@sim_time =                  684 
+ 
+ -----Entered RD state 
+                 690 	 channel=0 RD0  bankg=0 bank=0 column=000 
+                 690 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----time=                 691,@sim_time =                  691 
+ 
+ -----time=                 692,@sim_time =                  692 
+ 
+ -----Entered PRE state 
+                 692 	 channel=0 PRE  bankg=0 bank=0 
+                  692 	 done=0 
+ 
+ -----time=                 693,@sim_time =                  693 
+ 
+ -----time=                 694,@sim_time =                  694 
+ 
+ -----time=                 695,@sim_time =                  695 
+ 
+ -----time=                 696,@sim_time =                  696 
+ 
+ -----time=                 697,@sim_time =                  697 
+ 
+ -----time=                 698,@sim_time =                  698 
+ 
+ -----time=                 699,@sim_time =                  699 
+ 
+ -----time=                 700,@sim_time =                  700 
+ 
+ -----time=                 701,@sim_time =                  701 
+ 
+ -----time=                 702,@sim_time =                  702 
+ 
+ -----time=                 703,@sim_time =                  703 
+ 
+ -----time=                 704,@sim_time =                  704 
+ 
+ -----time=                 705,@sim_time =                  705 
+ 
+ -----time=                 706,@sim_time =                  706 
+ 
+ -----time=                 707,@sim_time =                  707 
+ 
+ -----time=                 708,@sim_time =                  708 
+ 
+ -----time=                 709,@sim_time =                  709 
+ 
+ -----time=                 710,@sim_time =                  710 
+ 
+ -----time=                 711,@sim_time =                  711 
+ 
+ -----time=                 712,@sim_time =                  712 
+ 
+ -----time=                 713,@sim_time =                  713 
+ 
+ -----time=                 714,@sim_time =                  714 
+ 
+ -----time=                 715,@sim_time =                  715 
+ 
+ -----time=                 716,@sim_time =                  716 
+ 
+ -----time=                 717,@sim_time =                  717 
+ 
+ -----time=                 718,@sim_time =                  718 
+ 
+ -----time=                 719,@sim_time =                  719 
+ 
+ -----time=                 720,@sim_time =                  720 
+ 
+ -----time=                 721,@sim_time =                  721 
+ 
+ -----time=                 722,@sim_time =                  722 
+ 
+ -----time=                 723,@sim_time =                  723 
+ 
+ -----time=                 724,@sim_time =                  724 
+ 
+ -----time=                 725,@sim_time =                  725 
+ 
+ -----time=                 726,@sim_time =                  726 
+ 
+ -----time=                 727,@sim_time =                  727 
+ 
+ -----time=                 728,@sim_time =                  728 
+ 
+ -----time=                 729,@sim_time =                  729 
+ 
+ -----time=                 730,@sim_time =                  730 
+ 
+ -----time=                 731,@sim_time =                  731 
+ 
+ -----time=                 732,@sim_time =                  732 
+ 
+ -----time=                 733,@sim_time =                  733 
+ 
+ -----time=                 734,@sim_time =                  734 
+ 
+ -----time=                 735,@sim_time =                  735 
+ 
+ -----time=                 736,@sim_time =                  736 
+ 
+ -----time=                 737,@sim_time =                  737 
+ 
+ -----time=                 738,@sim_time =                  738 
+ 
+ -----time=                 739,@sim_time =                  739 
+ 
+ -----time=                 740,@sim_time =                  740 
+ 
+ -----time=                 741,@sim_time =                  741 
+ 
+ -----time=                 742,@sim_time =                  742 
+ 
+ -----time=                 743,@sim_time =                  743 
+ 
+ -----time=                 744,@sim_time =                  744 
+ 
+ -----time=                 745,@sim_time =                  745 
+ 
+ -----time=                 746,@sim_time =                  746 
+ 
+ -----time=                 747,@sim_time =                  747 
+ 
+ -----time=                 748,@sim_time =                  748 
+ 
+ -----time=                 749,@sim_time =                  749 
+ 
+ -----time=                 750,@sim_time =                  750 
+ 
+ -----time=                 751,@sim_time =                  751 
+ 
+ -----time=                 752,@sim_time =                  752 
+ 
+ -----time=                 753,@sim_time =                  753 
+ 
+ -----time=                 754,@sim_time =                  754 
+ 
+ -----time=                 755,@sim_time =                  755 
+ 
+ -----time=                 756,@sim_time =                  756 
+ 
+ -----time=                 757,@sim_time =                  757 
+ 
+ -----time=                 758,@sim_time =                  758 
+ 
+ -----time=                 759,@sim_time =                  759 
+ 
+ -----time=                 760,@sim_time =                  760 
+ 
+ -----time=                 761,@sim_time =                  761 
+ 
+ -----time=                 762,@sim_time =                  762 
+ 
+ -----time=                 763,@sim_time =                  763 
+ 
+ -----time=                 764,@sim_time =                  764 
+ 
+ -----time=                 765,@sim_time =                  765 
+ 
+ -----time=                 766,@sim_time =                  766 
+ 
+ -----time=                 767,@sim_time =                  767 
+ 
+ -----time=                 768,@sim_time =                  768 
+ 
+ -----time=                 769,@sim_time =                  769 
+ 
+ -----time=                 770,@sim_time =                  770 
+ 
+ -----time=                 771,@sim_time =                  771 
+ 
+ -----time=                 772,@sim_time =                  772 
+ 
+ -----time=                 773,@sim_time =                  773 
+ 
+ -----time=                 774,@sim_time =                  774 
+ 
+ -----time=                 775,@sim_time =                  775 
+ 
+ -----time=                 776,@sim_time =                  776 
+ 
+ -----time=                 777,@sim_time =                  777 
+ 
+ -----time=                 778,@sim_time =                  778 
+ 
+ -----time=                 779,@sim_time =                  779 
+ 
+ -----time=                 780,@sim_time =                  780 
+ 
+ -----time=                 781,@sim_time =                  781 
+ 
+ -----time=                 782,@sim_time =                  782 
+ 
+ -----time=                 783,@sim_time =                  783 
+ 
+ -----time=                 784,@sim_time =                  784 
+ 
+ -----time=                 785,@sim_time =                  785 
+ 
+ -----time=                 786,@sim_time =                  786 
+ 
+ -----time=                 787,@sim_time =                  787 
+ 
+ -----time=                 788,@sim_time =                  788 
+ 
+ -----time=                 789,@sim_time =                  789 
+ 
+ -----time=                 790,@sim_time =                  790 
+ 
+ -----time=                 791,@sim_time =                  791 
+ 
+ -----time=                 792,@sim_time =                  792 
+ 
+ -----time=                 793,@sim_time =                  793 
+ 
+ -----time=                 794,@sim_time =                  794 
+ 
+ -----time=                 795,@sim_time =                  795 
+ 
+ -----time=                 796,@sim_time =                  796 
+ 
+ -----time=                 797,@sim_time =                  797 
+ 
+ -----time=                 798,@sim_time =                  798 
+ 
+ -----time=                 799,@sim_time =                  799 
+ 
+ -----time=                 800,@sim_time =                  800 
+ 
+ -----time=                 801,@sim_time =                  801 
+ 
+ -----time=                 802,@sim_time =                  802 
+ 
+ -----time=                 803,@sim_time =                  803 
+ 
+ -----time=                 804,@sim_time =                  804 
+ 
+ -----time=                 805,@sim_time =                  805 
+ 
+ -----time=                 806,@sim_time =                  806 
+ 
+ -----time=                 807,@sim_time =                  807 
+ 
+ -----time=                 808,@sim_time =                  808 
+ 
+ -----time=                 809,@sim_time =                  809 
+ 
+ -----time=                 810,@sim_time =                  810 
+ 
+ -----time=                 811,@sim_time =                  811 
+ 
+ -----time=                 812,@sim_time =                  812 
+ 
+ -----time=                 813,@sim_time =                  813 
+ 
+ -----time=                 814,@sim_time =                  814 
+ 
+ -----time=                 815,@sim_time =                  815 
+ 
+ -----time=                 816,@sim_time =                  816 
+ 
+ -----time=                 817,@sim_time =                  817 
+ 
+ -----time=                 818,@sim_time =                  818 
+ 
+ -----time=                 819,@sim_time =                  819 
+ 
+ -----time=                 820,@sim_time =                  820 
+ 
+ -----time=                 821,@sim_time =                  821 
+ 
+ -----time=                 822,@sim_time =                  822 
+ 
+ -----time=                 823,@sim_time =                  823 
+ 
+ -----time=                 824,@sim_time =                  824 
+ 
+ -----time=                 825,@sim_time =                  825 
+ 
+ -----time=                 826,@sim_time =                  826 
+ 
+ -----time=                 827,@sim_time =                  827 
+ 
+ -----time=                 828,@sim_time =                  828 
+ 
+ -----time=                 829,@sim_time =                  829 
+ 
+ -----time=                 830,@sim_time =                  830 
+ 
+ -----time=                 831,@sim_time =                  831 
+ 
+ -----time=                 832,@sim_time =                  832 
+ 
+ -----time=                 833,@sim_time =                  833 
+ 
+ -----time=                 834,@sim_time =                  834 
+ 
+ -----time=                 835,@sim_time =                  835 
+ 
+ -----time=                 836,@sim_time =                  836 
+ 
+ -----time=                 837,@sim_time =                  837 
+ 
+ -----time=                 838,@sim_time =                  838 
+ 
+ -----time=                 839,@sim_time =                  839 
+ 
+ -----time=                 840,@sim_time =                  840 
+ 
+ -----time=                 841,@sim_time =                  841 
+ 
+ -----time=                 842,@sim_time =                  842 
+ 
+ -----time=                 843,@sim_time =                  843 
+ 
+ -----time=                 844,@sim_time =                  844 
+ 
+ -----time=                 845,@sim_time =                  845 
+ 
+ -----time=                 846,@sim_time =                  846 
+ 
+ -----time=                 847,@sim_time =                  847 
+ 
+ -----time=                 848,@sim_time =                  848 
+ 
+ -----time=                 849,@sim_time =                  849 
+ 
+ -----time=                 850,@sim_time =                  850 
+ 
+ -----time=                 851,@sim_time =                  851 
+ 
+ -----time=                 852,@sim_time =                  852 
+ 
+ -----time=                 853,@sim_time =                  853 
+ 
+ -----time=                 854,@sim_time =                  854 
+ 
+ -----time=                 855,@sim_time =                  855 
+ 
+ -----time=                 856,@sim_time =                  856 
+ 
+ -----time=                 857,@sim_time =                  857 
+ 
+ -----time=                 858,@sim_time =                  858 
+ 
+ -----time=                 859,@sim_time =                  859 
+ 
+ -----time=                 860,@sim_time =                  860 
+ 
+ -----time=                 861,@sim_time =                  861 
+ 
+ -----time=                 862,@sim_time =                  862 
+ 
+ -----time=                 863,@sim_time =                  863 
+ 
+ -----time=                 864,@sim_time =                  864 
+ 
+ -----time=                 865,@sim_time =                  865 
+ 
+ -----time=                 866,@sim_time =                  866 
+ 
+ -----time=                 867,@sim_time =                  867 
+ 
+ -----time=                 868,@sim_time =                  868 
+ 
+ -----time=                 869,@sim_time =                  869 
+ 
+ -----time=                 870,@sim_time =                  870 
+ 
+ -----time=                 871,@sim_time =                  871 
+ 
+ -----time=                 872,@sim_time =                  872 
+ 
+ -----time=                 873,@sim_time =                  873 
+ 
+ -----time=                 874,@sim_time =                  874 
+ 
+ -----time=                 875,@sim_time =                  875 
+ 
+ -----time=                 876,@sim_time =                  876 
+ 
+ -----time=                 877,@sim_time =                  877 
+ 
+ -----time=                 878,@sim_time =                  878 
+ 
+ -----time=                 879,@sim_time =                  879 
+ 
+ -----time=                 880,@sim_time =                  880 
+ 
+ -----time=                 881,@sim_time =                  881 
+ 
+ -----time=                 882,@sim_time =                  882 
+ 
+ -----time=                 883,@sim_time =                  883 
+ 
+ -----time=                 884,@sim_time =                  884 
+ 
+ -----time=                 885,@sim_time =                  885 
+ 
+ -----time=                 886,@sim_time =                  886 
+ 
+ -----time=                 887,@sim_time =                  887 
+ 
+ -----time=                 888,@sim_time =                  888 
+ 
+ -----time=                 889,@sim_time =                  889 
+ 
+ -----time=                 890,@sim_time =                  890 
+ 
+ -----time=                 891,@sim_time =                  891 
+ 
+ -----time=                 892,@sim_time =                  892 
+ 
+ -----time=                 893,@sim_time =                  893 
+ 
+ -----time=                 894,@sim_time =                  894 
+ 
+ -----time=                 895,@sim_time =                  895 
+ 
+ -----time=                 896,@sim_time =                  896 
+ 
+ -----time=                 897,@sim_time =                  897 
+ 
+ -----time=                 898,@sim_time =                  898 
+ 
+ -----time=                 899,@sim_time =                  899 
+ 
+ -----time=                 900,@sim_time =                  900 
+ 
+ -----time=                 901,@sim_time =                  901 
+ 
+ -----time=                 902,@sim_time =                  902 
+ 
+ -----time=                 903,@sim_time =                  903 
+ 
+ -----time=                 904,@sim_time =                  904 
+ 
+ -----time=                 905,@sim_time =                  905 
+ 
+ -----time=                 906,@sim_time =                  906 
+ 
+ -----time=                 907,@sim_time =                  907 
+ 
+ -----time=                 908,@sim_time =                  908 
+ 
+ -----time=                 909,@sim_time =                  909 
+ 
+ -----time=                 910,@sim_time =                  910 
+ 
+ -----time=                 911,@sim_time =                  911 
+ 
+ -----time=                 912,@sim_time =                  912 
+ 
+ -----time=                 913,@sim_time =                  913 
+ 
+ -----time=                 914,@sim_time =                  914 
+ 
+ -----time=                 915,@sim_time =                  915 
+ 
+ -----time=                 916,@sim_time =                  916 
+ 
+ -----time=                 917,@sim_time =                  917 
+ 
+ -----time=                 918,@sim_time =                  918 
+ 
+ -----time=                 919,@sim_time =                  919 
+ 
+ -----time=                 920,@sim_time =                  920 
+ 
+ -----time=                 921,@sim_time =                  921 
+ 
+ -----time=                 922,@sim_time =                  922 
+ 
+ -----time=                 923,@sim_time =                  923 
+ 
+ -----time=                 924,@sim_time =                  924 
+ 
+ -----time=                 925,@sim_time =                  925 
+ 
+ -----time=                 926,@sim_time =                  926 
+ 
+ -----time=                 927,@sim_time =                  927 
+ 
+ -----time=                 928,@sim_time =                  928 
+ 
+ -----time=                 929,@sim_time =                  929 
+ 
+ -----time=                 930,@sim_time =                  930 
+ 
+ -----time=                 931,@sim_time =                  931 
+ 
+ -----time=                 932,@sim_time =                  932 
+ 
+ -----time=                 933,@sim_time =                  933 
+ 
+ -----time=                 934,@sim_time =                  934 
+ 
+ -----time=                 935,@sim_time =                  935 
+ 
+ -----time=                 936,@sim_time =                  936 
+ 
+ -----time=                 937,@sim_time =                  937 
+ 
+ -----time=                 938,@sim_time =                  938 
+ 
+ -----time=                 939,@sim_time =                  939 
+ 
+ -----time=                 940,@sim_time =                  940 
+ 
+ -----time=                 941,@sim_time =                  941 
+ 
+ -----time=                 942,@sim_time =                  942 
+ 
+ -----time=                 943,@sim_time =                  943 
+ 
+ -----time=                 944,@sim_time =                  944 
+ 
+ -----time=                 945,@sim_time =                  945 
+ 
+ -----time=                 946,@sim_time =                  946 
+ 
+ -----time=                 947,@sim_time =                  947 
+ 
+ -----time=                 948,@sim_time =                  948 
+ 
+ -----time=                 949,@sim_time =                  949 
+ 
+ -----time=                 950,@sim_time =                  950 
+ 
+ -----time=                 951,@sim_time =                  951 
+ 
+ -----time=                 952,@sim_time =                  952 
+ 
+ -----time=                 953,@sim_time =                  953 
+ 
+ -----time=                 954,@sim_time =                  954 
+ 
+ -----time=                 955,@sim_time =                  955 
+ 
+ -----time=                 956,@sim_time =                  956 
+ 
+ -----time=                 957,@sim_time =                  957 
+ 
+ -----time=                 958,@sim_time =                  958 
+ 
+ -----time=                 959,@sim_time =                  959 
+ 
+ -----time=                 960,@sim_time =                  960 
+ 
+ -----time=                 961,@sim_time =                  961 
+ 
+ -----time=                 962,@sim_time =                  962 
+ 
+ -----time=                 963,@sim_time =                  963 
+ 
+ -----time=                 964,@sim_time =                  964 
+ 
+ -----time=                 965,@sim_time =                  965 
+ 
+ -----time=                 966,@sim_time =                  966 
+ 
+ -----time=                 967,@sim_time =                  967 
+ 
+ -----time=                 968,@sim_time =                  968 
+ 
+ -----time=                 969,@sim_time =                  969 
+ 
+ -----time=                 970,@sim_time =                  970 
+ 
+ -----time=                 971,@sim_time =                  971 
+ 
+ -----time=                 972,@sim_time =                  972 
+ 
+ -----time=                 973,@sim_time =                  973 
+ 
+ -----time=                 974,@sim_time =                  974 
+ 
+ -----time=                 975,@sim_time =                  975 
+ 
+ -----time=                 976,@sim_time =                  976 
+ 
+ -----time=                 977,@sim_time =                  977 
+ 
+ -----time=                 978,@sim_time =                  978 
+ 
+ -----time=                 979,@sim_time =                  979 
+ 
+ -----time=                 980,@sim_time =                  980 
+ 
+ -----time=                 981,@sim_time =                  981 
+ 
+ -----time=                 982,@sim_time =                  982 
+ 
+ -----time=                 983,@sim_time =                  983 
+ 
+ -----time=                 984,@sim_time =                  984 
+ 
+ -----time=                 985,@sim_time =                  985 
+ 
+ -----time=                 986,@sim_time =                  986 
+ 
+ -----time=                 987,@sim_time =                  987 
+ 
+ -----time=                 988,@sim_time =                  988 
+ 
+ -----time=                 989,@sim_time =                  989 
+ 
+ -----time=                 990,@sim_time =                  990 
+ 
+ -----time=                 991,@sim_time =                  991 
+ 
+ -----time=                 992,@sim_time =                  992 
+ 
+ -----time=                 993,@sim_time =                  993 
+ 
+ -----time=                 994,@sim_time =                  994 
+ 
+ -----time=                 995,@sim_time =                  995 
+ 
+ -----time=                 996,@sim_time =                  996 
+ 
+ -----time=                 997,@sim_time =                  997 
+ 
+ -----time=                 998,@sim_time =                  998 
+ 
+ -----time=                 999,@sim_time =                  999 
+ 
+ -----time=                1000,@sim_time =                 1000 
+ 
+ -----time=                1000,@sim_time =                 1000 
+ 
+ -----Entered IDLE state 
+ 
+ -----time=                1001,@sim_time =                 1001 
+ 
+ -----time=                1001,@sim_time =                 1001 
+ 
+ -----time=                1002,@sim_time =                 1002 
+ 
+ -----Entered START state 
+ 
+ -----time=                1003,@sim_time =                 1003 
+ 
+ -----time=                1004,@sim_time =                 1004 
+ 
+ -----Entered ACT state 
+                1012 	 channel=0 ACT0 bankg=0 bank=0 row =0000 
+                1012 	 channel=0 ACT1 bankg=0 bank=0 row=0000 
+ 
+ -----time=                1013,@sim_time =                 1013 
+ 
+ -----time=                1014,@sim_time =                 1014 
+ 
+ -----Entered RD state 
+                1020 	 channel=0 RD0  bankg=0 bank=0 column=000 
+                1020 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----time=                1021,@sim_time =                 1021 
+ 
+ -----time=                1022,@sim_time =                 1022 
+ 
+ -----Entered PRE state 
+                1022 	 channel=0 PRE  bankg=0 bank=0 
+                 1022 	 done=0 
+ 
+ -----time=                1023,@sim_time =                 1023 
+ 
+ -----time=                1024,@sim_time =                 1024 
+ 
+ -----Entered START state 
+ 
+ -----time=                1025,@sim_time =                 1025 
+ 
+ -----time=                1026,@sim_time =                 1026 
+ 
+ -----Entered ACT state 
+                1034 	 channel=0 ACT0 bankg=1 bank=1 row =ffff 
+                1034 	 channel=0 ACT1 bankg=1 bank=1 row=ffff 
+ 
+ -----time=                1035,@sim_time =                 1035 
+ 
+ -----time=                1036,@sim_time =                 1036 
+ 
+ -----Entered WR state 
+                1042 	 channel=0 WR0  bankg=1 bank=1 column=011 
+                1042 	 channel=0 WR1  bankg=1 bank=1 column=011 
+ 
+ -----time=                1043,@sim_time =                 1043 
+ 
+ -----time=                1044,@sim_time =                 1044 
+ 
+ -----Entered PRE state 
+                1044 	 channel=0 PRE  bankg=1 bank=1 
+                 1044 	 done=0 
+ 
+ -----time=                1045,@sim_time =                 1045 
+ 
+ -----time=                1046,@sim_time =                 1046 
+ 
+ -----time=                1047,@sim_time =                 1047 
+ 
+ -----time=                1048,@sim_time =                 1048 

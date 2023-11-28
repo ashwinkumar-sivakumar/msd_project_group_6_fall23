@@ -1,0 +1,9 @@
+/u/mahidhar/work/msd_project/checkpoint2/rtl/msd_dimm.sv {2 {vlog -work work -vopt -sv -stats=none /u/mahidhar/work/msd_project/checkpoint2/rtl/msd_dimm.sv
+QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+-- Compiling module msd_dimm
+** Warning: /u/mahidhar/work/msd_project/checkpoint2/rtl/msd_dimm.sv(60): (vlog-2240) Treating stand-alone use of function 'pop_front' as an implicit VOID cast.
+
+Top level modules:
+	msd_dimm
+
+} {} {}}

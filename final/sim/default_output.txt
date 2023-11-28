@@ -1,0 +1,141 @@
+from row           0 the value of time =          4 	 core=   7 	 operation=2 	 address=2fa50e081 
+from row           1 the value of time =          8 	 core=   4 	 operation=1 	 address=09104dca7 
+from row           2 the value of time =         15 	 core=   7 	 operation=2 	 address=280c457b6 
+from row           3 the value of time =         22 	 core=  11 	 operation=1 	 address=279647989 
+from row           4 the value of time =         33 	 core=   4 	 operation=1 	 address=14cd73031 
+from row           5 the value of time =         45 	 core=   4 	 operation=0 	 address=134495394 
+from row           6 the value of time =         50 	 core=  10 	 operation=0 	 address=0476b48ad 
+from row           7 the value of time =         53 	 core=   1 	 operation=1 	 address=20b58913f 
+from row           8 the value of time =         54 	 core=   8 	 operation=0 	 address=271ebda17 
+from row           9 the value of time =         59 	 core=   6 	 operation=2 	 address=34306d9bd 
+from row          10 the value of time =         60 	 core=   4 	 operation=1 	 address=31265eb3a 
+from row          11 the value of time =         62 	 core=   1 	 operation=2 	 address=17879303c 
+from row          12 the value of time =         64 	 core=  11 	 operation=0 	 address=2ccc25306 
+from row          13 the value of time =         67 	 core=   6 	 operation=1 	 address=32b11a20e 
+from row          14 the value of time =         71 	 core=  11 	 operation=2 	 address=0abda4422 
+from row          15 the value of time =         74 	 core=   7 	 operation=0 	 address=3eea53019 
+from row          16 the value of time =         79 	 core=  10 	 operation=1 	 address=2455f61a7 
+from row          17 the value of time =         88 	 core=  10 	 operation=0 	 address=1767385b6 
+from row          18 the value of time =         98 	 core=   6 	 operation=1 	 address=35e6badab 
+from row          19 the value of time =         99 	 core=   8 	 operation=2 	 address=3110a7292 
+		*********Read operation********* Value of operation=2 address =2fa50e081 
+                   6 	 channel=0 ACT0 bankg=1 bank=0 row =be94 
+                   6 	 channel=0 ACT1 bankg=1 bank=0 row=be94 
+                   6 	 channel=0 RD0  bankg=1 bank=0 column=0e0 
+                   6 	 channel=0 RD1  bankg=1 bank=0 column=0e0 
+                   6 	 channel=0 PRE  bankg=1 bank=0 
+ 		*********Write operation********* Value of operation=1 address =09104dca7 
+                  10 	 channel=0 ACT0 bankg=1 bank=3 row =2441 
+                  10 	 channel=0 ACT1 bankg=1 bank=3 row=2441 
+                  10 	 channel=0 WR0  bankg=1 bank=3 column=0d9 
+                  10 	 channel=0 WR1  bankg=1 bank=3 column=0d9 
+                  10 	 channel=0 PRE  bankg=1 bank=3 
+ 		*********Read operation********* Value of operation=2 address =280c457b6 
+                  16 	 channel=0 ACT0 bankg=7 bank=1 row =a031 
+                  16 	 channel=0 ACT1 bankg=7 bank=1 row=a031 
+                  16 	 channel=0 RD0  bankg=7 bank=1 column=05d 
+                  16 	 channel=0 RD1  bankg=7 bank=1 column=05d 
+                  16 	 channel=0 PRE  bankg=7 bank=1 
+ 		*********Write operation********* Value of operation=1 address =279647989 
+                  24 	 channel=0 ACT0 bankg=3 bank=2 row =9e59 
+                  24 	 channel=0 ACT1 bankg=3 bank=2 row=9e59 
+                  24 	 channel=0 WR0  bankg=3 bank=2 column=072 
+                  24 	 channel=0 WR1  bankg=3 bank=2 column=072 
+                  24 	 channel=0 PRE  bankg=3 bank=2 
+ 		*********Write operation********* Value of operation=1 address =14cd73031 
+                  34 	 channel=0 ACT0 bankg=0 bank=0 row =5335 
+                  34 	 channel=0 ACT1 bankg=0 bank=0 row=5335 
+                  34 	 channel=0 WR0  bankg=0 bank=0 column=33c 
+                  34 	 channel=0 WR1  bankg=0 bank=0 column=33c 
+                  34 	 channel=0 PRE  bankg=0 bank=0 
+ 		*********Read operation********* Value of operation=0 address =134495394 
+                  46 	 channel=0 ACT0 bankg=7 bank=0 row =4d12 
+                  46 	 channel=0 ACT1 bankg=7 bank=0 row=4d12 
+                  46 	 channel=0 RD0  bankg=7 bank=0 column=155 
+                  46 	 channel=0 RD1  bankg=7 bank=0 column=155 
+                  46 	 channel=0 PRE  bankg=7 bank=0 
+ 		*********Read operation********* Value of operation=0 address =0476b48ad 
+                  52 	 channel=0 ACT0 bankg=1 bank=2 row =11da 
+                  52 	 channel=0 ACT1 bankg=1 bank=2 row=11da 
+                  52 	 channel=0 RD0  bankg=1 bank=2 column=34b 
+                  52 	 channel=0 RD1  bankg=1 bank=2 column=34b 
+                  52 	 channel=0 PRE  bankg=1 bank=2 
+ 		*********Write operation********* Value of operation=1 address =20b58913f 
+                  54 	 channel=0 ACT0 bankg=2 bank=0 row =82d6 
+                  54 	 channel=0 ACT1 bankg=2 bank=0 row=82d6 
+                  54 	 channel=0 WR0  bankg=2 bank=0 column=09f 
+                  54 	 channel=0 WR1  bankg=2 bank=0 column=09f 
+                  54 	 channel=0 PRE  bankg=2 bank=0 
+ 		*********Read operation********* Value of operation=0 address =271ebda17 
+                  56 	 channel=0 ACT0 bankg=4 bank=2 row =9c7a 
+                  56 	 channel=0 ACT1 bankg=4 bank=2 row=9c7a 
+                  56 	 channel=0 RD0  bankg=4 bank=2 column=3d5 
+                  56 	 channel=0 RD1  bankg=4 bank=2 column=3d5 
+                  56 	 channel=0 PRE  bankg=4 bank=2 
+ 		*********Read operation********* Value of operation=2 address =34306d9bd 
+                  60 	 channel=0 ACT0 bankg=3 bank=2 row =d0c1 
+                  60 	 channel=0 ACT1 bankg=3 bank=2 row=d0c1 
+                  60 	 channel=0 RD0  bankg=3 bank=2 column=2df 
+                  60 	 channel=0 RD1  bankg=3 bank=2 column=2df 
+                  60 	 channel=0 PRE  bankg=3 bank=2 
+ 		*********Write operation********* Value of operation=1 address =31265eb3a 
+                  62 	 channel=0 ACT0 bankg=6 bank=2 row =c499 
+                  62 	 channel=0 ACT1 bankg=6 bank=2 row=c499 
+                  62 	 channel=0 WR0  bankg=6 bank=2 column=1ee 
+                  62 	 channel=0 WR1  bankg=6 bank=2 column=1ee 
+                  62 	 channel=0 PRE  bankg=6 bank=2 
+ 		*********Read operation********* Value of operation=2 address =17879303c 
+                  64 	 channel=0 ACT0 bankg=0 bank=0 row =5e1e 
+                  64 	 channel=0 ACT1 bankg=0 bank=0 row=5e1e 
+                  64 	 channel=0 RD0  bankg=0 bank=0 column=13f 
+                  64 	 channel=0 RD1  bankg=0 bank=0 column=13f 
+                  64 	 channel=0 PRE  bankg=0 bank=0 
+ 		*********Read operation********* Value of operation=0 address =2ccc25306 
+                  66 	 channel=0 ACT0 bankg=6 bank=0 row =b330 
+                  66 	 channel=0 ACT1 bankg=6 bank=0 row=b330 
+                  66 	 channel=0 RD0  bankg=6 bank=0 column=251 
+                  66 	 channel=0 RD1  bankg=6 bank=0 column=251 
+                  66 	 channel=0 PRE  bankg=6 bank=0 
+ 		*********Write operation********* Value of operation=1 address =32b11a20e 
+                  68 	 channel=0 ACT0 bankg=4 bank=0 row =cac4 
+                  68 	 channel=0 ACT1 bankg=4 bank=0 row=cac4 
+                  68 	 channel=0 WR0  bankg=4 bank=0 column=1a3 
+                  68 	 channel=0 WR1  bankg=4 bank=0 column=1a3 
+                  68 	 channel=0 PRE  bankg=4 bank=0 
+ 		*********Read operation********* Value of operation=2 address =0abda4422 
+                  72 	 channel=0 ACT0 bankg=0 bank=1 row =2af6 
+                  72 	 channel=0 ACT1 bankg=0 bank=1 row=2af6 
+                  72 	 channel=0 RD0  bankg=0 bank=1 column=248 
+                  72 	 channel=0 RD1  bankg=0 bank=1 column=248 
+                  72 	 channel=0 PRE  bankg=0 bank=1 
+ 		*********Read operation********* Value of operation=0 address =3eea53019 
+                  76 	 channel=0 ACT0 bankg=0 bank=0 row =fba9 
+                  76 	 channel=0 ACT1 bankg=0 bank=0 row=fba9 
+                  76 	 channel=0 RD0  bankg=0 bank=0 column=136 
+                  76 	 channel=0 RD1  bankg=0 bank=0 column=136 
+                  76 	 channel=0 PRE  bankg=0 bank=0 
+ 		*********Write operation********* Value of operation=1 address =2455f61a7 
+                  80 	 channel=0 ACT0 bankg=3 bank=0 row =9157 
+                  80 	 channel=0 ACT1 bankg=3 bank=0 row=9157 
+                  80 	 channel=0 WR0  bankg=3 bank=0 column=369 
+                  80 	 channel=0 WR1  bankg=3 bank=0 column=369 
+                  80 	 channel=0 PRE  bankg=3 bank=0 
+ 		*********Read operation********* Value of operation=0 address =1767385b6 
+                  90 	 channel=0 ACT0 bankg=3 bank=1 row =5d9c 
+                  90 	 channel=0 ACT1 bankg=3 bank=1 row=5d9c 
+                  90 	 channel=0 RD0  bankg=3 bank=1 column=38d 
+                  90 	 channel=0 RD1  bankg=3 bank=1 column=38d 
+                  90 	 channel=0 PRE  bankg=3 bank=1 
+ 		*********Write operation********* Value of operation=1 address =35e6badab 
+                 100 	 channel=0 ACT0 bankg=3 bank=3 row =d79a 
+                 100 	 channel=0 ACT1 bankg=3 bank=3 row=d79a 
+                 100 	 channel=0 WR0  bankg=3 bank=3 column=3aa 
+                 100 	 channel=0 WR1  bankg=3 bank=3 column=3aa 
+                 100 	 channel=0 PRE  bankg=3 bank=3 
+ 		*********Read operation********* Value of operation=2 address =3110a7292 
+                 102 	 channel=0 ACT0 bankg=5 bank=0 row =c442 
+                 102 	 channel=0 ACT1 bankg=5 bank=0 row=c442 
+                 102 	 channel=0 RD0  bankg=5 bank=0 column=274 
+                 102 	 channel=0 RD1  bankg=5 bank=0 column=274 
+                 102 	 channel=0 PRE  bankg=5 bank=0 
+ 

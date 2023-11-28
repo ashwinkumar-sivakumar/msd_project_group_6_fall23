@@ -1,0 +1,64 @@
+m255
+K4
+z2
+!s11f vlog 2019.2_1 2019.05, May 13 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/u/mahidhar/work/msd_project/checkpoint2/sim
+T_opt
+!s110 1700606710
+V`Z1AAh8eJ2e@P_fJ9C<<f3
+Z1 04 8 4 work msd_dimm fast 0
+=1-525400b63b2a-655d32f5-9da63-7516
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2019.2_1;69
+R0
+T_opt1
+!s110 1700087399
+Vf`1:8FJP26_n[X5KhKN8i2
+R1
+=1-525400b63b2a-65554667-9587e-53e6
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1700969194
+V17NP[5fj52iBIkHCXDCo[3
+R1
+=1-525400b63b2a-6562bae9-ca35b-4c43
+R2
+R3
+n@_opt2
+R4
+vmsd_dimm
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1700969192
+!i10b 1
+!s100 6d^G]n`AT_12=j;0Dk6X;3
+!s11b J3NlYg[e[W3_`S;`z1zAm1
+I8PABRGE6D0KPNgjOoj:_m0
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+d/u/mahidhar/work/msd_project/final/sim
+w1700969188
+8../rtl/msd_dimm.sv
+F../rtl/msd_dimm.sv
+L0 1
+OL;L;2019.2_1;69
+r1
+!s85 0
+31
+!s108 1700969192.000000
+!s107 ../rtl/msd_dimm.sv|
+!s90 ../rtl/msd_dimm.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3

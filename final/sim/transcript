@@ -1,0 +1,1447 @@
+# vsim -c msd_dimm -do "run -all" "+debug_en=1" "+ip_file=trace2.txt" "+op_file=checkpoint2_op.txt" 
+# Start time: 19:26:33 on Nov 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2019.2_1 linux_x86_64 May 13 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.msd_dimm(fast)
+# run -all
+# Reading and displaying values from trace trace files...
+# value of violation_flag=          0
+# from row           0 the value of time =          0  core=   0 operation=0 address=000000000
+# from row           1 the value of time =          1  core=   1 operation=1 address=00007f4bf
+# from row           2 the value of time =          2  core=   2 operation=2 address=00008193a
+# from row           3 the value of time =          3  core=   3 operation=0 address=0000c2db5
+# from row           4 the value of time =          4  core=   4 operation=1 address=000104230
+# from row           5 the value of time =          5  core=   5 operation=2 address=0001486af
+# from row           6 the value of time =          6  core=   6 operation=0 address=000190b2a
+# from row           7 the value of time =          7  core=   7 operation=1 address=0001e0fa5
+# from row           8 the value of time =          8  core=   8 operation=2 address=000210020
+# from row           9 the value of time =          9  core=   9 operation=0 address=00024849f
+# from row          10 the value of time =         10  core=  10 operation=1 address=00028491a
+# from row          11 the value of time =         11  core=  11 operation=2 address=0002c2d95
+# from row          12 the value of time =         12  core=   0 operation=0 address=000301210
+# from row          13 the value of time =         13  core=   1 operation=1 address=00034068f
+# from row          14 the value of time =         14  core=   2 operation=2 address=000381b0a
+# from row          15 the value of time =         15  core=   3 operation=0 address=0003c2f85
+# from row          16 the value of time =         16  core=   4 operation=1 address=000404000
+# from row          17 the value of time =         17  core=   5 operation=2 address=0004484bf
+# from row          18 the value of time =         18  core=   6 operation=0 address=00049093a
+# from row          19 the value of time =         19  core=   7 operation=1 address=0004e0db5
+# from row          20 the value of time =         20  core=   8 operation=2 address=000510230
+# from row          21 the value of time =         21  core=   9 operation=0 address=0005486af
+# from row          22 the value of time =         22  core=  10 operation=1 address=000584b2a
+# from row          23 the value of time =         23  core=  11 operation=2 address=0005c2fa5
+# from row          24 the value of time =         24  core=   0 operation=0 address=000601020
+# from row          25 the value of time =         25  core=   1 operation=1 address=00064049f
+# from row          26 the value of time =         26  core=   2 operation=2 address=00068191a
+# from row          27 the value of time =         27  core=   3 operation=0 address=0006c2d95
+# from row          28 the value of time =         28  core=   4 operation=1 address=000704210
+# from row          29 the value of time =         29  core=   5 operation=2 address=00074868f
+# from row          30 the value of time =         30  core=   6 operation=0 address=000790b0a
+# from row          31 the value of time =         31  core=   7 operation=1 address=0007e0f85
+# from row          32 the value of time =         32  core=   8 operation=2 address=3fffc0000
+# from row          33 the value of time =       1000  core=   0 operation=0 address=000000000
+# from row          34 the value of time =       1001  core=  11 operation=1 address=3fffc1485
+# the queue is empty 
+# inside simulation time ip =          0, sim_time=                   0 
+# >>>@time:                   0 Adding new element to the queue.. 0000000000 ... at sim_time = 0 --> master_q.size = 1 
+# -----Displaying the values in Queue:
+#  0000000000 
+# ---------------------------------
+# inside simulation time ip =          1, sim_time=                   1 
+# >>>@time:                   1 Adding new element to the queue.. 100007f4bf ... at sim_time = 1 --> master_q.size = 2 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# ---------------------------------
+# inside simulation time ip =          2, sim_time=                   2 
+# >>>@time:                   2 Adding new element to the queue.. 200008193a ... at sim_time = 2 --> master_q.size = 3 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# ---------------------------------
+# inside simulation time ip =          3, sim_time=                   3 
+# >>>@time:                   3 Adding new element to the queue.. 00000c2db5 ... at sim_time = 3 --> master_q.size = 4 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# ---------------------------------
+# inside simulation time ip =          4, sim_time=                   4 
+# >>>@time:                   4 Adding new element to the queue.. 1000104230 ... at sim_time = 4 --> master_q.size = 5 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# ---------------------------------
+# inside simulation time ip =          5, sim_time=                   5 
+# >>>@time:                   5 Adding new element to the queue.. 20001486af ... at sim_time = 5 --> master_q.size = 6 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# ---------------------------------
+# inside simulation time ip =          6, sim_time=                   6 
+# >>>@time:                   6 Adding new element to the queue.. 0000190b2a ... at sim_time = 6 --> master_q.size = 7 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# ---------------------------------
+# inside simulation time ip =          7, sim_time=                   7 
+# >>>@time:                   7 Adding new element to the queue.. 10001e0fa5 ... at sim_time = 7 --> master_q.size = 8 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# ---------------------------------
+# inside simulation time ip =          8, sim_time=                   8 
+# >>>@time:                   8 Adding new element to the queue.. 2000210020 ... at sim_time = 8 --> master_q.size = 9 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# ---------------------------------
+# inside simulation time ip =          9, sim_time=                   9 
+# >>>@time:                   9 Adding new element to the queue.. 000024849f ... at sim_time = 9 --> master_q.size = 10 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# ---------------------------------
+# inside simulation time ip =         10, sim_time=                  10 
+# >>>@time:                  10 Adding new element to the queue.. 100028491a ... at sim_time = 10 --> master_q.size = 11 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# ---------------------------------
+# inside simulation time ip =         11, sim_time=                  11 
+# >>>@time:                  11 Adding new element to the queue.. 20002c2d95 ... at sim_time = 11 --> master_q.size = 12 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# ---------------------------------
+# inside simulation time ip =         12, sim_time=                  12 
+# >>>@time:                  12 Adding new element to the queue.. 0000301210 ... at sim_time = 12 --> master_q.size = 13 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# ---------------------------------
+# inside simulation time ip =         13, sim_time=                  13 
+# >>>@time:                  13 Adding new element to the queue.. 100034068f ... at sim_time = 13 --> master_q.size = 14 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# ---------------------------------
+# inside simulation time ip =         14, sim_time=                  14 
+# >>>@time:                  14 Adding new element to the queue.. 2000381b0a ... at sim_time = 14 --> master_q.size = 15 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# ---------------------------------
+# inside simulation time ip =         15, sim_time=                  15 
+# >>>@time:                  15 Adding new element to the queue.. 00003c2f85 ... at sim_time = 15 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# ---------------------------------
+# q_out_temp= 0 
+# >>>@time:                  22 Removing a queue 0000000000 elements from queue..  sim_time = 22 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# ---------------------------------
+# inside simulation time ip =         16, sim_time=                  22 
+# >>>@time:                  22 Adding new element to the queue.. 1000404000 ... at sim_time = 22 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  100007f4bf 
+# 200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# ---------------------------------
+# q_out_temp= 100007f4bf 
+# >>>@time:                  42 Removing a queue 100007f4bf elements from queue..  sim_time = 42 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# ---------------------------------
+# inside simulation time ip =         17, sim_time=                  42 
+# >>>@time:                  42 Adding new element to the queue.. 20004484bf ... at sim_time = 42 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  200008193a 
+# 00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# ---------------------------------
+# q_out_temp= 200008193a 
+# >>>@time:                  62 Removing a queue 200008193a elements from queue..  sim_time = 62 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# ---------------------------------
+# inside simulation time ip =         18, sim_time=                  62 
+# >>>@time:                  62 Adding new element to the queue.. 000049093a ... at sim_time = 62 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  00000c2db5 
+# 1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# ---------------------------------
+# q_out_temp= c2db5 
+# >>>@time:                  82 Removing a queue 00000c2db5 elements from queue..  sim_time = 82 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# ---------------------------------
+# inside simulation time ip =         19, sim_time=                  82 
+# >>>@time:                  82 Adding new element to the queue.. 10004e0db5 ... at sim_time = 82 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  1000104230 
+# 20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# ---------------------------------
+# q_out_temp= 1000104230 
+# >>>@time:                 102 Removing a queue 1000104230 elements from queue..  sim_time = 102 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# ---------------------------------
+# inside simulation time ip =         20, sim_time=                 102 
+# >>>@time:                 102 Adding new element to the queue.. 2000510230 ... at sim_time = 102 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  20001486af 
+# 0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# ---------------------------------
+# q_out_temp= 20001486af 
+# >>>@time:                 122 Removing a queue 20001486af elements from queue..  sim_time = 122 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# ---------------------------------
+# inside simulation time ip =         21, sim_time=                 122 
+# >>>@time:                 122 Adding new element to the queue.. 00005486af ... at sim_time = 122 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  0000190b2a 
+# 10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# ---------------------------------
+# q_out_temp= 190b2a 
+# >>>@time:                 142 Removing a queue 0000190b2a elements from queue..  sim_time = 142 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# ---------------------------------
+# inside simulation time ip =         22, sim_time=                 142 
+# >>>@time:                 142 Adding new element to the queue.. 1000584b2a ... at sim_time = 142 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  10001e0fa5 
+# 2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# ---------------------------------
+# q_out_temp= 10001e0fa5 
+# >>>@time:                 162 Removing a queue 10001e0fa5 elements from queue..  sim_time = 162 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# ---------------------------------
+# inside simulation time ip =         23, sim_time=                 162 
+# >>>@time:                 162 Adding new element to the queue.. 20005c2fa5 ... at sim_time = 162 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  2000210020 
+# 000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# ---------------------------------
+# q_out_temp= 2000210020 
+# >>>@time:                 182 Removing a queue 2000210020 elements from queue..  sim_time = 182 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# ---------------------------------
+# inside simulation time ip =         24, sim_time=                 182 
+# >>>@time:                 182 Adding new element to the queue.. 0000601020 ... at sim_time = 182 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  000024849f 
+# 100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# ---------------------------------
+# q_out_temp= 24849f 
+# >>>@time:                 202 Removing a queue 000024849f elements from queue..  sim_time = 202 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# ---------------------------------
+# inside simulation time ip =         25, sim_time=                 202 
+# >>>@time:                 202 Adding new element to the queue.. 100064049f ... at sim_time = 202 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  100028491a 
+# 20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# ---------------------------------
+# q_out_temp= 100028491a 
+# >>>@time:                 222 Removing a queue 100028491a elements from queue..  sim_time = 222 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# ---------------------------------
+# inside simulation time ip =         26, sim_time=                 222 
+# >>>@time:                 222 Adding new element to the queue.. 200068191a ... at sim_time = 222 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  20002c2d95 
+# 0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# ---------------------------------
+# q_out_temp= 20002c2d95 
+# >>>@time:                 242 Removing a queue 20002c2d95 elements from queue..  sim_time = 242 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# ---------------------------------
+# inside simulation time ip =         27, sim_time=                 242 
+# >>>@time:                 242 Adding new element to the queue.. 00006c2d95 ... at sim_time = 242 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  0000301210 
+# 100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# ---------------------------------
+# q_out_temp= 301210 
+# >>>@time:                 262 Removing a queue 0000301210 elements from queue..  sim_time = 262 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# ---------------------------------
+# inside simulation time ip =         28, sim_time=                 262 
+# >>>@time:                 262 Adding new element to the queue.. 1000704210 ... at sim_time = 262 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  100034068f 
+# 2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# ---------------------------------
+# q_out_temp= 100034068f 
+# >>>@time:                 282 Removing a queue 100034068f elements from queue..  sim_time = 282 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# ---------------------------------
+# inside simulation time ip =         29, sim_time=                 282 
+# >>>@time:                 282 Adding new element to the queue.. 200074868f ... at sim_time = 282 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  2000381b0a 
+# 00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# ---------------------------------
+# q_out_temp= 2000381b0a 
+# >>>@time:                 302 Removing a queue 2000381b0a elements from queue..  sim_time = 302 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# ---------------------------------
+# inside simulation time ip =         30, sim_time=                 302 
+# >>>@time:                 302 Adding new element to the queue.. 0000790b0a ... at sim_time = 302 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  00003c2f85 
+# 1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# ---------------------------------
+# q_out_temp= 3c2f85 
+# >>>@time:                 322 Removing a queue 00003c2f85 elements from queue..  sim_time = 322 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# ---------------------------------
+# inside simulation time ip =         31, sim_time=                 322 
+# >>>@time:                 322 Adding new element to the queue.. 10007e0f85 ... at sim_time = 322 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  1000404000 
+# 20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# ---------------------------------
+# q_out_temp= 1000404000 
+# >>>@time:                 342 Removing a queue 1000404000 elements from queue..  sim_time = 342 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# ---------------------------------
+# inside simulation time ip =         32, sim_time=                 342 
+# >>>@time:                 342 Adding new element to the queue.. 23fffc0000 ... at sim_time = 342 --> master_q.size = 16 
+# -----Displaying the values in Queue:
+#  20004484bf 
+# 000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 20004484bf 
+# >>>@time:                 362 Removing a queue 20004484bf elements from queue..  sim_time = 362 --> master_q.size = 15
+# -----Displaying the values in Queue:
+#  000049093a 
+# 10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 49093a 
+# >>>@time:                 384 Removing a queue 000049093a elements from queue..  sim_time = 384 --> master_q.size = 14
+# -----Displaying the values in Queue:
+#  10004e0db5 
+# 2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 10004e0db5 
+# >>>@time:                 406 Removing a queue 10004e0db5 elements from queue..  sim_time = 406 --> master_q.size = 13
+# -----Displaying the values in Queue:
+#  2000510230 
+# 00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 2000510230 
+# >>>@time:                 428 Removing a queue 2000510230 elements from queue..  sim_time = 428 --> master_q.size = 12
+# -----Displaying the values in Queue:
+#  00005486af 
+# 1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 5486af 
+# >>>@time:                 450 Removing a queue 00005486af elements from queue..  sim_time = 450 --> master_q.size = 11
+# -----Displaying the values in Queue:
+#  1000584b2a 
+# 20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 1000584b2a 
+# >>>@time:                 472 Removing a queue 1000584b2a elements from queue..  sim_time = 472 --> master_q.size = 10
+# -----Displaying the values in Queue:
+#  20005c2fa5 
+# 0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 20005c2fa5 
+# >>>@time:                 494 Removing a queue 20005c2fa5 elements from queue..  sim_time = 494 --> master_q.size = 9
+# -----Displaying the values in Queue:
+#  0000601020 
+# 100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 601020 
+# >>>@time:                 516 Removing a queue 0000601020 elements from queue..  sim_time = 516 --> master_q.size = 8
+# -----Displaying the values in Queue:
+#  100064049f 
+# 200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 100064049f 
+# >>>@time:                 538 Removing a queue 100064049f elements from queue..  sim_time = 538 --> master_q.size = 7
+# -----Displaying the values in Queue:
+#  200068191a 
+# 00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 200068191a 
+# >>>@time:                 560 Removing a queue 200068191a elements from queue..  sim_time = 560 --> master_q.size = 6
+# -----Displaying the values in Queue:
+#  00006c2d95 
+# 1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 6c2d95 
+# >>>@time:                 582 Removing a queue 00006c2d95 elements from queue..  sim_time = 582 --> master_q.size = 5
+# -----Displaying the values in Queue:
+#  1000704210 
+# 200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 1000704210 
+# >>>@time:                 604 Removing a queue 1000704210 elements from queue..  sim_time = 604 --> master_q.size = 4
+# -----Displaying the values in Queue:
+#  200074868f 
+# 0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 200074868f 
+# >>>@time:                 626 Removing a queue 200074868f elements from queue..  sim_time = 626 --> master_q.size = 3
+# -----Displaying the values in Queue:
+#  0000790b0a 
+# 10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 790b0a 
+# >>>@time:                 648 Removing a queue 0000790b0a elements from queue..  sim_time = 648 --> master_q.size = 2
+# -----Displaying the values in Queue:
+#  10007e0f85 
+# 23fffc0000 
+# ---------------------------------
+# q_out_temp= 10007e0f85 
+# >>>@time:                 670 Removing a queue 10007e0f85 elements from queue..  sim_time = 670 --> master_q.size = 1
+# -----Displaying the values in Queue:
+#  23fffc0000 
+# ---------------------------------
+# q_out_temp= 23fffc0000 
+# >>>@time:                 692 Removing a queue 23fffc0000 elements from queue..  sim_time = 692 --> master_q.size = 0
+# -----Displaying the values in Queue:
+#  ---------------------------------
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# inside simulation time ip =       1000, sim_time=                1000 
+# >>>@time:                1000 Adding new element to the queue.. 0000000000 ... at sim_time = 1000 --> master_q.size = 1 
+# -----Displaying the values in Queue:
+#  0000000000 
+# ---------------------------------
+# inside simulation time ip =       1001, sim_time=                1001 
+# >>>@time:                1001 Adding new element to the queue.. 13fffc1485 ... at sim_time = 1001 --> master_q.size = 2 
+# -----Displaying the values in Queue:
+#  0000000000 
+# 13fffc1485 
+# ---------------------------------
+# q_out_temp= 0 
+# >>>@time:                1022 Removing a queue 0000000000 elements from queue..  sim_time = 1022 --> master_q.size = 1
+# -----Displaying the values in Queue:
+#  13fffc1485 
+# ---------------------------------
+# q_out_temp= 13fffc1485 
+# >>>@time:                1044 Removing a queue 13fffc1485 elements from queue..  sim_time = 1044 --> master_q.size = 0
+# -----Displaying the values in Queue:
+#  ---------------------------------
+# the queue is empty 
+# the queue is empty 
+# value of last_line=         35, rowCounter=         35 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# the queue is empty 
+# ** Note: $finish    : ../rtl/msd_dimm.sv(187)
+#    Time: 1049 ns  Iteration: 0  Instance: /msd_dimm
+# End time: 19:26:34 on Nov 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

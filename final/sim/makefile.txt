@@ -1,0 +1,4 @@
+python3 trace_py.py
+vlog ../rtl/msd_dimm.sv
+vsim -c msd_dimm -do "run -all" +debug_en=1 +ip_file=trace2.txt +op_file=checkpoint2_op.txt
+
