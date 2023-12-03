@@ -47,7 +47,7 @@ module msd_dimm;
   int d_time;   
   bit done;        
   bit onProcess;
-
+  longint unsigned dimm_counter =0;
                    
   always #1 sim_time = sim_time+1;
                    
@@ -100,24 +100,16 @@ module msd_dimm;
             q_empty=0;
   end              
                    
-/*  always@(sim_time) begin
-         if (master_q.size() == 16) begin
-            q_full=1;
-            $fwrite(out_file," \n -----@time %t The queue is full stall cpu request until the queue request are satisfied and removed----- \n",$time);
-         end else
-            q_full=0;
-         if (master_q.size() == 0) begin
-            q_empty=1;
-            if (debug_en)begin
-               $write("the queue is empty \n");
-            end 
-         end else
-            q_empty=0;
-  end  */            
-                   
+  always@(sim_time) begin
+   if ((sim_time % 2 == 0)&&(sim_time!=0)) begin
+         dimm_counter++;
+         //if (debug_en)
+         //$fwrite(out_file," \n -----time=%t,@sim_time = %d,dimm_counter=%d \n",$time,sim_time,dimm_counter); 
+  end              
+  end                  
   always@(*) begin
-         if (debug_en)
-         $fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time); 
+         //if (debug_en)
+         //$fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time); 
             if (sim_time % 2 == 0) begin
                case (next_state)
                     ACT0: begin
@@ -138,7 +130,7 @@ module msd_dimm;
                          if (debug_en)
                          $fwrite(out_file," \n bank_g_s_rem_time=%d,d_time=%d\n",bank_g_s_rem_time,d_time);
                          if (bank_g_s_rem_time<=tRP) begin
-                            wait ((d_time + (tRP- bank_g_s_rem_time)) == sim_time);
+                            wait ((d_time + (tRP- bank_g_s_rem_time -2)) == sim_time);
                          
                             if (op_out == 0 || op_out == 2)  
                                next_state = RD0;                      
@@ -202,12 +194,11 @@ module msd_dimm;
                       onProcess = 0; 
                       done = 1;
                       del_from_master_q;
-                                            if (master_q.size() !=0 && onProcess == 0) begin
                       bank_g_time[bank_g][bank]=sim_time;
                       if (debug_en)
                       $fwrite(out_file," \t bank_g_time[%d][%d]=%d \n",bank_g,bank,bank_g_time[bank_g][bank]);
- 
-                      next_state = ACT0;
+                      if (master_q.size() !=0 && onProcess == 0) begin
+                          next_state = ACT0;
                       end  else
                       next_state = IDLE;
                       $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]); 
@@ -217,7 +208,6 @@ module msd_dimm;
                     IDLE: begin
                       if(onProcess==0) begin
                      if (debug_en)
-
                      $fwrite(out_file," \n -----Entered IDLE state \n");
                      if (master_q.size() !=0 && onProcess == 0) 
                       next_state = ACT0;
@@ -312,5 +302,3 @@ module msd_dimm;
        $fclose(traceFile);
   end              
 endmodule
-
-
