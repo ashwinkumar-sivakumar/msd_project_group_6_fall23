@@ -1,0 +1,17 @@
+from row           0 the value of time =        204 	 core=   2 	 operation=0 	 address=df15ac032 
+from row           1 the value of time =        208 	 core=   6 	 operation=0 	 address=8e15ec017 
+ 
+ -----different bank 
+                 206 	 channel=0 ACT0 bankg=0 bank=0 row =7c56 
+                 208 	 channel=0 ACT1 bankg=0 bank=0 row =7c56 
+                 284 	 channel=0 RD0  bankg=0 bank=0 column=2cc 
+                 286 	 channel=0 RD1  bankg=0 bank=0 column=2cc 
+                 322 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 398 	 channel=0 ACT0 bankg=0 bank=0 row =3857 
+                 400 	 channel=0 ACT1 bankg=0 bank=0 row =3857 
+                 476 	 channel=0 RD0  bankg=0 bank=0 column=2c5 
+                 478 	 channel=0 RD1  bankg=0 bank=0 column=2c5 
+                 514 	 channel=0 PRE  bankg=0 bank=0 
+ 
