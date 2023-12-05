@@ -1,5 +1,4 @@
 module msd_dimm;
- 
   int traceFile,out_file;
   int scan_col_cnt;
   logic[11:0]core;
@@ -9,13 +8,13 @@ module msd_dimm;
   int rowCounter,last_line;
   string ip_file;
   string op_file;
-  int debug_en; 
+  int debug_en;
   longint unsigned q_trace_time[$];               //queue for request time
   int ip_q_oper[$];                               //queue for operation
   logic [35:0] ip_q_addr[$];                      //queue for address
   logic [37:0] master_q[$:15], temp_var,q_out_temp;  //master_q -> [37:36] operation; [35:0] address
   longint unsigned sim_time =1;                   //Simulation time
-  int sim_t;       
+  int sim_t;      
   int q_full,q_empty;
   int violation_flag;
   int bank_g_access_count;
@@ -25,14 +24,16 @@ module msd_dimm;
   int bank_g_time [2:0][1:0];
   int bank_g_s_rem_time;
   int queue_ptr=0;
+  int row_c=0;
+               
+  longint unsigned temp_time;    
                    
-                   
-  int tRP = 2*39; 
+  int tRP = 2*39;
   int tRCD =2*39;  
   int tCL =2*40 ;  
   int tBURST =2*8;
-  int tRTP = 2*18; 
-  int tWR = 2*30; 
+  int tRTP = 2*18;
+  int tWR = 2*30;
   int tCWL = 2*38;
   typedef enum logic[3:0] {IDLE, ACT0, RD0, WR0, ACT1, RD1, WR1, BURST, PRE} states_t;
                    
@@ -44,7 +45,7 @@ module msd_dimm;
   logic [2:0]  bank_g;
   logic [1:0]  op_out;
   logic channel;
-  int d_time;   
+  int d_time;  
   bit done;        
   bit onProcess;
   longint unsigned dimm_counter =0;
@@ -54,26 +55,26 @@ module msd_dimm;
   task insert_to_master_q;
        temp_var = {ip_q_oper.pop_front(), ip_q_addr.pop_front()};
        master_q.push_back(temp_var);
-       if (debug_en)begin 
-          $write(">>>@time:%t Adding new element to the queue.. %h ... at sim_time = %0d --> master_q.size = %0d \n",$time, temp_var, sim_time, master_q.size()); 
+       if (debug_en)begin
+          $write(">>>@time:%t Adding new element to the queue.. %h ... at sim_time = %0d --> master_q.size = %0d \n",$time, temp_var, sim_time, master_q.size());
           display_q;
-       end         
+       end        
   endtask          
                    
   task del_from_master_q;
        if (debug_en)begin
           $write("q_out_temp= %0h \n",q_out_temp);
-       end         
+       end        
        if (done==1) begin
        void' (master_q.pop_front());
-        done=0; 
+        done=0;
        if (debug_en)begin
           $write(">>>@time:%t Removing a queue %h elements from queue..  sim_time = %0d --> master_q.size = %0d\n",$time,q_out_temp, sim_time, master_q.size());
-          display_q; 
-       end         
-       last_line ++; 
+          display_q;
+       end        
+       last_line ++;
                    
-       end         
+       end        
   endtask          
                    
   always@(*) begin
@@ -82,12 +83,13 @@ module msd_dimm;
             wait(sim_t<=sim_time);
             if (debug_en)begin
                $write("inside simulation time ip =%d, sim_time=%d \n",sim_t,sim_time);
-            end 
+            end
             insert_to_master_q;
-         end       
+         end      
                    
          if (master_q.size() == 16) begin
             q_full=1;
+            if(debug_en)
             $fwrite(out_file," \n -----@time %t The queue is full stall cpu request until the queue request are satisfied and removed----- \n",$time);
          end else
             q_full=0;
@@ -95,7 +97,7 @@ module msd_dimm;
             q_empty=1;
             if (debug_en)begin
                $write("the queue is empty \n");
-            end 
+            end
          end else
             q_empty=0;
   end              
@@ -104,17 +106,17 @@ module msd_dimm;
    if ((sim_time % 2 == 0)&&(sim_time!=0)) begin
          dimm_counter++;
          if (debug_en)
-         $fwrite(out_file," \n -----time=%t,@sim_time = %d,dimm_counter=%d \n",$time,sim_time,dimm_counter); 
+         $fwrite(out_file," \n -----time=%t,@sim_time = %d,dimm_counter=%d \n",$time,sim_time,dimm_counter);
   end              
   end                  
   always@(*) begin
          if (debug_en)
-         $fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time); 
+         $fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time);
             if (sim_time % 2 == 0) begin
                case (next_state)
                     ACT0: begin
                       if (debug_en)
-                      $fwrite(out_file," \n -----Entered ACT0 state \n"); 
+                      $fwrite(out_file," \n -----Entered ACT0 state \n");
                       onProcess = 1;
                       q_out_temp=master_q[0];
                       row = q_out_temp[33:18];
@@ -146,18 +148,20 @@ module msd_dimm;
                      end
                      if(uniq_bank[bank_g][bank]==0) begin
                        $fwrite(out_file," \n -----different bank \n");
+                        if(temp_time == sim_time)
+                          wait (sim_time == temp_time+2);
                         if (op_out == 0 || op_out == 2)  
                            next_state = RD0;                      
                         if (op_out ==1)
                            next_state = WR0;
 
                          uniq_bank[bank_g][bank]=1;
-                        
+                       
                      end
                      
-                        $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                 
+                        $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                
                      d_time = sim_time;
-                        #2 $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                       
+                        #2 $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                      
                      
                     end
                      
@@ -170,15 +174,15 @@ module msd_dimm;
                      next_state = PRE;
                      $fwrite(out_file,"%t \t channel=%d RD0  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
                     #2 $fwrite(out_file,"%t \t channel=%d RD1  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
-                    
-                    end 
+                   
+                    end
                     WR0: begin
                      if (debug_en)
                      $fwrite(out_file," \n -----Entered WR0 state \n");
                       onProcess = 1;
                      wait ((d_time+tRCD) == sim_time);
                      d_time = sim_time;
-                     next_state = PRE;         
+                     next_state = PRE;        
                      $fwrite(out_file,"%t \t channel=%d WR0  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
                      #2 $fwrite(out_file,"%t \t channel=%d WR1  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
                      
@@ -187,23 +191,24 @@ module msd_dimm;
                     PRE: begin
                       if (debug_en)
                       $fwrite(out_file," \n -----Entered PRE state \n");
-                      if (op_out == 0 || op_out == 2) 
+                      if (op_out == 0 || op_out == 2)
                       wait ((d_time + tRTP +2) == sim_time);
                       if (op_out == 1)
                       wait((d_time + tCWL + tBURST + tWR +2) == sim_time);
-                      onProcess = 0; 
+                      onProcess = 0;
                       done = 1;
                       del_from_master_q;
                        if ((onProcess == 0)&&(done==0)) begin
-                                    
+                                   
                       bank_g_time[bank_g][bank]=sim_time;
                        if (debug_en)
                       $fwrite(out_file," \t bank_g_time[%d][%d]=%d \n",bank_g,bank,bank_g_time[bank_g][bank]);
-                      if(master_q.size() !=0)
+                      if(master_q.size() !=0 && done==0 && onProcess==0)
                       next_state = ACT0;
                       end  else
                       next_state = IDLE;
-                      $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]); 
+                      $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
+                      temp_time = sim_time;
                       if (debug_en)
                       $fwrite(out_file,"%t \t done=%d \n",$time,done);
                     end
@@ -211,13 +216,13 @@ module msd_dimm;
                       if(onProcess==0) begin
                      if (debug_en)
                      $fwrite(out_file," \n -----Entered IDLE state \n");
-                     if (master_q.size() !=0 && onProcess == 0) 
+                     if (master_q.size() !=0 && onProcess == 0)
                       next_state = ACT0;
-                    end 
+                    end
                     end  
                     default: next_state = IDLE;
-               endcase 
-            end 
+               endcase
+            end
            
   end              
                    
@@ -227,18 +232,18 @@ module msd_dimm;
                $write("value of last_line=%d, rowCounter=%d \n",last_line,rowCounter);
             // Both input queue and memory controller queue are empty
             #4 $finish;
-         end       
+         end      
   end              
                    
   task display_q;
        $write("-----Displaying the values in Queue:\n ");
        for (int i=0; i<master_q.size(); i++)begin
            $write("%h \n", master_q[i]);
-       end         
+       end        
        $write("---------------------------------\n");
   endtask          
                    
-  initial begin 
+  initial begin
        sim_time=0;
        void'($value$plusargs("ip_file=%s", ip_file));
        void'($value$plusargs("op_file=%s", op_file));
@@ -248,37 +253,39 @@ module msd_dimm;
                    
   end              
                    
-  initial begin 
+  initial begin
        if (debug_en)begin
           $display("Reading and displaying values from trace trace files...");
-       end         
+       end        
        // Open the file for reading and writing .
        traceFile = $fopen(ip_file, "r");
        out_file = $fopen(op_file, "w");
        if (traceFile == 0) begin
           if (debug_en)begin
              $display("Trace file not found. Opening the default trace file 'default_trace.txt' ... ");
-          end   
+          end  
           traceFile =$fopen("default_trace.txt","r");
-       end         
+       end        
        if (out_file == 0) begin
-          if (debug_en)begin 
+          if (debug_en)begin
              $display("output file to print not found. Opening the default output file 'default_out.txt'... ");
-          end   
+          end  
           out_file = $fopen("default_output.txt", "w");
-       end         
+       end        
        while (!$feof(traceFile)) begin
              // Initialize the values read counter.
              scan_col_cnt = 0;
              // Read values from the file.
              scan_col_cnt = $fscanf(traceFile, "%d %d %d %h", time_unit, core, operation, address);
+              row_c = row_c + 1;
              if ((address[6]!=0) || (operation >= 3) || (core >= 12)) begin
                 if(debug_en)
+                   $display("Error in trace file row_c=%d",row_c);
                   $display("Error trace file is not proper, Opening default trace file");
                   violation_flag=1;
                   break;
-             end 
-       end         
+             end
+       end        
        $display("value of violation_flag=%d",violation_flag);
        if (violation_flag==1)
           traceFile = $fopen("default_trace.txt","r");
@@ -296,7 +303,7 @@ module msd_dimm;
                 $fwrite(out_file,"from row %d the value of time =%d \t core=%d \t operation=%d \t address=%h \n",rowCounter,time_unit,core,operation,address);
                 rowCounter++;
              end    
-       end         
+       end        
        // Close the file.
        void' (q_trace_time.pop_back());
        void' (ip_q_oper.pop_back());
@@ -304,3 +311,4 @@ module msd_dimm;
        $fclose(traceFile);
   end              
 endmodule
+
