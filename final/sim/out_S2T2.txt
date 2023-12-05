@@ -1,0 +1,25 @@
+from row           0 the value of time =         62 	 core=   2 	 operation=1 	 address=0f557c032 
+from row           1 the value of time =         68 	 core=   0 	 operation=1 	 address=562ffc007 
+from row           2 the value of time =         70 	 core=   1 	 operation=1 	 address=9adfec011 
+ 
+ -----different bank 
+                  64 	 channel=0 ACT0 bankg=0 bank=0 row =3d55 
+                  66 	 channel=0 ACT1 bankg=0 bank=0 row =3d55 
+                 142 	 channel=0 WR0  bankg=0 bank=0 column=3cc 
+                 144 	 channel=0 WR1  bankg=0 bank=0 column=3cc 
+                 296 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 372 	 channel=0 ACT0 bankg=0 bank=0 row =58bf 
+                 374 	 channel=0 ACT1 bankg=0 bank=0 row =58bf 
+                 450 	 channel=0 WR0  bankg=0 bank=0 column=3c1 
+                 452 	 channel=0 WR1  bankg=0 bank=0 column=3c1 
+                 604 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 680 	 channel=0 ACT0 bankg=0 bank=0 row =6b7f 
+                 682 	 channel=0 ACT1 bankg=0 bank=0 row =6b7f 
+                 758 	 channel=0 WR0  bankg=0 bank=0 column=2c4 
+                 760 	 channel=0 WR1  bankg=0 bank=0 column=2c4 
+                 912 	 channel=0 PRE  bankg=0 bank=0 
+ 

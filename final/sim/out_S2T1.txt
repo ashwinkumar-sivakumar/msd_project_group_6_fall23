@@ -1,0 +1,25 @@
+from row           0 the value of time =         32 	 core=   0 	 operation=0 	 address=fe15bc012 
+from row           1 the value of time =         40 	 core=   1 	 operation=0 	 address=ff14ac032 
+from row           2 the value of time =         52 	 core=   4 	 operation=0 	 address=b914ac022 
+ 
+ -----different bank 
+                  34 	 channel=0 ACT0 bankg=0 bank=0 row =f856 
+                  36 	 channel=0 ACT1 bankg=0 bank=0 row =f856 
+                 112 	 channel=0 RD0  bankg=0 bank=0 column=3c4 
+                 114 	 channel=0 RD1  bankg=0 bank=0 column=3c4 
+                 150 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 226 	 channel=0 ACT0 bankg=0 bank=0 row =fc52 
+                 228 	 channel=0 ACT1 bankg=0 bank=0 row =fc52 
+                 304 	 channel=0 RD0  bankg=0 bank=0 column=2cc 
+                 306 	 channel=0 RD1  bankg=0 bank=0 column=2cc 
+                 342 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 418 	 channel=0 ACT0 bankg=0 bank=0 row =e452 
+                 420 	 channel=0 ACT1 bankg=0 bank=0 row =e452 
+                 496 	 channel=0 RD0  bankg=0 bank=0 column=2c8 
+                 498 	 channel=0 RD1  bankg=0 bank=0 column=2c8 
+                 534 	 channel=0 PRE  bankg=0 bank=0 
+ 

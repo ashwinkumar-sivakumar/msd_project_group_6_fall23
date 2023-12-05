@@ -1,0 +1,33 @@
+from row           0 the value of time =        100 	 core=   1 	 operation=0 	 address=df682c00e 
+from row           1 the value of time =        102 	 core=   3 	 operation=0 	 address=001258426 
+from row           2 the value of time =        104 	 core=   2 	 operation=0 	 address=1002f081e 
+from row           3 the value of time =        106 	 core=   5 	 operation=0 	 address=885e34c10 
+ 
+ -----different bank 
+                 102 	 channel=0 ACT0 bankg=0 bank=0 row =7da0 
+                 104 	 channel=0 ACT1 bankg=0 bank=0 row =7da0 
+                 180 	 channel=0 RD0  bankg=0 bank=0 column=2c3 
+                 182 	 channel=0 RD1  bankg=0 bank=0 column=2c3 
+                 218 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----different bank 
+                 220 	 channel=0 ACT0 bankg=0 bank=1 row =0049 
+                 222 	 channel=0 ACT1 bankg=0 bank=1 row =0049 
+                 298 	 channel=0 RD0  bankg=0 bank=1 column=189 
+                 300 	 channel=0 RD1  bankg=0 bank=1 column=189 
+                 336 	 channel=0 PRE  bankg=0 bank=1 
+  
+ -----different bank 
+                 338 	 channel=0 ACT0 bankg=0 bank=2 row =400b 
+                 340 	 channel=0 ACT1 bankg=0 bank=2 row =400b 
+                 416 	 channel=0 RD0  bankg=0 bank=2 column=307 
+                 418 	 channel=0 RD1  bankg=0 bank=2 column=307 
+                 454 	 channel=0 PRE  bankg=0 bank=2 
+  
+ -----different bank 
+                 456 	 channel=0 ACT0 bankg=0 bank=3 row =2178 
+                 458 	 channel=0 ACT1 bankg=0 bank=3 row =2178 
+                 534 	 channel=0 RD0  bankg=0 bank=3 column=344 
+                 536 	 channel=0 RD1  bankg=0 bank=3 column=344 
+                 572 	 channel=0 PRE  bankg=0 bank=3 
+ 

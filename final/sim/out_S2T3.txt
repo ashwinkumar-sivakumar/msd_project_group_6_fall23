@@ -1,0 +1,57 @@
+from row           0 the value of time =         72 	 core=   0 	 operation=0 	 address=fe15bc012 
+from row           1 the value of time =        192 	 core=   6 	 operation=1 	 address=0f557c032 
+from row           2 the value of time =        350 	 core=   0 	 operation=0 	 address=ff14ac032 
+from row           3 the value of time =        480 	 core=   2 	 operation=0 	 address=b914ac022 
+from row           4 the value of time =        980 	 core=   1 	 operation=1 	 address=0f557c032 
+from row           5 the value of time =       1098 	 core=   4 	 operation=0 	 address=b914ac022 
+from row           6 the value of time =       1220 	 core=   1 	 operation=1 	 address=0f557c032 
+ 
+ -----different bank 
+                  74 	 channel=0 ACT0 bankg=0 bank=0 row =f856 
+                  76 	 channel=0 ACT1 bankg=0 bank=0 row =f856 
+                 152 	 channel=0 RD0  bankg=0 bank=0 column=3c4 
+                 154 	 channel=0 RD1  bankg=0 bank=0 column=3c4 
+                 190 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 266 	 channel=0 ACT0 bankg=0 bank=0 row =3d55 
+                 268 	 channel=0 ACT1 bankg=0 bank=0 row =3d55 
+                 344 	 channel=0 WR0  bankg=0 bank=0 column=3cc 
+                 346 	 channel=0 WR1  bankg=0 bank=0 column=3cc 
+                 498 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 574 	 channel=0 ACT0 bankg=0 bank=0 row =fc52 
+                 576 	 channel=0 ACT1 bankg=0 bank=0 row =fc52 
+                 652 	 channel=0 RD0  bankg=0 bank=0 column=2cc 
+                 654 	 channel=0 RD1  bankg=0 bank=0 column=2cc 
+                 690 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 766 	 channel=0 ACT0 bankg=0 bank=0 row =e452 
+                 768 	 channel=0 ACT1 bankg=0 bank=0 row =e452 
+                 844 	 channel=0 RD0  bankg=0 bank=0 column=2c8 
+                 846 	 channel=0 RD1  bankg=0 bank=0 column=2c8 
+                 882 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 982 	 channel=0 ACT0 bankg=0 bank=0 row =3d55 
+                 984 	 channel=0 ACT1 bankg=0 bank=0 row =3d55 
+                1060 	 channel=0 WR0  bankg=0 bank=0 column=3cc 
+                1062 	 channel=0 WR1  bankg=0 bank=0 column=3cc 
+                1214 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1290 	 channel=0 ACT0 bankg=0 bank=0 row =e452 
+                1292 	 channel=0 ACT1 bankg=0 bank=0 row =e452 
+                1368 	 channel=0 RD0  bankg=0 bank=0 column=2c8 
+                1370 	 channel=0 RD1  bankg=0 bank=0 column=2c8 
+                1406 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1482 	 channel=0 ACT0 bankg=0 bank=0 row =3d55 
+                1484 	 channel=0 ACT1 bankg=0 bank=0 row =3d55 
+                1560 	 channel=0 WR0  bankg=0 bank=0 column=3cc 
+                1562 	 channel=0 WR1  bankg=0 bank=0 column=3cc 
+                1714 	 channel=0 PRE  bankg=0 bank=0 
+ 
