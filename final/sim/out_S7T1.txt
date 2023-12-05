@@ -1,0 +1,1839 @@
+from row           0 the value of time =          0 	 core=   0 	 operation=0 	 address=df157c000 
+from row           1 the value of time =          2 	 core=   0 	 operation=0 	 address=df15fc034 
+from row           2 the value of time =          4 	 core=   0 	 operation=0 	 address=df15bc00a 
+from row           3 the value of time =          6 	 core=   0 	 operation=0 	 address=df157c019 
+from row           4 the value of time =          8 	 core=   3 	 operation=0 	 address=df156c000 
+from row           5 the value of time =         12 	 core=   0 	 operation=0 	 address=df15ac002 
+from row           6 the value of time =         16 	 core=   1 	 operation=0 	 address=df15cc032 
+from row           7 the value of time =         20 	 core=   0 	 operation=0 	 address=df15dc00b 
+from row           8 the value of time =         24 	 core=   2 	 operation=0 	 address=df159c03f 
+from row           9 the value of time =         28 	 core=   0 	 operation=0 	 address=df151c018 
+from row          10 the value of time =         32 	 core=   0 	 operation=0 	 address=df150c00e 
+from row          11 the value of time =         36 	 core=   5 	 operation=0 	 address=df156c00e 
+from row          12 the value of time =         40 	 core=   0 	 operation=0 	 address=df15ec00f 
+from row          13 the value of time =         44 	 core=   3 	 operation=0 	 address=df15fc012 
+from row          14 the value of time =         48 	 core=   2 	 operation=0 	 address=df15ec032 
+from row          15 the value of time =         52 	 core=   0 	 operation=0 	 address=df159c016 
+from row          16 the value of time =         56 	 core=   0 	 operation=0 	 address=df153c038 
+from row          17 the value of time =         60 	 core=   6 	 operation=0 	 address=df154c031 
+from row          18 the value of time =         64 	 core=   0 	 operation=0 	 address=df15bc002 
+from row          19 the value of time =         68 	 core=   5 	 operation=0 	 address=df15ec032 
+ 
+ -----different bank 
+                   2 	 channel=0 ACT0 bankg=0 bank=0 row =7c55 
+                   4 	 channel=0 ACT1 bankg=0 bank=0 row =7c55 
+ 
+ -----@time                   52 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   53 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   54 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   55 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   56 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   57 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   58 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   59 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   60 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   61 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   62 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   63 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   64 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   65 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   66 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   67 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   68 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   69 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   70 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   71 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   72 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   73 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   74 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   75 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   76 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   77 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   78 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   79 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   80 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  80 	 channel=0 RD0  bankg=0 bank=0 column=3c0 
+ 
+ -----@time                   81 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  82 	 channel=0 RD1  bankg=0 bank=0 column=3c0 
+ 
+ -----@time                   82 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   83 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   84 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   85 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   86 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   87 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   88 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   89 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   90 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   91 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   92 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   93 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   94 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   95 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   96 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   97 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   98 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   99 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  100 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  101 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  102 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  103 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  104 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  105 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  106 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  107 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  108 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  109 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  110 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  111 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  112 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  113 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  114 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  115 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  116 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  117 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  118 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 118 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----@time                  118 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----same bank 
+ 
+ -----@time                  119 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  120 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  121 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  122 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  123 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  124 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  125 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  126 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  127 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  128 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  129 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  130 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  131 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  132 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  133 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  134 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  135 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  136 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  137 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  138 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  139 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  140 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  141 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  142 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  143 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  144 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  145 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  146 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  147 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  148 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  149 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  150 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  151 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  152 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  153 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  154 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  155 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  156 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  157 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  158 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  159 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  160 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  161 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  162 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  163 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  164 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  165 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  166 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  167 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  168 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  169 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  170 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  171 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  172 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  173 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  174 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  175 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  176 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  177 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  178 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  179 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  180 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  181 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  182 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  183 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  184 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  185 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  186 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  187 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  188 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  189 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  190 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  191 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  192 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  193 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  194 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 194 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+ 
+ -----@time                  195 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 196 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+ 
+ -----@time                  196 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  197 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  198 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  199 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  200 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  201 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  202 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  203 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  204 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  205 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  206 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  207 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  208 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  209 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  210 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  211 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  212 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  213 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  214 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  215 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  216 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  217 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  218 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  219 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  220 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  221 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  222 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  223 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  224 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  225 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  226 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  227 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  228 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  229 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  230 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  231 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  232 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  233 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  234 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  235 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  236 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  237 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  238 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  239 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  240 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  241 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  242 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  243 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  244 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  245 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  246 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  247 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  248 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  249 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  250 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  251 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  252 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  253 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  254 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  255 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  256 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  257 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  258 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  259 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  260 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  261 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  262 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  263 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  264 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  265 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  266 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  267 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  268 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  269 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  270 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  271 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  272 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 272 	 channel=0 RD0  bankg=0 bank=0 column=3cd 
+ 
+ -----@time                  273 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 274 	 channel=0 RD1  bankg=0 bank=0 column=3cd 
+ 
+ -----@time                  274 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  275 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  276 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  277 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  278 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  279 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  280 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  281 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  282 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  283 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  284 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  285 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  286 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  287 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  288 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  289 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  290 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  291 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  292 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  293 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  294 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  295 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  296 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  297 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  298 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  299 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  300 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  301 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  302 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  303 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  304 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  305 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  306 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  307 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  308 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  309 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  310 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 310 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----@time                  310 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----same bank 
+ 
+ -----@time                  311 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  312 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  313 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  314 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  315 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  316 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  317 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  318 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  319 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  320 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  321 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  322 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  323 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  324 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  325 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  326 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  327 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  328 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  329 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  330 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  331 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  332 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  333 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  334 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  335 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  336 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  337 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  338 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  339 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  340 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  341 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  342 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  343 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  344 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  345 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  346 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  347 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  348 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  349 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  350 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  351 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  352 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  353 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  354 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  355 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  356 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  357 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  358 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  359 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  360 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  361 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  362 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  363 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  364 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  365 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  366 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  367 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  368 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  369 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  370 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  371 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  372 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  373 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  374 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  375 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  376 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  377 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  378 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  379 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  380 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  381 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  382 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  383 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  384 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  385 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  386 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 386 	 channel=0 ACT0 bankg=0 bank=0 row =7c56 
+ 
+ -----@time                  387 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 388 	 channel=0 ACT1 bankg=0 bank=0 row =7c56 
+ 
+ -----@time                  388 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  389 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  390 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  391 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  392 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  393 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  394 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  395 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  396 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  397 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  398 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  399 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  400 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  401 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  402 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  403 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  404 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  405 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  406 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  407 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  408 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  409 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  410 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  411 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  412 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  413 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  414 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  415 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  416 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  417 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  418 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  419 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  420 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  421 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  422 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  423 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  424 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  425 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  426 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  427 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  428 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  429 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  430 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  431 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  432 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  433 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  434 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  435 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  436 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  437 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  438 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  439 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  440 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  441 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  442 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  443 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  444 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  445 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  446 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  447 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  448 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  449 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  450 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  451 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  452 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  453 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  454 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  455 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  456 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  457 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  458 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  459 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  460 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  461 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  462 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  463 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  464 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 464 	 channel=0 RD0  bankg=0 bank=0 column=3c2 
+ 
+ -----@time                  465 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 466 	 channel=0 RD1  bankg=0 bank=0 column=3c2 
+ 
+ -----@time                  466 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  467 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  468 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  469 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  470 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  471 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  472 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  473 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  474 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  475 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  476 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  477 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  478 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  479 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  480 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  481 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  482 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  483 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  484 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  485 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  486 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  487 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  488 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  489 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  490 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  491 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  492 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  493 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  494 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  495 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  496 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  497 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  498 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  499 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  500 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  501 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  502 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 502 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----@time                  502 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----same bank 
+ 
+ -----@time                  503 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  504 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  505 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  506 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  507 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  508 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  509 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  510 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  511 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  512 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  513 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  514 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  515 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  516 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  517 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  518 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  519 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  520 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  521 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  522 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  523 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  524 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  525 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  526 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  527 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  528 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  529 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  530 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  531 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  532 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  533 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  534 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  535 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  536 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  537 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  538 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  539 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  540 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  541 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  542 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  543 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  544 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  545 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  546 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  547 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  548 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  549 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  550 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  551 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  552 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  553 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  554 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  555 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  556 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  557 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  558 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  559 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  560 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  561 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  562 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  563 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  564 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  565 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  566 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  567 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  568 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  569 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  570 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  571 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  572 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  573 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  574 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  575 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  576 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  577 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  578 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 578 	 channel=0 ACT0 bankg=0 bank=0 row =7c55 
+ 
+ -----@time                  579 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 580 	 channel=0 ACT1 bankg=0 bank=0 row =7c55 
+ 
+ -----@time                  580 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  581 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  582 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  583 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  584 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  585 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  586 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  587 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  588 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  589 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  590 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  591 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  592 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  593 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  594 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  595 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  596 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  597 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  598 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  599 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  600 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  601 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  602 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  603 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  604 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  605 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  606 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  607 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  608 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  609 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  610 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  611 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  612 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  613 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  614 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  615 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  616 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  617 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  618 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  619 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  620 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  621 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  622 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  623 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  624 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  625 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  626 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  627 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  628 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  629 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  630 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  631 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  632 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  633 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  634 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  635 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  636 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  637 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  638 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  639 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  640 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  641 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  642 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  643 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  644 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  645 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  646 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  647 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  648 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  649 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  650 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  651 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  652 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  653 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  654 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  655 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  656 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 656 	 channel=0 RD0  bankg=0 bank=0 column=3c6 
+ 
+ -----@time                  657 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 658 	 channel=0 RD1  bankg=0 bank=0 column=3c6 
+ 
+ -----@time                  658 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  659 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  660 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  661 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  662 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  663 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  664 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  665 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  666 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  667 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  668 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  669 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  670 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  671 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  672 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  673 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  674 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  675 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  676 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  677 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  678 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  679 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  680 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  681 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  682 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  683 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  684 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  685 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  686 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  687 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  688 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  689 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  690 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  691 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  692 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  693 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  694 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 694 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----@time                  694 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----same bank 
+ 
+ -----@time                  695 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  696 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  697 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  698 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  699 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  700 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  701 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  702 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  703 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  704 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  705 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  706 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  707 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  708 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  709 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  710 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  711 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  712 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  713 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  714 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  715 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  716 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  717 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  718 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  719 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  720 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  721 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  722 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  723 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  724 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  725 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  726 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  727 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  728 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  729 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  730 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  731 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  732 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  733 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  734 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  735 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  736 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  737 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  738 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  739 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  740 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  741 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  742 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  743 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  744 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  745 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  746 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  747 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  748 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  749 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  750 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  751 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  752 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  753 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  754 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  755 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  756 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  757 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  758 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  759 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  760 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  761 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  762 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  763 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  764 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  765 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  766 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  767 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  768 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  769 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  770 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 770 	 channel=0 ACT0 bankg=0 bank=0 row =7c55 
+ 
+ -----@time                  771 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 772 	 channel=0 ACT1 bankg=0 bank=0 row =7c55 
+ 
+ -----@time                  772 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  773 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  774 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  775 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  776 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  777 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  778 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  779 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  780 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  781 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  782 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  783 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  784 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  785 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  786 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  787 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  788 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  789 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  790 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  791 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  792 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  793 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  794 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  795 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  796 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  797 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  798 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  799 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  800 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  801 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  802 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  803 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  804 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  805 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  806 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  807 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  808 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  809 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  810 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  811 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  812 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  813 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  814 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  815 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  816 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  817 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  818 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  819 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  820 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  821 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  822 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  823 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  824 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  825 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  826 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  827 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  828 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  829 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  830 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  831 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  832 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  833 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  834 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  835 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  836 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  837 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  838 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  839 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  840 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  841 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  842 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  843 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  844 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  845 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  846 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  847 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  848 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 848 	 channel=0 RD0  bankg=0 bank=0 column=2c0 
+ 
+ -----@time                  849 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 850 	 channel=0 RD1  bankg=0 bank=0 column=2c0 
+ 
+ -----@time                  850 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  851 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  852 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  853 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  854 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  855 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  856 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  857 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  858 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  859 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  860 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  861 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  862 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  863 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  864 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  865 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  866 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  867 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  868 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  869 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  870 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  871 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  872 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  873 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  874 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  875 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  876 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  877 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  878 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  879 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  880 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  881 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  882 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  883 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  884 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  885 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  886 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 886 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                 962 	 channel=0 ACT0 bankg=0 bank=0 row =7c56 
+                 964 	 channel=0 ACT1 bankg=0 bank=0 row =7c56 
+                1040 	 channel=0 RD0  bankg=0 bank=0 column=2c0 
+                1042 	 channel=0 RD1  bankg=0 bank=0 column=2c0 
+                1078 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1154 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+                1156 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+                1232 	 channel=0 RD0  bankg=0 bank=0 column=0cc 
+                1234 	 channel=0 RD1  bankg=0 bank=0 column=0cc 
+                1270 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1346 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+                1348 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+                1424 	 channel=0 RD0  bankg=0 bank=0 column=1c2 
+                1426 	 channel=0 RD1  bankg=0 bank=0 column=1c2 
+                1462 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1538 	 channel=0 ACT0 bankg=0 bank=0 row =7c56 
+                1540 	 channel=0 ACT1 bankg=0 bank=0 row =7c56 
+                1616 	 channel=0 RD0  bankg=0 bank=0 column=1cf 
+                1618 	 channel=0 RD1  bankg=0 bank=0 column=1cf 
+                1654 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1730 	 channel=0 ACT0 bankg=0 bank=0 row =7c54 
+                1732 	 channel=0 ACT1 bankg=0 bank=0 row =7c54 
+                1808 	 channel=0 RD0  bankg=0 bank=0 column=1c6 
+                1810 	 channel=0 RD1  bankg=0 bank=0 column=1c6 
+                1846 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                1922 	 channel=0 ACT0 bankg=0 bank=0 row =7c54 
+                1924 	 channel=0 ACT1 bankg=0 bank=0 row =7c54 
+                2000 	 channel=0 RD0  bankg=0 bank=0 column=0c3 
+                2002 	 channel=0 RD1  bankg=0 bank=0 column=0c3 
+                2038 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                2114 	 channel=0 ACT0 bankg=0 bank=0 row =7c55 
+                2116 	 channel=0 ACT1 bankg=0 bank=0 row =7c55 
+                2192 	 channel=0 RD0  bankg=0 bank=0 column=2c3 
+                2194 	 channel=0 RD1  bankg=0 bank=0 column=2c3 
+                2230 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                2306 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+                2308 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+                2384 	 channel=0 RD0  bankg=0 bank=0 column=2c3 
+                2386 	 channel=0 RD1  bankg=0 bank=0 column=2c3 
+                2422 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                2498 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+                2500 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+                2576 	 channel=0 RD0  bankg=0 bank=0 column=3c4 
+                2578 	 channel=0 RD1  bankg=0 bank=0 column=3c4 
+                2614 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                2690 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+                2692 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+                2768 	 channel=0 RD0  bankg=0 bank=0 column=2cc 
+                2770 	 channel=0 RD1  bankg=0 bank=0 column=2cc 
+                2806 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                2882 	 channel=0 ACT0 bankg=0 bank=0 row =7c56 
+                2884 	 channel=0 ACT1 bankg=0 bank=0 row =7c56 
+                2960 	 channel=0 RD0  bankg=0 bank=0 column=1c5 
+                2962 	 channel=0 RD1  bankg=0 bank=0 column=1c5 
+                2998 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                3074 	 channel=0 ACT0 bankg=0 bank=0 row =7c54 
+                3076 	 channel=0 ACT1 bankg=0 bank=0 row =7c54 
+                3152 	 channel=0 RD0  bankg=0 bank=0 column=3ce 
+                3154 	 channel=0 RD1  bankg=0 bank=0 column=3ce 
+                3190 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                3266 	 channel=0 ACT0 bankg=0 bank=0 row =7c55 
+                3268 	 channel=0 ACT1 bankg=0 bank=0 row =7c55 
+                3344 	 channel=0 RD0  bankg=0 bank=0 column=0cc 
+                3346 	 channel=0 RD1  bankg=0 bank=0 column=0cc 
+                3382 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                3458 	 channel=0 ACT0 bankg=0 bank=0 row =7c56 
+                3460 	 channel=0 ACT1 bankg=0 bank=0 row =7c56 
+                3536 	 channel=0 RD0  bankg=0 bank=0 column=3c0 
+                3538 	 channel=0 RD1  bankg=0 bank=0 column=3c0 
+                3574 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----same bank 
+                3650 	 channel=0 ACT0 bankg=0 bank=0 row =7c57 
+                3652 	 channel=0 ACT1 bankg=0 bank=0 row =7c57 
+                3728 	 channel=0 RD0  bankg=0 bank=0 column=2cc 
+                3730 	 channel=0 RD1  bankg=0 bank=0 column=2cc 
+                3766 	 channel=0 PRE  bankg=0 bank=0 
+ 
