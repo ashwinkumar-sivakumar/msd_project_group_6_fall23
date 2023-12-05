@@ -311,4 +311,3 @@ module msd_dimm;
        $fclose(traceFile);
   end              
 endmodule
-
