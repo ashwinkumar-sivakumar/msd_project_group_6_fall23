@@ -1,0 +1,9 @@
+from row           0 the value of time =          0 	 core=   4 	 operation=0 	 address=fe15bc012 
+ 
+ -----different bank 
+                   2 	 channel=0 ACT0 bankg=0 bank=0 row =f856 
+                   4 	 channel=0 ACT1 bankg=0 bank=0 row =f856 
+                  80 	 channel=0 RD0  bankg=0 bank=0 column=3c4 
+                  82 	 channel=0 RD1  bankg=0 bank=0 column=3c4 
+                 118 	 channel=0 PRE  bankg=0 bank=0 
+ 
