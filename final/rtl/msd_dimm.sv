@@ -21,7 +21,6 @@ module msd_dimm;
   bit  uniq_bank [7:0][3:0];
   int bank_g_time [7:0][3:0];
   int bank_g_s_rem_time;
-  int act_rc_rem_time;
   int queue_ptr=0;
   int row_c=0;
   longint unsigned temp_time;   
@@ -35,7 +34,7 @@ module msd_dimm;
   bit done;        
   bit onProcess;
   longint unsigned dimm_counter =0; 
-  // **Timming Constraints****                 
+  // *******Timming Constraints***********                 
   int tRP = 2*39;
   int tRCD =2*39;  
   int tCL =2*40 ;  
@@ -44,7 +43,7 @@ module msd_dimm;
   int tWR = 2*30;
   int tCWL = 2*38;
   int tRC = 2*115;
-  // ************
+  // ************************************
   typedef enum logic[3:0] {IDLE, ACT0, RD0, WR0, ACT1, RD1, WR1, BURST, PRE} states_t;
                    
   states_t cur_state,next_state;
@@ -130,7 +129,7 @@ module msd_dimm;
                            $fwrite(out_file," \n bank_g_s_rem_time=%d,d_time=%d\n",bank_g_s_rem_time,d_time);
                         if (bank_g_s_rem_time<=tRP) begin
                            wait ((d_time + (tRP- bank_g_s_rem_time -2)) == sim_time);
-                           if (op_out == 0 || op_out == 2)  
+                           if (op_out == 0 || op_out == 2) //mem controller point of view instruction fetch is also Read. 
                               next_state = RD0;                      
                            if (op_out ==1)
                               next_state = WR0;
@@ -268,9 +267,10 @@ module msd_dimm;
              // Read values from the file.
              scan_col_cnt = $fscanf(traceFile, "%d %d %d %h", time_unit, core, operation, address);
              row_c = row_c + 1;
+             //if ((address[6]!=0) || address[35] ==1 || address[34] == 1 || (operation >= 3) || (core >= 12)) begin
              if ((address[6]!=0) || (operation >= 3) || (core >= 12)) begin
                 if (debug_en)
-                   $display("Error in trace file row_c=%d",row_c);
+                   $display("Error in trace file row_c=%d, address[6]=%d,address[35]=%d,address[34]=%d,operation=%d,core=%d",row_c,address[6],address[35],address[34],operation,core);
              $display("Error trace file is not proper, Opening default trace file");
              violation_flag=1;
              break;
@@ -289,8 +289,8 @@ module msd_dimm;
              ip_q_addr.push_back(address);
              if (scan_col_cnt == 4) begin
                 if (debug_en) begin
-                   $display ( "from row %d the value of time =%d  core=%d operation=%d address=%h",rowCounter,time_unit,core,operation,address);
-                   $fwrite(out_file,"from row %d the value of time =%d \t core=%d \t operation=%d \t address=%h \n",rowCounter,time_unit,core,operation,address);
+                   $display ("from row %d the value of time =%d \t core=%d \t operation=%d  \t bankg=%d \t bank=%d \t address=%h \n",rowCounter,time_unit,core,operation,address[9:7],address[11:10],address);
+                   $fwrite(out_file,"from row %d the value of time =%d \t core=%d \t operation=%d  \t bankg=%d \t bank=%d \t address=%h \n",rowCounter,time_unit,core,operation,address[9:7],address[11:10],address);
                 end
                 rowCounter++;
              end    
