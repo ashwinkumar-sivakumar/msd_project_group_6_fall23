@@ -1,0 +1,746 @@
+from row           0 the value of time =          0 	 core=   0 	 operation=0 	 address=000000000 
+from row           1 the value of time =          1 	 core=   1 	 operation=1 	 address=00007f00f 
+from row           2 the value of time =          2 	 core=   2 	 operation=2 	 address=00008100a 
+from row           3 the value of time =          3 	 core=   3 	 operation=0 	 address=0000c2db5 
+from row           4 the value of time =          4 	 core=   4 	 operation=1 	 address=000104230 
+from row           5 the value of time =          5 	 core=   5 	 operation=2 	 address=0001486af 
+from row           6 the value of time =          6 	 core=   6 	 operation=0 	 address=000190b2a 
+from row           7 the value of time =          7 	 core=   7 	 operation=1 	 address=0001e0fa5 
+from row           8 the value of time =          8 	 core=   8 	 operation=2 	 address=000210020 
+from row           9 the value of time =          9 	 core=   9 	 operation=0 	 address=00024849f 
+from row          10 the value of time =         10 	 core=  10 	 operation=1 	 address=00028491a 
+from row          11 the value of time =         11 	 core=  11 	 operation=2 	 address=0002c2d95 
+from row          12 the value of time =         12 	 core=   0 	 operation=0 	 address=000301210 
+from row          13 the value of time =         13 	 core=   1 	 operation=1 	 address=00034068f 
+from row          14 the value of time =         14 	 core=   2 	 operation=2 	 address=000381b0a 
+from row          15 the value of time =         15 	 core=   3 	 operation=0 	 address=0003c2f85 
+from row          16 the value of time =         16 	 core=   4 	 operation=1 	 address=000404000 
+from row          17 the value of time =         17 	 core=   5 	 operation=2 	 address=0004484bf 
+from row          18 the value of time =         18 	 core=   6 	 operation=0 	 address=00049093a 
+from row          19 the value of time =         19 	 core=   7 	 operation=1 	 address=0004e0db5 
+from row          20 the value of time =         20 	 core=   8 	 operation=2 	 address=000510230 
+from row          21 the value of time =         21 	 core=   9 	 operation=0 	 address=0005486af 
+from row          22 the value of time =         22 	 core=  10 	 operation=1 	 address=000584b2a 
+from row          23 the value of time =         23 	 core=  11 	 operation=2 	 address=0005c2fa5 
+from row          24 the value of time =         24 	 core=   0 	 operation=0 	 address=000601020 
+from row          25 the value of time =         25 	 core=   1 	 operation=1 	 address=00064049f 
+from row          26 the value of time =         26 	 core=   2 	 operation=2 	 address=00068191a 
+from row          27 the value of time =         27 	 core=   3 	 operation=0 	 address=0006c2d95 
+from row          28 the value of time =         28 	 core=   4 	 operation=1 	 address=000704210 
+from row          29 the value of time =         29 	 core=   5 	 operation=2 	 address=00074868f 
+from row          30 the value of time =         30 	 core=   6 	 operation=0 	 address=000790b0a 
+from row          31 the value of time =         31 	 core=   7 	 operation=1 	 address=0007e0f85 
+from row          32 the value of time =         32 	 core=   8 	 operation=2 	 address=3fffc0000 
+from row          33 the value of time =       1000 	 core=   0 	 operation=0 	 address=000000000 
+from row          34 the value of time =       1001 	 core=  11 	 operation=1 	 address=3fffc1485 
+ 
+ -----time=                   0,@sim_time =                    0 
+ 
+ -----time=                   0,@sim_time =                    0 
+ 
+ -----Entered IDLE state 
+ 
+ -----time=                   1,@sim_time =                    1 
+ 
+ -----time=                   1,@sim_time =                    1 
+ 
+ -----time=                   2,@sim_time =                    2 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                   2 	 channel=0 ACT0 bankg=0 bank=0 row =0000 
+                   4 	 channel=0 ACT1 bankg=0 bank=0 row =0000 
+ 
+ -----time=                   4,@sim_time =                    4 
+ 
+ -----Entered RD0 state 
+                  80 	 channel=0 RD0  bankg=0 bank=0 column=000 
+                  82 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----time=                  82,@sim_time =                   82 
+ 
+ -----Entered PRE state 
+                 118 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                 118,@sim_time =                  118 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                 194 	 channel=0 ACT0 bankg=0 bank=0 row =0001 
+                 196 	 channel=0 ACT1 bankg=0 bank=0 row =0001 
+ 
+ -----time=                 196,@sim_time =                  196 
+ 
+ -----Entered WR0 state 
+                 272 	 channel=0 WR0  bankg=0 bank=0 column=3f3 
+                 274 	 channel=0 WR1  bankg=0 bank=0 column=3f3 
+ 
+ -----time=                 274,@sim_time =                  274 
+ 
+ -----Entered PRE state 
+                 426 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                 426,@sim_time =                  426 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                 502 	 channel=0 ACT0 bankg=0 bank=0 row =0002 
+                 504 	 channel=0 ACT1 bankg=0 bank=0 row =0002 
+ 
+ -----time=                 504,@sim_time =                  504 
+ 
+ -----Entered RD0 state 
+                 580 	 channel=0 RD0  bankg=0 bank=0 column=012 
+                 582 	 channel=0 RD1  bankg=0 bank=0 column=012 
+ 
+ -----time=                 582,@sim_time =                  582 
+ 
+ -----Entered PRE state 
+                 618 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                 618,@sim_time =                  618 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 620 	 channel=0 ACT0 bankg=3 bank=3 row =0003 
+                 622 	 channel=0 ACT1 bankg=3 bank=3 row =0003 
+ 
+ -----time=                 622,@sim_time =                  622 
+ 
+ -----Entered RD0 state 
+                 698 	 channel=0 RD0  bankg=3 bank=3 column=02d 
+                 700 	 channel=0 RD1  bankg=3 bank=3 column=02d 
+ 
+ -----time=                 700,@sim_time =                  700 
+ 
+ -----Entered PRE state 
+                 736 	 channel=0 PRE  bankg=3 bank=3 
+  
+ -----time=                 736,@sim_time =                  736 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 738 	 channel=0 ACT0 bankg=4 bank=0 row =0004 
+                 740 	 channel=0 ACT1 bankg=4 bank=0 row =0004 
+ 
+ -----time=                 740,@sim_time =                  740 
+ 
+ -----Entered WR0 state 
+                 816 	 channel=0 WR0  bankg=4 bank=0 column=04c 
+                 818 	 channel=0 WR1  bankg=4 bank=0 column=04c 
+ 
+ -----time=                 818,@sim_time =                  818 
+ 
+ -----Entered PRE state 
+                 970 	 channel=0 PRE  bankg=4 bank=0 
+  
+ -----time=                 970,@sim_time =                  970 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 972 	 channel=0 ACT0 bankg=5 bank=1 row =0005 
+                 974 	 channel=0 ACT1 bankg=5 bank=1 row =0005 
+ 
+ -----time=                 974,@sim_time =                  974 
+ 
+ -----Entered RD0 state 
+                1050 	 channel=0 RD0  bankg=5 bank=1 column=08b 
+                1052 	 channel=0 RD1  bankg=5 bank=1 column=08b 
+ 
+ -----time=                1052,@sim_time =                 1052 
+ 
+ -----Entered PRE state 
+                1088 	 channel=0 PRE  bankg=5 bank=1 
+  
+ -----time=                1088,@sim_time =                 1088 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1090 	 channel=0 ACT0 bankg=6 bank=2 row =0006 
+                1092 	 channel=0 ACT1 bankg=6 bank=2 row =0006 
+ 
+ -----time=                1092,@sim_time =                 1092 
+ 
+ -----Entered RD0 state 
+                1168 	 channel=0 RD0  bankg=6 bank=2 column=10a 
+                1170 	 channel=0 RD1  bankg=6 bank=2 column=10a 
+ 
+ -----time=                1170,@sim_time =                 1170 
+ 
+ -----Entered PRE state 
+                1206 	 channel=0 PRE  bankg=6 bank=2 
+  
+ -----time=                1206,@sim_time =                 1206 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1208 	 channel=0 ACT0 bankg=7 bank=3 row =0007 
+                1210 	 channel=0 ACT1 bankg=7 bank=3 row =0007 
+ 
+ -----time=                1210,@sim_time =                 1210 
+ 
+ -----Entered WR0 state 
+                1286 	 channel=0 WR0  bankg=7 bank=3 column=209 
+                1288 	 channel=0 WR1  bankg=7 bank=3 column=209 
+ 
+ -----time=                1288,@sim_time =                 1288 
+ 
+ -----Entered PRE state 
+                1440 	 channel=0 PRE  bankg=7 bank=3 
+  
+ -----time=                1440,@sim_time =                 1440 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                1442 	 channel=0 ACT0 bankg=0 bank=0 row =0008 
+                1444 	 channel=0 ACT1 bankg=0 bank=0 row =0008 
+ 
+ -----time=                1444,@sim_time =                 1444 
+ 
+ -----Entered RD0 state 
+                1520 	 channel=0 RD0  bankg=0 bank=0 column=108 
+                1522 	 channel=0 RD1  bankg=0 bank=0 column=108 
+ 
+ -----time=                1522,@sim_time =                 1522 
+ 
+ -----Entered PRE state 
+                1558 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                1558,@sim_time =                 1558 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1560 	 channel=0 ACT0 bankg=1 bank=1 row =0009 
+                1562 	 channel=0 ACT1 bankg=1 bank=1 row =0009 
+ 
+ -----time=                1562,@sim_time =                 1562 
+ 
+ -----Entered RD0 state 
+                1638 	 channel=0 RD0  bankg=1 bank=1 column=087 
+                1640 	 channel=0 RD1  bankg=1 bank=1 column=087 
+ 
+ -----time=                1640,@sim_time =                 1640 
+ 
+ -----Entered PRE state 
+                1676 	 channel=0 PRE  bankg=1 bank=1 
+  
+ -----time=                1676,@sim_time =                 1676 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1678 	 channel=0 ACT0 bankg=2 bank=2 row =000a 
+                1680 	 channel=0 ACT1 bankg=2 bank=2 row =000a 
+ 
+ -----time=                1680,@sim_time =                 1680 
+ 
+ -----Entered WR0 state 
+                1756 	 channel=0 WR0  bankg=2 bank=2 column=046 
+                1758 	 channel=0 WR1  bankg=2 bank=2 column=046 
+ 
+ -----time=                1758,@sim_time =                 1758 
+ 
+ -----Entered PRE state 
+                1910 	 channel=0 PRE  bankg=2 bank=2 
+  
+ -----time=                1910,@sim_time =                 1910 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1912 	 channel=0 ACT0 bankg=3 bank=3 row =000b 
+                1914 	 channel=0 ACT1 bankg=3 bank=3 row =000b 
+ 
+ -----time=                1914,@sim_time =                 1914 
+ 
+ -----Entered RD0 state 
+                1990 	 channel=0 RD0  bankg=3 bank=3 column=025 
+                1992 	 channel=0 RD1  bankg=3 bank=3 column=025 
+ 
+ -----time=                1992,@sim_time =                 1992 
+ 
+ -----Entered PRE state 
+                2028 	 channel=0 PRE  bankg=3 bank=3 
+  
+ -----time=                2028,@sim_time =                 2028 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2030 	 channel=0 ACT0 bankg=4 bank=0 row =000c 
+                2032 	 channel=0 ACT1 bankg=4 bank=0 row =000c 
+ 
+ -----time=                2032,@sim_time =                 2032 
+ 
+ -----Entered RD0 state 
+                2108 	 channel=0 RD0  bankg=4 bank=0 column=014 
+                2110 	 channel=0 RD1  bankg=4 bank=0 column=014 
+ 
+ -----time=                2110,@sim_time =                 2110 
+ 
+ -----Entered PRE state 
+                2146 	 channel=0 PRE  bankg=4 bank=0 
+  
+ -----time=                2146,@sim_time =                 2146 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2148 	 channel=0 ACT0 bankg=5 bank=1 row =000d 
+                2150 	 channel=0 ACT1 bankg=5 bank=1 row =000d 
+ 
+ -----time=                2150,@sim_time =                 2150 
+ 
+ -----Entered WR0 state 
+                2226 	 channel=0 WR0  bankg=5 bank=1 column=003 
+                2228 	 channel=0 WR1  bankg=5 bank=1 column=003 
+ 
+ -----time=                2228,@sim_time =                 2228 
+ 
+ -----Entered PRE state 
+                2380 	 channel=0 PRE  bankg=5 bank=1 
+  
+ -----time=                2380,@sim_time =                 2380 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2382 	 channel=0 ACT0 bankg=6 bank=2 row =000e 
+                2384 	 channel=0 ACT1 bankg=6 bank=2 row =000e 
+ 
+ -----time=                2384,@sim_time =                 2384 
+ 
+ -----Entered RD0 state 
+                2460 	 channel=0 RD0  bankg=6 bank=2 column=012 
+                2462 	 channel=0 RD1  bankg=6 bank=2 column=012 
+ 
+ -----time=                2462,@sim_time =                 2462 
+ 
+ -----Entered PRE state 
+                2498 	 channel=0 PRE  bankg=6 bank=2 
+  
+ -----time=                2498,@sim_time =                 2498 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2500 	 channel=0 ACT0 bankg=7 bank=3 row =000f 
+                2502 	 channel=0 ACT1 bankg=7 bank=3 row =000f 
+ 
+ -----time=                2502,@sim_time =                 2502 
+ 
+ -----Entered RD0 state 
+                2578 	 channel=0 RD0  bankg=7 bank=3 column=021 
+                2580 	 channel=0 RD1  bankg=7 bank=3 column=021 
+ 
+ -----time=                2580,@sim_time =                 2580 
+ 
+ -----Entered PRE state 
+                2616 	 channel=0 PRE  bankg=7 bank=3 
+  
+ -----time=                2616,@sim_time =                 2616 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                2618 	 channel=0 ACT0 bankg=0 bank=0 row =0010 
+                2620 	 channel=0 ACT1 bankg=0 bank=0 row =0010 
+ 
+ -----time=                2620,@sim_time =                 2620 
+ 
+ -----Entered WR0 state 
+                2696 	 channel=0 WR0  bankg=0 bank=0 column=040 
+                2698 	 channel=0 WR1  bankg=0 bank=0 column=040 
+ 
+ -----time=                2698,@sim_time =                 2698 
+ 
+ -----Entered PRE state 
+                2850 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                2850,@sim_time =                 2850 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                2852 	 channel=0 ACT0 bankg=1 bank=1 row =0011 
+                2854 	 channel=0 ACT1 bankg=1 bank=1 row =0011 
+ 
+ -----time=                2854,@sim_time =                 2854 
+ 
+ -----Entered RD0 state 
+                2930 	 channel=0 RD0  bankg=1 bank=1 column=08f 
+                2932 	 channel=0 RD1  bankg=1 bank=1 column=08f 
+ 
+ -----time=                2932,@sim_time =                 2932 
+ 
+ -----Entered PRE state 
+                2968 	 channel=0 PRE  bankg=1 bank=1 
+  
+ -----time=                2968,@sim_time =                 2968 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2970 	 channel=0 ACT0 bankg=2 bank=2 row =0012 
+                2972 	 channel=0 ACT1 bankg=2 bank=2 row =0012 
+ 
+ -----time=                2972,@sim_time =                 2972 
+ 
+ -----Entered RD0 state 
+                3048 	 channel=0 RD0  bankg=2 bank=2 column=10e 
+                3050 	 channel=0 RD1  bankg=2 bank=2 column=10e 
+ 
+ -----time=                3050,@sim_time =                 3050 
+ 
+ -----Entered PRE state 
+                3086 	 channel=0 PRE  bankg=2 bank=2 
+  
+ -----time=                3086,@sim_time =                 3086 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                3088 	 channel=0 ACT0 bankg=3 bank=3 row =0013 
+                3090 	 channel=0 ACT1 bankg=3 bank=3 row =0013 
+ 
+ -----time=                3090,@sim_time =                 3090 
+ 
+ -----Entered WR0 state 
+                3166 	 channel=0 WR0  bankg=3 bank=3 column=20d 
+                3168 	 channel=0 WR1  bankg=3 bank=3 column=20d 
+ 
+ -----time=                3168,@sim_time =                 3168 
+ 
+ -----Entered PRE state 
+                3320 	 channel=0 PRE  bankg=3 bank=3 
+  
+ -----time=                3321,@sim_time =                 3321 
+ 
+ -----time=                3322,@sim_time =                 3322 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                3322 	 channel=0 ACT0 bankg=4 bank=0 row =0014 
+                3324 	 channel=0 ACT1 bankg=4 bank=0 row =0014 
+ 
+ -----time=                3324,@sim_time =                 3324 
+ 
+ -----Entered RD0 state 
+                3400 	 channel=0 RD0  bankg=4 bank=0 column=10c 
+                3402 	 channel=0 RD1  bankg=4 bank=0 column=10c 
+ 
+ -----time=                3402,@sim_time =                 3402 
+ 
+ -----Entered PRE state 
+                3438 	 channel=0 PRE  bankg=4 bank=0 
+  
+ -----time=                3439,@sim_time =                 3439 
+ 
+ -----time=                3440,@sim_time =                 3440 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                3440 	 channel=0 ACT0 bankg=5 bank=1 row =0015 
+                3442 	 channel=0 ACT1 bankg=5 bank=1 row =0015 
+ 
+ -----time=                3442,@sim_time =                 3442 
+ 
+ -----Entered RD0 state 
+                3518 	 channel=0 RD0  bankg=5 bank=1 column=08b 
+                3520 	 channel=0 RD1  bankg=5 bank=1 column=08b 
+ 
+ -----time=                3520,@sim_time =                 3520 
+ 
+ -----Entered PRE state 
+                3556 	 channel=0 PRE  bankg=5 bank=1 
+  
+ -----time=                3557,@sim_time =                 3557 
+ 
+ -----time=                3558,@sim_time =                 3558 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                3558 	 channel=0 ACT0 bankg=6 bank=2 row =0016 
+                3560 	 channel=0 ACT1 bankg=6 bank=2 row =0016 
+ 
+ -----time=                3560,@sim_time =                 3560 
+ 
+ -----Entered WR0 state 
+                3636 	 channel=0 WR0  bankg=6 bank=2 column=04a 
+                3638 	 channel=0 WR1  bankg=6 bank=2 column=04a 
+ 
+ -----time=                3638,@sim_time =                 3638 
+ 
+ -----Entered PRE state 
+                3790 	 channel=0 PRE  bankg=6 bank=2 
+  
+ -----time=                3791,@sim_time =                 3791 
+ 
+ -----time=                3792,@sim_time =                 3792 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                3792 	 channel=0 ACT0 bankg=7 bank=3 row =0017 
+                3794 	 channel=0 ACT1 bankg=7 bank=3 row =0017 
+ 
+ -----time=                3794,@sim_time =                 3794 
+ 
+ -----Entered RD0 state 
+                3870 	 channel=0 RD0  bankg=7 bank=3 column=029 
+                3872 	 channel=0 RD1  bankg=7 bank=3 column=029 
+ 
+ -----time=                3872,@sim_time =                 3872 
+ 
+ -----Entered PRE state 
+                3908 	 channel=0 PRE  bankg=7 bank=3 
+  
+ -----time=                3909,@sim_time =                 3909 
+ 
+ -----time=                3910,@sim_time =                 3910 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                3910 	 channel=0 ACT0 bankg=0 bank=0 row =0018 
+                3912 	 channel=0 ACT1 bankg=0 bank=0 row =0018 
+ 
+ -----time=                3912,@sim_time =                 3912 
+ 
+ -----Entered RD0 state 
+                3988 	 channel=0 RD0  bankg=0 bank=0 column=018 
+                3990 	 channel=0 RD1  bankg=0 bank=0 column=018 
+ 
+ -----time=                3990,@sim_time =                 3990 
+ 
+ -----Entered PRE state 
+                4026 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                4027,@sim_time =                 4027 
+ 
+ -----time=                4028,@sim_time =                 4028 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                4028 	 channel=0 ACT0 bankg=1 bank=1 row =0019 
+                4030 	 channel=0 ACT1 bankg=1 bank=1 row =0019 
+ 
+ -----time=                4030,@sim_time =                 4030 
+ 
+ -----Entered WR0 state 
+                4106 	 channel=0 WR0  bankg=1 bank=1 column=007 
+                4108 	 channel=0 WR1  bankg=1 bank=1 column=007 
+ 
+ -----time=                4108,@sim_time =                 4108 
+ 
+ -----Entered PRE state 
+                4260 	 channel=0 PRE  bankg=1 bank=1 
+  
+ -----time=                4261,@sim_time =                 4261 
+ 
+ -----time=                4262,@sim_time =                 4262 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                4262 	 channel=0 ACT0 bankg=2 bank=2 row =001a 
+                4264 	 channel=0 ACT1 bankg=2 bank=2 row =001a 
+ 
+ -----time=                4264,@sim_time =                 4264 
+ 
+ -----Entered RD0 state 
+                4340 	 channel=0 RD0  bankg=2 bank=2 column=016 
+                4342 	 channel=0 RD1  bankg=2 bank=2 column=016 
+ 
+ -----time=                4342,@sim_time =                 4342 
+ 
+ -----Entered PRE state 
+                4378 	 channel=0 PRE  bankg=2 bank=2 
+  
+ -----time=                4379,@sim_time =                 4379 
+ 
+ -----time=                4380,@sim_time =                 4380 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                4380 	 channel=0 ACT0 bankg=3 bank=3 row =001b 
+                4382 	 channel=0 ACT1 bankg=3 bank=3 row =001b 
+ 
+ -----time=                4382,@sim_time =                 4382 
+ 
+ -----Entered RD0 state 
+                4458 	 channel=0 RD0  bankg=3 bank=3 column=025 
+                4460 	 channel=0 RD1  bankg=3 bank=3 column=025 
+ 
+ -----time=                4460,@sim_time =                 4460 
+ 
+ -----Entered PRE state 
+                4496 	 channel=0 PRE  bankg=3 bank=3 
+  
+ -----time=                4497,@sim_time =                 4497 
+ 
+ -----time=                4498,@sim_time =                 4498 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                4498 	 channel=0 ACT0 bankg=4 bank=0 row =001c 
+                4500 	 channel=0 ACT1 bankg=4 bank=0 row =001c 
+ 
+ -----time=                4500,@sim_time =                 4500 
+ 
+ -----Entered WR0 state 
+                4576 	 channel=0 WR0  bankg=4 bank=0 column=044 
+                4578 	 channel=0 WR1  bankg=4 bank=0 column=044 
+ 
+ -----time=                4578,@sim_time =                 4578 
+ 
+ -----Entered PRE state 
+                4730 	 channel=0 PRE  bankg=4 bank=0 
+  
+ -----time=                4731,@sim_time =                 4731 
+ 
+ -----time=                4732,@sim_time =                 4732 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                4732 	 channel=0 ACT0 bankg=5 bank=1 row =001d 
+                4734 	 channel=0 ACT1 bankg=5 bank=1 row =001d 
+ 
+ -----time=                4734,@sim_time =                 4734 
+ 
+ -----Entered RD0 state 
+                4810 	 channel=0 RD0  bankg=5 bank=1 column=083 
+                4812 	 channel=0 RD1  bankg=5 bank=1 column=083 
+ 
+ -----time=                4812,@sim_time =                 4812 
+ 
+ -----Entered PRE state 
+                4848 	 channel=0 PRE  bankg=5 bank=1 
+  
+ -----time=                4849,@sim_time =                 4849 
+ 
+ -----time=                4850,@sim_time =                 4850 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                4850 	 channel=0 ACT0 bankg=6 bank=2 row =001e 
+                4852 	 channel=0 ACT1 bankg=6 bank=2 row =001e 
+ 
+ -----time=                4852,@sim_time =                 4852 
+ 
+ -----Entered RD0 state 
+                4928 	 channel=0 RD0  bankg=6 bank=2 column=102 
+                4930 	 channel=0 RD1  bankg=6 bank=2 column=102 
+ 
+ -----time=                4930,@sim_time =                 4930 
+ 
+ -----Entered PRE state 
+                4966 	 channel=0 PRE  bankg=6 bank=2 
+  
+ -----time=                4967,@sim_time =                 4967 
+ 
+ -----time=                4968,@sim_time =                 4968 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                4968 	 channel=0 ACT0 bankg=7 bank=3 row =001f 
+                4970 	 channel=0 ACT1 bankg=7 bank=3 row =001f 
+ 
+ -----time=                4970,@sim_time =                 4970 
+ 
+ -----Entered WR0 state 
+                5046 	 channel=0 WR0  bankg=7 bank=3 column=201 
+                5048 	 channel=0 WR1  bankg=7 bank=3 column=201 
+ 
+ -----time=                5048,@sim_time =                 5048 
+ 
+ -----Entered PRE state 
+                5200 	 channel=0 PRE  bankg=7 bank=3 
+  
+ -----time=                5201,@sim_time =                 5201 
+ 
+ -----time=                5202,@sim_time =                 5202 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                5202 	 channel=0 ACT0 bankg=0 bank=0 row =ffff 
+                5204 	 channel=0 ACT1 bankg=0 bank=0 row =ffff 
+ 
+ -----time=                5204,@sim_time =                 5204 
+ 
+ -----Entered RD0 state 
+                5280 	 channel=0 RD0  bankg=0 bank=0 column=000 
+                5282 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----time=                5282,@sim_time =                 5282 
+ 
+ -----Entered PRE state 
+                5318 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                5319,@sim_time =                 5319 
+ 
+ -----time=                5320,@sim_time =                 5320 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                5394 	 channel=0 ACT0 bankg=0 bank=0 row =0000 
+                5396 	 channel=0 ACT1 bankg=0 bank=0 row =0000 
+ 
+ -----time=                5396,@sim_time =                 5396 
+ 
+ -----Entered RD0 state 
+                5472 	 channel=0 RD0  bankg=0 bank=0 column=000 
+                5474 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----time=                5474,@sim_time =                 5474 
+ 
+ -----Entered PRE state 
+                5510 	 channel=0 PRE  bankg=0 bank=0 
+  
+ -----time=                5511,@sim_time =                 5511 
+ 
+ -----time=                5512,@sim_time =                 5512 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+                5512 	 channel=0 ACT0 bankg=1 bank=1 row =ffff 
+                5514 	 channel=0 ACT1 bankg=1 bank=1 row =ffff 
+ 
+ -----time=                5514,@sim_time =                 5514 
+ 
+ -----Entered WR0 state 
+                5590 	 channel=0 WR0  bankg=1 bank=1 column=011 
+                5592 	 channel=0 WR1  bankg=1 bank=1 column=011 
+ 
+ -----time=                5592,@sim_time =                 5592 
+ 
+ -----Entered PRE state 
+                5744 	 channel=0 PRE  bankg=1 bank=1 
+  
+ -----time=                5745,@sim_time =                 5745 
+ 
+ -----time=                5746,@sim_time =                 5746 
+ 
+ -----Entered PRE state 
