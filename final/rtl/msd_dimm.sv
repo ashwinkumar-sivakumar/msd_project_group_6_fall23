@@ -9,6 +9,7 @@ module msd_dimm;
   string ip_file;
   string op_file;
   int debug_en;
+  bit cl;
   longint unsigned q_trace_time[$];               //queue for request time
   int ip_q_oper[$];                               //queue for operation
   logic [35:0] ip_q_addr[$];                      //queue for address
@@ -22,7 +23,9 @@ module msd_dimm;
   bit [1:0]bank_array[1:0];
   bit [2:0][1:0] uniq_bank;
   int bank_g_time [2:0][1:0];
+  int act_rc_time [2:0][1:0];
   int bank_g_s_rem_time;
+  int act_rc_rem_time;
   int queue_ptr=0;
   int row_c=0;
                
@@ -35,6 +38,7 @@ module msd_dimm;
   int tRTP = 2*18;
   int tWR = 2*30;
   int tCWL = 2*38;
+  int tRC = 2*115;
   typedef enum logic[3:0] {IDLE, ACT0, RD0, WR0, ACT1, RD1, WR1, BURST, PRE} states_t;
                    
   states_t cur_state,next_state;
@@ -126,14 +130,16 @@ module msd_dimm;
                       channel = q_out_temp[6];
                       op_out = q_out_temp[37:36];
                       d_time = sim_time;
+                      if(temp_time == sim_time)
+                          wait (sim_time == temp_time+2);
                       if (uniq_bank[bank_g][bank]==1) begin
+                         if (debug_en)
                          $fwrite(out_file," \n -----same bank \n");
                          bank_g_s_rem_time = d_time- bank_g_time[bank_g][bank];
                          if (debug_en)
                          $fwrite(out_file," \n bank_g_s_rem_time=%d,d_time=%d\n",bank_g_s_rem_time,d_time);
                          if (bank_g_s_rem_time<=tRP) begin
                             wait ((d_time + (tRP- bank_g_s_rem_time -2)) == sim_time);
-                         
                             if (op_out == 0 || op_out == 2)  
                                next_state = RD0;                      
                             if (op_out ==1)
@@ -147,9 +153,9 @@ module msd_dimm;
                       end
                      end
                      if(uniq_bank[bank_g][bank]==0) begin
+                        if (debug_en)
                        $fwrite(out_file," \n -----different bank \n");
-                        if(temp_time == sim_time)
-                          wait (sim_time == temp_time+2);
+                        
                         if (op_out == 0 || op_out == 2)  
                            next_state = RD0;                      
                         if (op_out ==1)
@@ -159,10 +165,10 @@ module msd_dimm;
                        
                      end
                      
-                        $fwrite(out_file,"%t \t channel=%d ACT0 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                
+                        $fwrite(out_file,"%0t \t %d \t ACT0 \t %d \t %d \t %h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                
                      d_time = sim_time;
-                        #2 $fwrite(out_file,"%t \t channel=%d ACT1 bankg=%d bank=%d row =%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                      
-                     
+                        #2 $fwrite(out_file,"%0t \t %d \t ACT1 \t %d \t %d \t %h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],q_out_temp[33:18]);                      
+                        
                     end
                      
                     RD0: begin
@@ -172,8 +178,8 @@ module msd_dimm;
                      wait ((d_time + tRCD) == sim_time);
                      d_time = sim_time;
                      next_state = PRE;
-                     $fwrite(out_file,"%t \t channel=%d RD0  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
-                    #2 $fwrite(out_file,"%t \t channel=%d RD1  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+                     $fwrite(out_file,"%0t \t %d \t RD0 \t %d \t %d \t %h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+                    #2 $fwrite(out_file,"%0t \t %d \t RD1 \t %d \t %d \t %h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
                    
                     end
                     WR0: begin
@@ -183,16 +189,20 @@ module msd_dimm;
                      wait ((d_time+tRCD) == sim_time);
                      d_time = sim_time;
                      next_state = PRE;        
-                     $fwrite(out_file,"%t \t channel=%d WR0  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
-                     #2 $fwrite(out_file,"%t \t channel=%d WR1  bankg=%d bank=%d column=%h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+                     $fwrite(out_file,"%0t \t %d \t WR0 \t %d \t %d \t %h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
+                     #2 $fwrite(out_file,"%0t \t %d \t WR1 \t %d \t %d \t %h \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10],{q_out_temp[17:12],q_out_temp[5:2]});
                      
                     end
                      
                     PRE: begin
                       if (debug_en)
                       $fwrite(out_file," \n -----Entered PRE state \n");
-                      if (op_out == 0 || op_out == 2)
-                      wait ((d_time + tRTP +2) == sim_time);
+                      if (op_out == 0 || op_out == 2) begin
+                         if (cl)
+                            wait ((d_time + tCL + tBURST +2) == sim_time);
+                         else
+                            wait ((d_time + tRTP +2) == sim_time);
+                      end
                       if (op_out == 1)
                       wait((d_time + tCWL + tBURST + tWR +2) == sim_time);
                       onProcess = 0;
@@ -207,10 +217,10 @@ module msd_dimm;
                       next_state = ACT0;
                       end  else
                       next_state = IDLE;
-                      $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
+                      $fwrite(out_file,"%0t \t %d \t PRE \t %d \t %d \n",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]);
                       temp_time = sim_time;
                       if (debug_en)
-                      $fwrite(out_file,"%t \t done=%d \n",$time,done);
+                      $fwrite(out_file,"%0t \t done=%d \n",$time,done);
                     end
                     IDLE: begin
                       if(onProcess==0) begin
@@ -248,6 +258,7 @@ module msd_dimm;
        void'($value$plusargs("ip_file=%s", ip_file));
        void'($value$plusargs("op_file=%s", op_file));
        void'($value$plusargs("debug_en=%d",debug_en));
+       void'($value$plusargs("cl=%d",cl));
        violation_flag = 0;
                    
                    
@@ -298,9 +309,10 @@ module msd_dimm;
              ip_q_oper.push_back(operation);
              ip_q_addr.push_back(address);
              if (scan_col_cnt == 4) begin
-                if (debug_en)
+                if (debug_en) begin
                    $display ( "from row %d the value of time =%d  core=%d operation=%d address=%h",rowCounter,time_unit,core,operation,address);
                 $fwrite(out_file,"from row %d the value of time =%d \t core=%d \t operation=%d \t address=%h \n",rowCounter,time_unit,core,operation,address);
+                end
                 rowCounter++;
              end    
        end        
