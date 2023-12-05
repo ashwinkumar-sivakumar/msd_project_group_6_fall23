@@ -110,12 +110,12 @@ module msd_dimm;
   end              
   end                  
   always@(*) begin
-         if (debug_en)
+         //if (debug_en)
          $fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time);
             if (sim_time % 2 == 0) begin
                case (next_state)
                     ACT0: begin
-                      if (debug_en)
+                   //   if (debug_en)
                       $fwrite(out_file," \n -----Entered ACT0 state \n");
                       onProcess = 1;
                       q_out_temp=master_q[0];
@@ -126,6 +126,8 @@ module msd_dimm;
                       channel = q_out_temp[6];
                       op_out = q_out_temp[37:36];
                       d_time = sim_time;
+                      if (temp_time == sim_time)
+                         wait (sim_time == temp_time+2);
                       if (uniq_bank[bank_g][bank]==1) begin
                          $fwrite(out_file," \n -----same bank \n");
                          bank_g_s_rem_time = d_time- bank_g_time[bank_g][bank];
@@ -148,8 +150,7 @@ module msd_dimm;
                      end
                      if(uniq_bank[bank_g][bank]==0) begin
                        $fwrite(out_file," \n -----different bank \n");
-                        if(temp_time == sim_time)
-                          wait (sim_time == temp_time+2);
+                        
                         if (op_out == 0 || op_out == 2)  
                            next_state = RD0;                      
                         if (op_out ==1)
@@ -166,7 +167,7 @@ module msd_dimm;
                     end
                      
                     RD0: begin
-                     if (debug_en)
+                    // if (debug_en)
                      $fwrite(out_file," \n -----Entered RD0 state \n");
                      onProcess = 1;
                      wait ((d_time + tRCD) == sim_time);
@@ -177,7 +178,7 @@ module msd_dimm;
                    
                     end
                     WR0: begin
-                     if (debug_en)
+                    // if (debug_en)
                      $fwrite(out_file," \n -----Entered WR0 state \n");
                       onProcess = 1;
                      wait ((d_time+tRCD) == sim_time);
@@ -189,7 +190,7 @@ module msd_dimm;
                     end
                      
                     PRE: begin
-                      if (debug_en)
+                     // if (debug_en)
                       $fwrite(out_file," \n -----Entered PRE state \n");
                       if (op_out == 0 || op_out == 2)
                       wait ((d_time + tRTP +2) == sim_time);
@@ -214,7 +215,7 @@ module msd_dimm;
                     end
                     IDLE: begin
                       if(onProcess==0) begin
-                     if (debug_en)
+                    // if (debug_en)
                      $fwrite(out_file," \n -----Entered IDLE state \n");
                      if (master_q.size() !=0 && onProcess == 0)
                       next_state = ACT0;
