@@ -103,13 +103,13 @@ module msd_dimm;
   always@(sim_time) begin
    if ((sim_time % 2 == 0)&&(sim_time!=0)) begin
          dimm_counter++;
-         //if (debug_en)
-         //$fwrite(out_file," \n -----time=%t,@sim_time = %d,dimm_counter=%d \n",$time,sim_time,dimm_counter); 
+         if (debug_en)
+         $fwrite(out_file," \n -----time=%t,@sim_time = %d,dimm_counter=%d \n",$time,sim_time,dimm_counter); 
   end              
   end                  
   always@(*) begin
-         //if (debug_en)
-         //$fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time); 
+         if (debug_en)
+         $fwrite(out_file," \n -----time=%t,@sim_time = %d \n",$time,sim_time); 
             if (sim_time % 2 == 0) begin
                case (next_state)
                     ACT0: begin
@@ -194,11 +194,13 @@ module msd_dimm;
                       onProcess = 0; 
                       done = 1;
                       del_from_master_q;
+                       if ((onProcess == 0)&&(done==0)) begin
+                                    
                       bank_g_time[bank_g][bank]=sim_time;
-                      if (debug_en)
+                       if (debug_en)
                       $fwrite(out_file," \t bank_g_time[%d][%d]=%d \n",bank_g,bank,bank_g_time[bank_g][bank]);
-                      if (master_q.size() !=0 && onProcess == 0) begin
-                          next_state = ACT0;
+                      if(master_q.size() !=0)
+                      next_state = ACT0;
                       end  else
                       next_state = IDLE;
                       $fwrite(out_file,"%t \t channel=%d PRE  bankg=%d bank=%d \n ",$time,q_out_temp[6],q_out_temp[9:7],q_out_temp[11:10]); 
@@ -216,7 +218,7 @@ module msd_dimm;
                     default: next_state = IDLE;
                endcase 
             end 
-         //end       
+           
   end              
                    
   always@(sim_time) begin
