@@ -1,49 +1,3702 @@
-from row           0 the value of time =         30 	 core=   0 	 operation=2 	 address=01ff97080 
-from row           1 the value of time =         31 	 core=   1 	 operation=1 	 address=01ff97080 
-from row           2 the value of time =         32 	 core=   2 	 operation=0 	 address=10fffff00 
-from row           3 the value of time =         40 	 core=   0 	 operation=1 	 address=10fffff80 
-from row           4 the value of time =         52 	 core=   2 	 operation=0 	 address=10fffff00 
-from row           5 the value of time =         62 	 core=   0 	 operation=0 	 address=10fffff00 
+from row           0 the value of time =          0 	 core=   0 	 operation=0 	 address=000000000 
+from row           1 the value of time =          1 	 core=   1 	 operation=1 	 address=00007f4bf 
+from row           2 the value of time =          2 	 core=   2 	 operation=2 	 address=00008193a 
+from row           3 the value of time =          3 	 core=   3 	 operation=0 	 address=0000c2db5 
+from row           4 the value of time =          5 	 core=   5 	 operation=2 	 address=0001486af 
+from row           5 the value of time =          6 	 core=   6 	 operation=0 	 address=000190b2a 
+from row           6 the value of time =          7 	 core=   7 	 operation=1 	 address=0001e0fa5 
+from row           7 the value of time =          8 	 core=   8 	 operation=2 	 address=000210020 
+from row           8 the value of time =          9 	 core=   9 	 operation=0 	 address=00024849f 
+from row           9 the value of time =         10 	 core=  10 	 operation=1 	 address=00028491a 
+from row          10 the value of time =         11 	 core=  11 	 operation=2 	 address=0002c2d95 
+from row          11 the value of time =         12 	 core=   0 	 operation=0 	 address=000301210 
+from row          12 the value of time =         13 	 core=   1 	 operation=1 	 address=00034068f 
+from row          13 the value of time =         14 	 core=   2 	 operation=2 	 address=000381b0a 
+from row          14 the value of time =         15 	 core=   3 	 operation=0 	 address=0003c2f85 
+from row          15 the value of time =         16 	 core=   4 	 operation=1 	 address=000404000 
+from row          16 the value of time =         17 	 core=   5 	 operation=2 	 address=0004484bf 
+ 
+ -----time=                   0,@sim_time =                    0 
+ 
+ -----time=                   0,@sim_time =                    0 
+ 
+ -----Entered IDLE state 
+ 
+ -----time=                   1,@sim_time =                    1 
+ 
+ -----time=                   1,@sim_time =                    1 
+ 
+ -----time=                   2,@sim_time =                    2,dimm_counter=                   1 
+ 
+ -----time=                   2,@sim_time =                    2 
+ 
+ -----Entered ACT0 state 
  
  -----different bank 
-                  32 	 channel=0 ACT0 bankg=1 bank=0 row =07fe 
-                  34 	 channel=0 ACT1 bankg=1 bank=0 row =07fe 
-                 110 	 channel=0 RD0  bankg=1 bank=0 column=170 
-                 112 	 channel=0 RD1  bankg=1 bank=0 column=170 
-                 148 	 channel=0 PRE  bankg=1 bank=0 
-  
+                   2 	 channel=0 ACT0 bankg=0 bank=0 row =0000 
+                   4 	 channel=0 ACT1 bankg=0 bank=0 row =0000 
+ 
+ -----time=                   4,@sim_time =                    4,dimm_counter=                   2 
+ 
+ -----time=                   4,@sim_time =                    4 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                   6,@sim_time =                    6,dimm_counter=                   3 
+ 
+ -----time=                   8,@sim_time =                    8,dimm_counter=                   4 
+ 
+ -----time=                  10,@sim_time =                   10,dimm_counter=                   5 
+ 
+ -----time=                  12,@sim_time =                   12,dimm_counter=                   6 
+ 
+ -----time=                  14,@sim_time =                   14,dimm_counter=                   7 
+ 
+ -----time=                  16,@sim_time =                   16,dimm_counter=                   8 
+ 
+ -----@time                   16 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   17 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  18,@sim_time =                   18,dimm_counter=                   9 
+ 
+ -----@time                   18 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   19 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  20,@sim_time =                   20,dimm_counter=                  10 
+ 
+ -----@time                   20 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   21 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  22,@sim_time =                   22,dimm_counter=                  11 
+ 
+ -----@time                   22 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   23 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  24,@sim_time =                   24,dimm_counter=                  12 
+ 
+ -----@time                   24 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   25 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  26,@sim_time =                   26,dimm_counter=                  13 
+ 
+ -----@time                   26 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   27 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  28,@sim_time =                   28,dimm_counter=                  14 
+ 
+ -----@time                   28 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   29 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  30,@sim_time =                   30,dimm_counter=                  15 
+ 
+ -----@time                   30 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   31 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  32,@sim_time =                   32,dimm_counter=                  16 
+ 
+ -----@time                   32 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   33 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  34,@sim_time =                   34,dimm_counter=                  17 
+ 
+ -----@time                   34 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   35 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  36,@sim_time =                   36,dimm_counter=                  18 
+ 
+ -----@time                   36 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   37 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  38,@sim_time =                   38,dimm_counter=                  19 
+ 
+ -----@time                   38 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   39 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  40,@sim_time =                   40,dimm_counter=                  20 
+ 
+ -----@time                   40 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   41 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  42,@sim_time =                   42,dimm_counter=                  21 
+ 
+ -----@time                   42 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   43 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  44,@sim_time =                   44,dimm_counter=                  22 
+ 
+ -----@time                   44 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   45 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  46,@sim_time =                   46,dimm_counter=                  23 
+ 
+ -----@time                   46 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   47 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  48,@sim_time =                   48,dimm_counter=                  24 
+ 
+ -----@time                   48 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   49 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  50,@sim_time =                   50,dimm_counter=                  25 
+ 
+ -----@time                   50 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   51 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  52,@sim_time =                   52,dimm_counter=                  26 
+ 
+ -----@time                   52 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   53 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  54,@sim_time =                   54,dimm_counter=                  27 
+ 
+ -----@time                   54 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   55 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  56,@sim_time =                   56,dimm_counter=                  28 
+ 
+ -----@time                   56 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   57 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  58,@sim_time =                   58,dimm_counter=                  29 
+ 
+ -----@time                   58 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   59 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  60,@sim_time =                   60,dimm_counter=                  30 
+ 
+ -----@time                   60 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   61 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  62,@sim_time =                   62,dimm_counter=                  31 
+ 
+ -----@time                   62 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   63 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  64,@sim_time =                   64,dimm_counter=                  32 
+ 
+ -----@time                   64 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   65 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  66,@sim_time =                   66,dimm_counter=                  33 
+ 
+ -----@time                   66 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   67 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  68,@sim_time =                   68,dimm_counter=                  34 
+ 
+ -----@time                   68 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   69 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  70,@sim_time =                   70,dimm_counter=                  35 
+ 
+ -----@time                   70 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   71 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  72,@sim_time =                   72,dimm_counter=                  36 
+ 
+ -----@time                   72 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   73 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  74,@sim_time =                   74,dimm_counter=                  37 
+ 
+ -----@time                   74 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   75 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  76,@sim_time =                   76,dimm_counter=                  38 
+ 
+ -----@time                   76 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   77 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  78,@sim_time =                   78,dimm_counter=                  39 
+ 
+ -----@time                   78 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   79 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  80,@sim_time =                   80,dimm_counter=                  40 
+ 
+ -----@time                   80 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  80 	 channel=0 RD0  bankg=0 bank=0 column=000 
+ 
+ -----@time                   81 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                  82 	 channel=0 RD1  bankg=0 bank=0 column=000 
+ 
+ -----time=                  82,@sim_time =                   82,dimm_counter=                  41 
+ 
+ -----time=                  82,@sim_time =                   82 
+ 
+ -----Entered PRE state 
+ 
+ -----@time                   82 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   83 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  84,@sim_time =                   84,dimm_counter=                  42 
+ 
+ -----@time                   84 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   85 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  86,@sim_time =                   86,dimm_counter=                  43 
+ 
+ -----@time                   86 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   87 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  88,@sim_time =                   88,dimm_counter=                  44 
+ 
+ -----@time                   88 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   89 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  90,@sim_time =                   90,dimm_counter=                  45 
+ 
+ -----@time                   90 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   91 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  92,@sim_time =                   92,dimm_counter=                  46 
+ 
+ -----@time                   92 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   93 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  94,@sim_time =                   94,dimm_counter=                  47 
+ 
+ -----@time                   94 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   95 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  96,@sim_time =                   96,dimm_counter=                  48 
+ 
+ -----@time                   96 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   97 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                  98,@sim_time =                   98,dimm_counter=                  49 
+ 
+ -----@time                   98 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                   99 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 100,@sim_time =                  100,dimm_counter=                  50 
+ 
+ -----@time                  100 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  101 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 102,@sim_time =                  102,dimm_counter=                  51 
+ 
+ -----@time                  102 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  103 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 104,@sim_time =                  104,dimm_counter=                  52 
+ 
+ -----@time                  104 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  105 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 106,@sim_time =                  106,dimm_counter=                  53 
+ 
+ -----@time                  106 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  107 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 108,@sim_time =                  108,dimm_counter=                  54 
+ 
+ -----@time                  108 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  109 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 110,@sim_time =                  110,dimm_counter=                  55 
+ 
+ -----@time                  110 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  111 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 112,@sim_time =                  112,dimm_counter=                  56 
+ 
+ -----@time                  112 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  113 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 114,@sim_time =                  114,dimm_counter=                  57 
+ 
+ -----@time                  114 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  115 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 116,@sim_time =                  116,dimm_counter=                  58 
+ 
+ -----@time                  116 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  117 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 118,@sim_time =                  118,dimm_counter=                  59 
+ 
+ -----@time                  118 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 	 bank_g_time[0][0]=        118 
+                 118 	 channel=0 PRE  bankg=0 bank=0 
+                  118 	 done=0 
+ 
+ -----@time                  118 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 118,@sim_time =                  118 
+ 
+ -----Entered ACT0 state 
+ 
+ -----@time                  119 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 120,@sim_time =                  120,dimm_counter=                  60 
+ 
+ -----@time                  120 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----different bank 
+                 120 	 channel=0 ACT0 bankg=1 bank=1 row =0001 
+ 
+ -----@time                  121 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 122 	 channel=0 ACT1 bankg=1 bank=1 row =0001 
+ 
+ -----time=                 122,@sim_time =                  122,dimm_counter=                  61 
+ 
+ -----time=                 122,@sim_time =                  122 
+ 
+ -----Entered WR0 state 
+ 
+ -----@time                  122 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  123 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 124,@sim_time =                  124,dimm_counter=                  62 
+ 
+ -----@time                  124 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  125 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 126,@sim_time =                  126,dimm_counter=                  63 
+ 
+ -----@time                  126 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  127 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 128,@sim_time =                  128,dimm_counter=                  64 
+ 
+ -----@time                  128 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  129 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 130,@sim_time =                  130,dimm_counter=                  65 
+ 
+ -----@time                  130 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  131 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 132,@sim_time =                  132,dimm_counter=                  66 
+ 
+ -----@time                  132 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  133 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 134,@sim_time =                  134,dimm_counter=                  67 
+ 
+ -----@time                  134 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  135 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 136,@sim_time =                  136,dimm_counter=                  68 
+ 
+ -----@time                  136 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  137 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 138,@sim_time =                  138,dimm_counter=                  69 
+ 
+ -----@time                  138 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  139 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 140,@sim_time =                  140,dimm_counter=                  70 
+ 
+ -----@time                  140 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  141 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 142,@sim_time =                  142,dimm_counter=                  71 
+ 
+ -----@time                  142 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  143 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 144,@sim_time =                  144,dimm_counter=                  72 
+ 
+ -----@time                  144 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  145 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 146,@sim_time =                  146,dimm_counter=                  73 
+ 
+ -----@time                  146 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  147 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 148,@sim_time =                  148,dimm_counter=                  74 
+ 
+ -----@time                  148 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  149 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 150,@sim_time =                  150,dimm_counter=                  75 
+ 
+ -----@time                  150 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  151 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 152,@sim_time =                  152,dimm_counter=                  76 
+ 
+ -----@time                  152 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  153 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 154,@sim_time =                  154,dimm_counter=                  77 
+ 
+ -----@time                  154 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  155 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 156,@sim_time =                  156,dimm_counter=                  78 
+ 
+ -----@time                  156 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  157 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 158,@sim_time =                  158,dimm_counter=                  79 
+ 
+ -----@time                  158 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  159 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 160,@sim_time =                  160,dimm_counter=                  80 
+ 
+ -----@time                  160 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  161 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 162,@sim_time =                  162,dimm_counter=                  81 
+ 
+ -----@time                  162 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  163 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 164,@sim_time =                  164,dimm_counter=                  82 
+ 
+ -----@time                  164 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  165 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 166,@sim_time =                  166,dimm_counter=                  83 
+ 
+ -----@time                  166 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  167 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 168,@sim_time =                  168,dimm_counter=                  84 
+ 
+ -----@time                  168 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  169 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 170,@sim_time =                  170,dimm_counter=                  85 
+ 
+ -----@time                  170 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  171 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 172,@sim_time =                  172,dimm_counter=                  86 
+ 
+ -----@time                  172 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  173 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 174,@sim_time =                  174,dimm_counter=                  87 
+ 
+ -----@time                  174 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  175 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 176,@sim_time =                  176,dimm_counter=                  88 
+ 
+ -----@time                  176 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  177 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 178,@sim_time =                  178,dimm_counter=                  89 
+ 
+ -----@time                  178 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  179 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 180,@sim_time =                  180,dimm_counter=                  90 
+ 
+ -----@time                  180 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  181 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 182,@sim_time =                  182,dimm_counter=                  91 
+ 
+ -----@time                  182 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  183 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 184,@sim_time =                  184,dimm_counter=                  92 
+ 
+ -----@time                  184 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  185 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 186,@sim_time =                  186,dimm_counter=                  93 
+ 
+ -----@time                  186 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  187 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 188,@sim_time =                  188,dimm_counter=                  94 
+ 
+ -----@time                  188 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  189 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 190,@sim_time =                  190,dimm_counter=                  95 
+ 
+ -----@time                  190 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  191 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 192,@sim_time =                  192,dimm_counter=                  96 
+ 
+ -----@time                  192 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  193 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 194,@sim_time =                  194,dimm_counter=                  97 
+ 
+ -----@time                  194 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  195 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 196,@sim_time =                  196,dimm_counter=                  98 
+ 
+ -----@time                  196 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  197 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 198,@sim_time =                  198,dimm_counter=                  99 
+ 
+ -----@time                  198 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 198 	 channel=0 WR0  bankg=1 bank=1 column=3ff 
+ 
+ -----@time                  199 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+                 200 	 channel=0 WR1  bankg=1 bank=1 column=3ff 
+ 
+ -----time=                 200,@sim_time =                  200,dimm_counter=                 100 
+ 
+ -----time=                 200,@sim_time =                  200 
+ 
+ -----Entered PRE state 
+ 
+ -----@time                  200 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  201 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 202,@sim_time =                  202,dimm_counter=                 101 
+ 
+ -----@time                  202 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  203 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 204,@sim_time =                  204,dimm_counter=                 102 
+ 
+ -----@time                  204 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  205 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 206,@sim_time =                  206,dimm_counter=                 103 
+ 
+ -----@time                  206 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  207 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 208,@sim_time =                  208,dimm_counter=                 104 
+ 
+ -----@time                  208 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  209 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 210,@sim_time =                  210,dimm_counter=                 105 
+ 
+ -----@time                  210 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  211 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 212,@sim_time =                  212,dimm_counter=                 106 
+ 
+ -----@time                  212 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  213 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 214,@sim_time =                  214,dimm_counter=                 107 
+ 
+ -----@time                  214 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  215 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 216,@sim_time =                  216,dimm_counter=                 108 
+ 
+ -----@time                  216 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  217 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 218,@sim_time =                  218,dimm_counter=                 109 
+ 
+ -----@time                  218 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  219 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 220,@sim_time =                  220,dimm_counter=                 110 
+ 
+ -----@time                  220 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  221 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 222,@sim_time =                  222,dimm_counter=                 111 
+ 
+ -----@time                  222 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  223 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 224,@sim_time =                  224,dimm_counter=                 112 
+ 
+ -----@time                  224 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  225 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 226,@sim_time =                  226,dimm_counter=                 113 
+ 
+ -----@time                  226 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  227 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 228,@sim_time =                  228,dimm_counter=                 114 
+ 
+ -----@time                  228 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  229 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 230,@sim_time =                  230,dimm_counter=                 115 
+ 
+ -----@time                  230 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  231 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 232,@sim_time =                  232,dimm_counter=                 116 
+ 
+ -----@time                  232 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  233 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 234,@sim_time =                  234,dimm_counter=                 117 
+ 
+ -----@time                  234 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  235 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 236,@sim_time =                  236,dimm_counter=                 118 
+ 
+ -----@time                  236 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  237 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 238,@sim_time =                  238,dimm_counter=                 119 
+ 
+ -----@time                  238 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  239 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 240,@sim_time =                  240,dimm_counter=                 120 
+ 
+ -----@time                  240 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  241 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 242,@sim_time =                  242,dimm_counter=                 121 
+ 
+ -----@time                  242 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  243 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 244,@sim_time =                  244,dimm_counter=                 122 
+ 
+ -----@time                  244 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  245 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 246,@sim_time =                  246,dimm_counter=                 123 
+ 
+ -----@time                  246 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  247 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 248,@sim_time =                  248,dimm_counter=                 124 
+ 
+ -----@time                  248 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  249 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 250,@sim_time =                  250,dimm_counter=                 125 
+ 
+ -----@time                  250 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  251 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 252,@sim_time =                  252,dimm_counter=                 126 
+ 
+ -----@time                  252 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  253 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 254,@sim_time =                  254,dimm_counter=                 127 
+ 
+ -----@time                  254 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  255 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 256,@sim_time =                  256,dimm_counter=                 128 
+ 
+ -----@time                  256 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  257 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 258,@sim_time =                  258,dimm_counter=                 129 
+ 
+ -----@time                  258 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  259 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 260,@sim_time =                  260,dimm_counter=                 130 
+ 
+ -----@time                  260 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  261 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 262,@sim_time =                  262,dimm_counter=                 131 
+ 
+ -----@time                  262 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  263 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 264,@sim_time =                  264,dimm_counter=                 132 
+ 
+ -----@time                  264 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  265 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 266,@sim_time =                  266,dimm_counter=                 133 
+ 
+ -----@time                  266 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  267 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 268,@sim_time =                  268,dimm_counter=                 134 
+ 
+ -----@time                  268 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  269 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 270,@sim_time =                  270,dimm_counter=                 135 
+ 
+ -----@time                  270 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  271 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 272,@sim_time =                  272,dimm_counter=                 136 
+ 
+ -----@time                  272 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  273 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 274,@sim_time =                  274,dimm_counter=                 137 
+ 
+ -----@time                  274 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  275 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 276,@sim_time =                  276,dimm_counter=                 138 
+ 
+ -----@time                  276 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  277 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 278,@sim_time =                  278,dimm_counter=                 139 
+ 
+ -----@time                  278 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  279 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 280,@sim_time =                  280,dimm_counter=                 140 
+ 
+ -----@time                  280 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  281 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 282,@sim_time =                  282,dimm_counter=                 141 
+ 
+ -----@time                  282 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  283 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 284,@sim_time =                  284,dimm_counter=                 142 
+ 
+ -----@time                  284 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  285 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 286,@sim_time =                  286,dimm_counter=                 143 
+ 
+ -----@time                  286 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  287 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 288,@sim_time =                  288,dimm_counter=                 144 
+ 
+ -----@time                  288 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  289 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 290,@sim_time =                  290,dimm_counter=                 145 
+ 
+ -----@time                  290 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  291 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 292,@sim_time =                  292,dimm_counter=                 146 
+ 
+ -----@time                  292 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  293 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 294,@sim_time =                  294,dimm_counter=                 147 
+ 
+ -----@time                  294 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  295 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 296,@sim_time =                  296,dimm_counter=                 148 
+ 
+ -----@time                  296 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  297 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 298,@sim_time =                  298,dimm_counter=                 149 
+ 
+ -----@time                  298 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  299 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 300,@sim_time =                  300,dimm_counter=                 150 
+ 
+ -----@time                  300 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  301 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 302,@sim_time =                  302,dimm_counter=                 151 
+ 
+ -----@time                  302 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  303 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 304,@sim_time =                  304,dimm_counter=                 152 
+ 
+ -----@time                  304 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  305 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 306,@sim_time =                  306,dimm_counter=                 153 
+ 
+ -----@time                  306 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  307 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 308,@sim_time =                  308,dimm_counter=                 154 
+ 
+ -----@time                  308 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  309 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 310,@sim_time =                  310,dimm_counter=                 155 
+ 
+ -----@time                  310 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  311 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 312,@sim_time =                  312,dimm_counter=                 156 
+ 
+ -----@time                  312 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  313 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 314,@sim_time =                  314,dimm_counter=                 157 
+ 
+ -----@time                  314 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  315 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 316,@sim_time =                  316,dimm_counter=                 158 
+ 
+ -----@time                  316 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  317 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 318,@sim_time =                  318,dimm_counter=                 159 
+ 
+ -----@time                  318 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  319 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 320,@sim_time =                  320,dimm_counter=                 160 
+ 
+ -----@time                  320 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  321 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 322,@sim_time =                  322,dimm_counter=                 161 
+ 
+ -----@time                  322 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  323 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 324,@sim_time =                  324,dimm_counter=                 162 
+ 
+ -----@time                  324 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  325 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 326,@sim_time =                  326,dimm_counter=                 163 
+ 
+ -----@time                  326 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  327 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 328,@sim_time =                  328,dimm_counter=                 164 
+ 
+ -----@time                  328 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  329 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 330,@sim_time =                  330,dimm_counter=                 165 
+ 
+ -----@time                  330 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  331 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 332,@sim_time =                  332,dimm_counter=                 166 
+ 
+ -----@time                  332 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  333 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 334,@sim_time =                  334,dimm_counter=                 167 
+ 
+ -----@time                  334 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  335 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 336,@sim_time =                  336,dimm_counter=                 168 
+ 
+ -----@time                  336 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  337 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 338,@sim_time =                  338,dimm_counter=                 169 
+ 
+ -----@time                  338 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  339 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 340,@sim_time =                  340,dimm_counter=                 170 
+ 
+ -----@time                  340 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  341 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 342,@sim_time =                  342,dimm_counter=                 171 
+ 
+ -----@time                  342 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  343 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 344,@sim_time =                  344,dimm_counter=                 172 
+ 
+ -----@time                  344 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  345 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 346,@sim_time =                  346,dimm_counter=                 173 
+ 
+ -----@time                  346 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  347 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 348,@sim_time =                  348,dimm_counter=                 174 
+ 
+ -----@time                  348 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  349 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 350,@sim_time =                  350,dimm_counter=                 175 
+ 
+ -----@time                  350 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----@time                  351 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 
+ -----time=                 352,@sim_time =                  352,dimm_counter=                 176 
+ 
+ -----@time                  352 The queue is full stall cpu request until the queue request are satisfied and removed----- 
+ 	 bank_g_time[1][1]=        352 
+                 352 	 channel=0 PRE  bankg=1 bank=1 
+                  352 	 done=0 
+ 
+ -----time=                 353,@sim_time =                  353 
+ 
+ -----time=                 354,@sim_time =                  354,dimm_counter=                 177 
+ 
+ -----time=                 354,@sim_time =                  354 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 354 	 channel=0 ACT0 bankg=2 bank=2 row =0002 
+                 356 	 channel=0 ACT1 bankg=2 bank=2 row =0002 
+ 
+ -----time=                 356,@sim_time =                  356,dimm_counter=                 178 
+ 
+ -----time=                 356,@sim_time =                  356 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                 358,@sim_time =                  358,dimm_counter=                 179 
+ 
+ -----time=                 360,@sim_time =                  360,dimm_counter=                 180 
+ 
+ -----time=                 362,@sim_time =                  362,dimm_counter=                 181 
+ 
+ -----time=                 364,@sim_time =                  364,dimm_counter=                 182 
+ 
+ -----time=                 366,@sim_time =                  366,dimm_counter=                 183 
+ 
+ -----time=                 368,@sim_time =                  368,dimm_counter=                 184 
+ 
+ -----time=                 370,@sim_time =                  370,dimm_counter=                 185 
+ 
+ -----time=                 372,@sim_time =                  372,dimm_counter=                 186 
+ 
+ -----time=                 374,@sim_time =                  374,dimm_counter=                 187 
+ 
+ -----time=                 376,@sim_time =                  376,dimm_counter=                 188 
+ 
+ -----time=                 378,@sim_time =                  378,dimm_counter=                 189 
+ 
+ -----time=                 380,@sim_time =                  380,dimm_counter=                 190 
+ 
+ -----time=                 382,@sim_time =                  382,dimm_counter=                 191 
+ 
+ -----time=                 384,@sim_time =                  384,dimm_counter=                 192 
+ 
+ -----time=                 386,@sim_time =                  386,dimm_counter=                 193 
+ 
+ -----time=                 388,@sim_time =                  388,dimm_counter=                 194 
+ 
+ -----time=                 390,@sim_time =                  390,dimm_counter=                 195 
+ 
+ -----time=                 392,@sim_time =                  392,dimm_counter=                 196 
+ 
+ -----time=                 394,@sim_time =                  394,dimm_counter=                 197 
+ 
+ -----time=                 396,@sim_time =                  396,dimm_counter=                 198 
+ 
+ -----time=                 398,@sim_time =                  398,dimm_counter=                 199 
+ 
+ -----time=                 400,@sim_time =                  400,dimm_counter=                 200 
+ 
+ -----time=                 402,@sim_time =                  402,dimm_counter=                 201 
+ 
+ -----time=                 404,@sim_time =                  404,dimm_counter=                 202 
+ 
+ -----time=                 406,@sim_time =                  406,dimm_counter=                 203 
+ 
+ -----time=                 408,@sim_time =                  408,dimm_counter=                 204 
+ 
+ -----time=                 410,@sim_time =                  410,dimm_counter=                 205 
+ 
+ -----time=                 412,@sim_time =                  412,dimm_counter=                 206 
+ 
+ -----time=                 414,@sim_time =                  414,dimm_counter=                 207 
+ 
+ -----time=                 416,@sim_time =                  416,dimm_counter=                 208 
+ 
+ -----time=                 418,@sim_time =                  418,dimm_counter=                 209 
+ 
+ -----time=                 420,@sim_time =                  420,dimm_counter=                 210 
+ 
+ -----time=                 422,@sim_time =                  422,dimm_counter=                 211 
+ 
+ -----time=                 424,@sim_time =                  424,dimm_counter=                 212 
+ 
+ -----time=                 426,@sim_time =                  426,dimm_counter=                 213 
+ 
+ -----time=                 428,@sim_time =                  428,dimm_counter=                 214 
+ 
+ -----time=                 430,@sim_time =                  430,dimm_counter=                 215 
+ 
+ -----time=                 432,@sim_time =                  432,dimm_counter=                 216 
+                 432 	 channel=0 RD0  bankg=2 bank=2 column=01e 
+                 434 	 channel=0 RD1  bankg=2 bank=2 column=01e 
+ 
+ -----time=                 434,@sim_time =                  434,dimm_counter=                 217 
+ 
+ -----time=                 434,@sim_time =                  434 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                 436,@sim_time =                  436,dimm_counter=                 218 
+ 
+ -----time=                 438,@sim_time =                  438,dimm_counter=                 219 
+ 
+ -----time=                 440,@sim_time =                  440,dimm_counter=                 220 
+ 
+ -----time=                 442,@sim_time =                  442,dimm_counter=                 221 
+ 
+ -----time=                 444,@sim_time =                  444,dimm_counter=                 222 
+ 
+ -----time=                 446,@sim_time =                  446,dimm_counter=                 223 
+ 
+ -----time=                 448,@sim_time =                  448,dimm_counter=                 224 
+ 
+ -----time=                 450,@sim_time =                  450,dimm_counter=                 225 
+ 
+ -----time=                 452,@sim_time =                  452,dimm_counter=                 226 
+ 
+ -----time=                 454,@sim_time =                  454,dimm_counter=                 227 
+ 
+ -----time=                 456,@sim_time =                  456,dimm_counter=                 228 
+ 
+ -----time=                 458,@sim_time =                  458,dimm_counter=                 229 
+ 
+ -----time=                 460,@sim_time =                  460,dimm_counter=                 230 
+ 
+ -----time=                 462,@sim_time =                  462,dimm_counter=                 231 
+ 
+ -----time=                 464,@sim_time =                  464,dimm_counter=                 232 
+ 
+ -----time=                 466,@sim_time =                  466,dimm_counter=                 233 
+ 
+ -----time=                 468,@sim_time =                  468,dimm_counter=                 234 
+ 
+ -----time=                 470,@sim_time =                  470,dimm_counter=                 235 
+ 	 bank_g_time[2][2]=          0 
+                 470 	 channel=0 PRE  bankg=2 bank=2 
+                  470 	 done=0 
+ 
+ -----time=                 471,@sim_time =                  471 
+ 
+ -----time=                 472,@sim_time =                  472,dimm_counter=                 236 
+ 
+ -----time=                 472,@sim_time =                  472 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 472 	 channel=0 ACT0 bankg=3 bank=3 row =0003 
+                 474 	 channel=0 ACT1 bankg=3 bank=3 row =0003 
+ 
+ -----time=                 474,@sim_time =                  474,dimm_counter=                 237 
+ 
+ -----time=                 474,@sim_time =                  474 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                 476,@sim_time =                  476,dimm_counter=                 238 
+ 
+ -----time=                 478,@sim_time =                  478,dimm_counter=                 239 
+ 
+ -----time=                 480,@sim_time =                  480,dimm_counter=                 240 
+ 
+ -----time=                 482,@sim_time =                  482,dimm_counter=                 241 
+ 
+ -----time=                 484,@sim_time =                  484,dimm_counter=                 242 
+ 
+ -----time=                 486,@sim_time =                  486,dimm_counter=                 243 
+ 
+ -----time=                 488,@sim_time =                  488,dimm_counter=                 244 
+ 
+ -----time=                 490,@sim_time =                  490,dimm_counter=                 245 
+ 
+ -----time=                 492,@sim_time =                  492,dimm_counter=                 246 
+ 
+ -----time=                 494,@sim_time =                  494,dimm_counter=                 247 
+ 
+ -----time=                 496,@sim_time =                  496,dimm_counter=                 248 
+ 
+ -----time=                 498,@sim_time =                  498,dimm_counter=                 249 
+ 
+ -----time=                 500,@sim_time =                  500,dimm_counter=                 250 
+ 
+ -----time=                 502,@sim_time =                  502,dimm_counter=                 251 
+ 
+ -----time=                 504,@sim_time =                  504,dimm_counter=                 252 
+ 
+ -----time=                 506,@sim_time =                  506,dimm_counter=                 253 
+ 
+ -----time=                 508,@sim_time =                  508,dimm_counter=                 254 
+ 
+ -----time=                 510,@sim_time =                  510,dimm_counter=                 255 
+ 
+ -----time=                 512,@sim_time =                  512,dimm_counter=                 256 
+ 
+ -----time=                 514,@sim_time =                  514,dimm_counter=                 257 
+ 
+ -----time=                 516,@sim_time =                  516,dimm_counter=                 258 
+ 
+ -----time=                 518,@sim_time =                  518,dimm_counter=                 259 
+ 
+ -----time=                 520,@sim_time =                  520,dimm_counter=                 260 
+ 
+ -----time=                 522,@sim_time =                  522,dimm_counter=                 261 
+ 
+ -----time=                 524,@sim_time =                  524,dimm_counter=                 262 
+ 
+ -----time=                 526,@sim_time =                  526,dimm_counter=                 263 
+ 
+ -----time=                 528,@sim_time =                  528,dimm_counter=                 264 
+ 
+ -----time=                 530,@sim_time =                  530,dimm_counter=                 265 
+ 
+ -----time=                 532,@sim_time =                  532,dimm_counter=                 266 
+ 
+ -----time=                 534,@sim_time =                  534,dimm_counter=                 267 
+ 
+ -----time=                 536,@sim_time =                  536,dimm_counter=                 268 
+ 
+ -----time=                 538,@sim_time =                  538,dimm_counter=                 269 
+ 
+ -----time=                 540,@sim_time =                  540,dimm_counter=                 270 
+ 
+ -----time=                 542,@sim_time =                  542,dimm_counter=                 271 
+ 
+ -----time=                 544,@sim_time =                  544,dimm_counter=                 272 
+ 
+ -----time=                 546,@sim_time =                  546,dimm_counter=                 273 
+ 
+ -----time=                 548,@sim_time =                  548,dimm_counter=                 274 
+ 
+ -----time=                 550,@sim_time =                  550,dimm_counter=                 275 
+                 550 	 channel=0 RD0  bankg=3 bank=3 column=02d 
+                 552 	 channel=0 RD1  bankg=3 bank=3 column=02d 
+ 
+ -----time=                 552,@sim_time =                  552,dimm_counter=                 276 
+ 
+ -----time=                 552,@sim_time =                  552 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                 554,@sim_time =                  554,dimm_counter=                 277 
+ 
+ -----time=                 556,@sim_time =                  556,dimm_counter=                 278 
+ 
+ -----time=                 558,@sim_time =                  558,dimm_counter=                 279 
+ 
+ -----time=                 560,@sim_time =                  560,dimm_counter=                 280 
+ 
+ -----time=                 562,@sim_time =                  562,dimm_counter=                 281 
+ 
+ -----time=                 564,@sim_time =                  564,dimm_counter=                 282 
+ 
+ -----time=                 566,@sim_time =                  566,dimm_counter=                 283 
+ 
+ -----time=                 568,@sim_time =                  568,dimm_counter=                 284 
+ 
+ -----time=                 570,@sim_time =                  570,dimm_counter=                 285 
+ 
+ -----time=                 572,@sim_time =                  572,dimm_counter=                 286 
+ 
+ -----time=                 574,@sim_time =                  574,dimm_counter=                 287 
+ 
+ -----time=                 576,@sim_time =                  576,dimm_counter=                 288 
+ 
+ -----time=                 578,@sim_time =                  578,dimm_counter=                 289 
+ 
+ -----time=                 580,@sim_time =                  580,dimm_counter=                 290 
+ 
+ -----time=                 582,@sim_time =                  582,dimm_counter=                 291 
+ 
+ -----time=                 584,@sim_time =                  584,dimm_counter=                 292 
+ 
+ -----time=                 586,@sim_time =                  586,dimm_counter=                 293 
+ 
+ -----time=                 588,@sim_time =                  588,dimm_counter=                 294 
+ 	 bank_g_time[3][3]=          0 
+                 588 	 channel=0 PRE  bankg=3 bank=3 
+                  588 	 done=0 
+ 
+ -----time=                 589,@sim_time =                  589 
+ 
+ -----time=                 590,@sim_time =                  590,dimm_counter=                 295 
+ 
+ -----time=                 590,@sim_time =                  590 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 590 	 channel=0 ACT0 bankg=5 bank=1 row =0005 
+                 592 	 channel=0 ACT1 bankg=5 bank=1 row =0005 
+ 
+ -----time=                 592,@sim_time =                  592,dimm_counter=                 296 
+ 
+ -----time=                 592,@sim_time =                  592 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                 594,@sim_time =                  594,dimm_counter=                 297 
+ 
+ -----time=                 596,@sim_time =                  596,dimm_counter=                 298 
+ 
+ -----time=                 598,@sim_time =                  598,dimm_counter=                 299 
+ 
+ -----time=                 600,@sim_time =                  600,dimm_counter=                 300 
+ 
+ -----time=                 602,@sim_time =                  602,dimm_counter=                 301 
+ 
+ -----time=                 604,@sim_time =                  604,dimm_counter=                 302 
+ 
+ -----time=                 606,@sim_time =                  606,dimm_counter=                 303 
+ 
+ -----time=                 608,@sim_time =                  608,dimm_counter=                 304 
+ 
+ -----time=                 610,@sim_time =                  610,dimm_counter=                 305 
+ 
+ -----time=                 612,@sim_time =                  612,dimm_counter=                 306 
+ 
+ -----time=                 614,@sim_time =                  614,dimm_counter=                 307 
+ 
+ -----time=                 616,@sim_time =                  616,dimm_counter=                 308 
+ 
+ -----time=                 618,@sim_time =                  618,dimm_counter=                 309 
+ 
+ -----time=                 620,@sim_time =                  620,dimm_counter=                 310 
+ 
+ -----time=                 622,@sim_time =                  622,dimm_counter=                 311 
+ 
+ -----time=                 624,@sim_time =                  624,dimm_counter=                 312 
+ 
+ -----time=                 626,@sim_time =                  626,dimm_counter=                 313 
+ 
+ -----time=                 628,@sim_time =                  628,dimm_counter=                 314 
+ 
+ -----time=                 630,@sim_time =                  630,dimm_counter=                 315 
+ 
+ -----time=                 632,@sim_time =                  632,dimm_counter=                 316 
+ 
+ -----time=                 634,@sim_time =                  634,dimm_counter=                 317 
+ 
+ -----time=                 636,@sim_time =                  636,dimm_counter=                 318 
+ 
+ -----time=                 638,@sim_time =                  638,dimm_counter=                 319 
+ 
+ -----time=                 640,@sim_time =                  640,dimm_counter=                 320 
+ 
+ -----time=                 642,@sim_time =                  642,dimm_counter=                 321 
+ 
+ -----time=                 644,@sim_time =                  644,dimm_counter=                 322 
+ 
+ -----time=                 646,@sim_time =                  646,dimm_counter=                 323 
+ 
+ -----time=                 648,@sim_time =                  648,dimm_counter=                 324 
+ 
+ -----time=                 650,@sim_time =                  650,dimm_counter=                 325 
+ 
+ -----time=                 652,@sim_time =                  652,dimm_counter=                 326 
+ 
+ -----time=                 654,@sim_time =                  654,dimm_counter=                 327 
+ 
+ -----time=                 656,@sim_time =                  656,dimm_counter=                 328 
+ 
+ -----time=                 658,@sim_time =                  658,dimm_counter=                 329 
+ 
+ -----time=                 660,@sim_time =                  660,dimm_counter=                 330 
+ 
+ -----time=                 662,@sim_time =                  662,dimm_counter=                 331 
+ 
+ -----time=                 664,@sim_time =                  664,dimm_counter=                 332 
+ 
+ -----time=                 666,@sim_time =                  666,dimm_counter=                 333 
+ 
+ -----time=                 668,@sim_time =                  668,dimm_counter=                 334 
+                 668 	 channel=0 RD0  bankg=5 bank=1 column=08b 
+                 670 	 channel=0 RD1  bankg=5 bank=1 column=08b 
+ 
+ -----time=                 670,@sim_time =                  670,dimm_counter=                 335 
+ 
+ -----time=                 670,@sim_time =                  670 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                 672,@sim_time =                  672,dimm_counter=                 336 
+ 
+ -----time=                 674,@sim_time =                  674,dimm_counter=                 337 
+ 
+ -----time=                 676,@sim_time =                  676,dimm_counter=                 338 
+ 
+ -----time=                 678,@sim_time =                  678,dimm_counter=                 339 
+ 
+ -----time=                 680,@sim_time =                  680,dimm_counter=                 340 
+ 
+ -----time=                 682,@sim_time =                  682,dimm_counter=                 341 
+ 
+ -----time=                 684,@sim_time =                  684,dimm_counter=                 342 
+ 
+ -----time=                 686,@sim_time =                  686,dimm_counter=                 343 
+ 
+ -----time=                 688,@sim_time =                  688,dimm_counter=                 344 
+ 
+ -----time=                 690,@sim_time =                  690,dimm_counter=                 345 
+ 
+ -----time=                 692,@sim_time =                  692,dimm_counter=                 346 
+ 
+ -----time=                 694,@sim_time =                  694,dimm_counter=                 347 
+ 
+ -----time=                 696,@sim_time =                  696,dimm_counter=                 348 
+ 
+ -----time=                 698,@sim_time =                  698,dimm_counter=                 349 
+ 
+ -----time=                 700,@sim_time =                  700,dimm_counter=                 350 
+ 
+ -----time=                 702,@sim_time =                  702,dimm_counter=                 351 
+ 
+ -----time=                 704,@sim_time =                  704,dimm_counter=                 352 
+ 
+ -----time=                 706,@sim_time =                  706,dimm_counter=                 353 
+ 	 bank_g_time[5][1]=          0 
+                 706 	 channel=0 PRE  bankg=5 bank=1 
+                  706 	 done=0 
+ 
+ -----time=                 707,@sim_time =                  707 
+ 
+ -----time=                 708,@sim_time =                  708,dimm_counter=                 354 
+ 
+ -----time=                 708,@sim_time =                  708 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 708 	 channel=0 ACT0 bankg=6 bank=2 row =0006 
+                 710 	 channel=0 ACT1 bankg=6 bank=2 row =0006 
+ 
+ -----time=                 710,@sim_time =                  710,dimm_counter=                 355 
+ 
+ -----time=                 710,@sim_time =                  710 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                 712,@sim_time =                  712,dimm_counter=                 356 
+ 
+ -----time=                 714,@sim_time =                  714,dimm_counter=                 357 
+ 
+ -----time=                 716,@sim_time =                  716,dimm_counter=                 358 
+ 
+ -----time=                 718,@sim_time =                  718,dimm_counter=                 359 
+ 
+ -----time=                 720,@sim_time =                  720,dimm_counter=                 360 
+ 
+ -----time=                 722,@sim_time =                  722,dimm_counter=                 361 
+ 
+ -----time=                 724,@sim_time =                  724,dimm_counter=                 362 
+ 
+ -----time=                 726,@sim_time =                  726,dimm_counter=                 363 
+ 
+ -----time=                 728,@sim_time =                  728,dimm_counter=                 364 
+ 
+ -----time=                 730,@sim_time =                  730,dimm_counter=                 365 
+ 
+ -----time=                 732,@sim_time =                  732,dimm_counter=                 366 
+ 
+ -----time=                 734,@sim_time =                  734,dimm_counter=                 367 
+ 
+ -----time=                 736,@sim_time =                  736,dimm_counter=                 368 
+ 
+ -----time=                 738,@sim_time =                  738,dimm_counter=                 369 
+ 
+ -----time=                 740,@sim_time =                  740,dimm_counter=                 370 
+ 
+ -----time=                 742,@sim_time =                  742,dimm_counter=                 371 
+ 
+ -----time=                 744,@sim_time =                  744,dimm_counter=                 372 
+ 
+ -----time=                 746,@sim_time =                  746,dimm_counter=                 373 
+ 
+ -----time=                 748,@sim_time =                  748,dimm_counter=                 374 
+ 
+ -----time=                 750,@sim_time =                  750,dimm_counter=                 375 
+ 
+ -----time=                 752,@sim_time =                  752,dimm_counter=                 376 
+ 
+ -----time=                 754,@sim_time =                  754,dimm_counter=                 377 
+ 
+ -----time=                 756,@sim_time =                  756,dimm_counter=                 378 
+ 
+ -----time=                 758,@sim_time =                  758,dimm_counter=                 379 
+ 
+ -----time=                 760,@sim_time =                  760,dimm_counter=                 380 
+ 
+ -----time=                 762,@sim_time =                  762,dimm_counter=                 381 
+ 
+ -----time=                 764,@sim_time =                  764,dimm_counter=                 382 
+ 
+ -----time=                 766,@sim_time =                  766,dimm_counter=                 383 
+ 
+ -----time=                 768,@sim_time =                  768,dimm_counter=                 384 
+ 
+ -----time=                 770,@sim_time =                  770,dimm_counter=                 385 
+ 
+ -----time=                 772,@sim_time =                  772,dimm_counter=                 386 
+ 
+ -----time=                 774,@sim_time =                  774,dimm_counter=                 387 
+ 
+ -----time=                 776,@sim_time =                  776,dimm_counter=                 388 
+ 
+ -----time=                 778,@sim_time =                  778,dimm_counter=                 389 
+ 
+ -----time=                 780,@sim_time =                  780,dimm_counter=                 390 
+ 
+ -----time=                 782,@sim_time =                  782,dimm_counter=                 391 
+ 
+ -----time=                 784,@sim_time =                  784,dimm_counter=                 392 
+ 
+ -----time=                 786,@sim_time =                  786,dimm_counter=                 393 
+                 786 	 channel=0 RD0  bankg=6 bank=2 column=10a 
+                 788 	 channel=0 RD1  bankg=6 bank=2 column=10a 
+ 
+ -----time=                 788,@sim_time =                  788,dimm_counter=                 394 
+ 
+ -----time=                 788,@sim_time =                  788 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                 790,@sim_time =                  790,dimm_counter=                 395 
+ 
+ -----time=                 792,@sim_time =                  792,dimm_counter=                 396 
+ 
+ -----time=                 794,@sim_time =                  794,dimm_counter=                 397 
+ 
+ -----time=                 796,@sim_time =                  796,dimm_counter=                 398 
+ 
+ -----time=                 798,@sim_time =                  798,dimm_counter=                 399 
+ 
+ -----time=                 800,@sim_time =                  800,dimm_counter=                 400 
+ 
+ -----time=                 802,@sim_time =                  802,dimm_counter=                 401 
+ 
+ -----time=                 804,@sim_time =                  804,dimm_counter=                 402 
+ 
+ -----time=                 806,@sim_time =                  806,dimm_counter=                 403 
+ 
+ -----time=                 808,@sim_time =                  808,dimm_counter=                 404 
+ 
+ -----time=                 810,@sim_time =                  810,dimm_counter=                 405 
+ 
+ -----time=                 812,@sim_time =                  812,dimm_counter=                 406 
+ 
+ -----time=                 814,@sim_time =                  814,dimm_counter=                 407 
+ 
+ -----time=                 816,@sim_time =                  816,dimm_counter=                 408 
+ 
+ -----time=                 818,@sim_time =                  818,dimm_counter=                 409 
+ 
+ -----time=                 820,@sim_time =                  820,dimm_counter=                 410 
+ 
+ -----time=                 822,@sim_time =                  822,dimm_counter=                 411 
+ 
+ -----time=                 824,@sim_time =                  824,dimm_counter=                 412 
+ 	 bank_g_time[6][2]=          0 
+                 824 	 channel=0 PRE  bankg=6 bank=2 
+                  824 	 done=0 
+ 
+ -----time=                 825,@sim_time =                  825 
+ 
+ -----time=                 826,@sim_time =                  826,dimm_counter=                 413 
+ 
+ -----time=                 826,@sim_time =                  826 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                 826 	 channel=0 ACT0 bankg=7 bank=3 row =0007 
+                 828 	 channel=0 ACT1 bankg=7 bank=3 row =0007 
+ 
+ -----time=                 828,@sim_time =                  828,dimm_counter=                 414 
+ 
+ -----time=                 828,@sim_time =                  828 
+ 
+ -----Entered WR0 state 
+ 
+ -----time=                 830,@sim_time =                  830,dimm_counter=                 415 
+ 
+ -----time=                 832,@sim_time =                  832,dimm_counter=                 416 
+ 
+ -----time=                 834,@sim_time =                  834,dimm_counter=                 417 
+ 
+ -----time=                 836,@sim_time =                  836,dimm_counter=                 418 
+ 
+ -----time=                 838,@sim_time =                  838,dimm_counter=                 419 
+ 
+ -----time=                 840,@sim_time =                  840,dimm_counter=                 420 
+ 
+ -----time=                 842,@sim_time =                  842,dimm_counter=                 421 
+ 
+ -----time=                 844,@sim_time =                  844,dimm_counter=                 422 
+ 
+ -----time=                 846,@sim_time =                  846,dimm_counter=                 423 
+ 
+ -----time=                 848,@sim_time =                  848,dimm_counter=                 424 
+ 
+ -----time=                 850,@sim_time =                  850,dimm_counter=                 425 
+ 
+ -----time=                 852,@sim_time =                  852,dimm_counter=                 426 
+ 
+ -----time=                 854,@sim_time =                  854,dimm_counter=                 427 
+ 
+ -----time=                 856,@sim_time =                  856,dimm_counter=                 428 
+ 
+ -----time=                 858,@sim_time =                  858,dimm_counter=                 429 
+ 
+ -----time=                 860,@sim_time =                  860,dimm_counter=                 430 
+ 
+ -----time=                 862,@sim_time =                  862,dimm_counter=                 431 
+ 
+ -----time=                 864,@sim_time =                  864,dimm_counter=                 432 
+ 
+ -----time=                 866,@sim_time =                  866,dimm_counter=                 433 
+ 
+ -----time=                 868,@sim_time =                  868,dimm_counter=                 434 
+ 
+ -----time=                 870,@sim_time =                  870,dimm_counter=                 435 
+ 
+ -----time=                 872,@sim_time =                  872,dimm_counter=                 436 
+ 
+ -----time=                 874,@sim_time =                  874,dimm_counter=                 437 
+ 
+ -----time=                 876,@sim_time =                  876,dimm_counter=                 438 
+ 
+ -----time=                 878,@sim_time =                  878,dimm_counter=                 439 
+ 
+ -----time=                 880,@sim_time =                  880,dimm_counter=                 440 
+ 
+ -----time=                 882,@sim_time =                  882,dimm_counter=                 441 
+ 
+ -----time=                 884,@sim_time =                  884,dimm_counter=                 442 
+ 
+ -----time=                 886,@sim_time =                  886,dimm_counter=                 443 
+ 
+ -----time=                 888,@sim_time =                  888,dimm_counter=                 444 
+ 
+ -----time=                 890,@sim_time =                  890,dimm_counter=                 445 
+ 
+ -----time=                 892,@sim_time =                  892,dimm_counter=                 446 
+ 
+ -----time=                 894,@sim_time =                  894,dimm_counter=                 447 
+ 
+ -----time=                 896,@sim_time =                  896,dimm_counter=                 448 
+ 
+ -----time=                 898,@sim_time =                  898,dimm_counter=                 449 
+ 
+ -----time=                 900,@sim_time =                  900,dimm_counter=                 450 
+ 
+ -----time=                 902,@sim_time =                  902,dimm_counter=                 451 
+ 
+ -----time=                 904,@sim_time =                  904,dimm_counter=                 452 
+                 904 	 channel=0 WR0  bankg=7 bank=3 column=209 
+                 906 	 channel=0 WR1  bankg=7 bank=3 column=209 
+ 
+ -----time=                 906,@sim_time =                  906,dimm_counter=                 453 
+ 
+ -----time=                 906,@sim_time =                  906 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                 908,@sim_time =                  908,dimm_counter=                 454 
+ 
+ -----time=                 910,@sim_time =                  910,dimm_counter=                 455 
+ 
+ -----time=                 912,@sim_time =                  912,dimm_counter=                 456 
+ 
+ -----time=                 914,@sim_time =                  914,dimm_counter=                 457 
+ 
+ -----time=                 916,@sim_time =                  916,dimm_counter=                 458 
+ 
+ -----time=                 918,@sim_time =                  918,dimm_counter=                 459 
+ 
+ -----time=                 920,@sim_time =                  920,dimm_counter=                 460 
+ 
+ -----time=                 922,@sim_time =                  922,dimm_counter=                 461 
+ 
+ -----time=                 924,@sim_time =                  924,dimm_counter=                 462 
+ 
+ -----time=                 926,@sim_time =                  926,dimm_counter=                 463 
+ 
+ -----time=                 928,@sim_time =                  928,dimm_counter=                 464 
+ 
+ -----time=                 930,@sim_time =                  930,dimm_counter=                 465 
+ 
+ -----time=                 932,@sim_time =                  932,dimm_counter=                 466 
+ 
+ -----time=                 934,@sim_time =                  934,dimm_counter=                 467 
+ 
+ -----time=                 936,@sim_time =                  936,dimm_counter=                 468 
+ 
+ -----time=                 938,@sim_time =                  938,dimm_counter=                 469 
+ 
+ -----time=                 940,@sim_time =                  940,dimm_counter=                 470 
+ 
+ -----time=                 942,@sim_time =                  942,dimm_counter=                 471 
+ 
+ -----time=                 944,@sim_time =                  944,dimm_counter=                 472 
+ 
+ -----time=                 946,@sim_time =                  946,dimm_counter=                 473 
+ 
+ -----time=                 948,@sim_time =                  948,dimm_counter=                 474 
+ 
+ -----time=                 950,@sim_time =                  950,dimm_counter=                 475 
+ 
+ -----time=                 952,@sim_time =                  952,dimm_counter=                 476 
+ 
+ -----time=                 954,@sim_time =                  954,dimm_counter=                 477 
+ 
+ -----time=                 956,@sim_time =                  956,dimm_counter=                 478 
+ 
+ -----time=                 958,@sim_time =                  958,dimm_counter=                 479 
+ 
+ -----time=                 960,@sim_time =                  960,dimm_counter=                 480 
+ 
+ -----time=                 962,@sim_time =                  962,dimm_counter=                 481 
+ 
+ -----time=                 964,@sim_time =                  964,dimm_counter=                 482 
+ 
+ -----time=                 966,@sim_time =                  966,dimm_counter=                 483 
+ 
+ -----time=                 968,@sim_time =                  968,dimm_counter=                 484 
+ 
+ -----time=                 970,@sim_time =                  970,dimm_counter=                 485 
+ 
+ -----time=                 972,@sim_time =                  972,dimm_counter=                 486 
+ 
+ -----time=                 974,@sim_time =                  974,dimm_counter=                 487 
+ 
+ -----time=                 976,@sim_time =                  976,dimm_counter=                 488 
+ 
+ -----time=                 978,@sim_time =                  978,dimm_counter=                 489 
+ 
+ -----time=                 980,@sim_time =                  980,dimm_counter=                 490 
+ 
+ -----time=                 982,@sim_time =                  982,dimm_counter=                 491 
+ 
+ -----time=                 984,@sim_time =                  984,dimm_counter=                 492 
+ 
+ -----time=                 986,@sim_time =                  986,dimm_counter=                 493 
+ 
+ -----time=                 988,@sim_time =                  988,dimm_counter=                 494 
+ 
+ -----time=                 990,@sim_time =                  990,dimm_counter=                 495 
+ 
+ -----time=                 992,@sim_time =                  992,dimm_counter=                 496 
+ 
+ -----time=                 994,@sim_time =                  994,dimm_counter=                 497 
+ 
+ -----time=                 996,@sim_time =                  996,dimm_counter=                 498 
+ 
+ -----time=                 998,@sim_time =                  998,dimm_counter=                 499 
+ 
+ -----time=                1000,@sim_time =                 1000,dimm_counter=                 500 
+ 
+ -----time=                1002,@sim_time =                 1002,dimm_counter=                 501 
+ 
+ -----time=                1004,@sim_time =                 1004,dimm_counter=                 502 
+ 
+ -----time=                1006,@sim_time =                 1006,dimm_counter=                 503 
+ 
+ -----time=                1008,@sim_time =                 1008,dimm_counter=                 504 
+ 
+ -----time=                1010,@sim_time =                 1010,dimm_counter=                 505 
+ 
+ -----time=                1012,@sim_time =                 1012,dimm_counter=                 506 
+ 
+ -----time=                1014,@sim_time =                 1014,dimm_counter=                 507 
+ 
+ -----time=                1016,@sim_time =                 1016,dimm_counter=                 508 
+ 
+ -----time=                1018,@sim_time =                 1018,dimm_counter=                 509 
+ 
+ -----time=                1020,@sim_time =                 1020,dimm_counter=                 510 
+ 
+ -----time=                1022,@sim_time =                 1022,dimm_counter=                 511 
+ 
+ -----time=                1024,@sim_time =                 1024,dimm_counter=                 512 
+ 
+ -----time=                1026,@sim_time =                 1026,dimm_counter=                 513 
+ 
+ -----time=                1028,@sim_time =                 1028,dimm_counter=                 514 
+ 
+ -----time=                1030,@sim_time =                 1030,dimm_counter=                 515 
+ 
+ -----time=                1032,@sim_time =                 1032,dimm_counter=                 516 
+ 
+ -----time=                1034,@sim_time =                 1034,dimm_counter=                 517 
+ 
+ -----time=                1036,@sim_time =                 1036,dimm_counter=                 518 
+ 
+ -----time=                1038,@sim_time =                 1038,dimm_counter=                 519 
+ 
+ -----time=                1040,@sim_time =                 1040,dimm_counter=                 520 
+ 
+ -----time=                1042,@sim_time =                 1042,dimm_counter=                 521 
+ 
+ -----time=                1044,@sim_time =                 1044,dimm_counter=                 522 
+ 
+ -----time=                1046,@sim_time =                 1046,dimm_counter=                 523 
+ 
+ -----time=                1048,@sim_time =                 1048,dimm_counter=                 524 
+ 
+ -----time=                1050,@sim_time =                 1050,dimm_counter=                 525 
+ 
+ -----time=                1052,@sim_time =                 1052,dimm_counter=                 526 
+ 
+ -----time=                1054,@sim_time =                 1054,dimm_counter=                 527 
+ 
+ -----time=                1056,@sim_time =                 1056,dimm_counter=                 528 
+ 
+ -----time=                1058,@sim_time =                 1058,dimm_counter=                 529 
+ 	 bank_g_time[7][3]=          0 
+                1058 	 channel=0 PRE  bankg=7 bank=3 
+                 1058 	 done=0 
+ 
+ -----time=                1059,@sim_time =                 1059 
+ 
+ -----time=                1060,@sim_time =                 1060,dimm_counter=                 530 
+ 
+ -----time=                1060,@sim_time =                 1060 
+ 
+ -----Entered ACT0 state 
+ 
  -----same bank 
-                 224 	 channel=0 ACT0 bankg=1 bank=0 row =07fe 
-                 226 	 channel=0 ACT1 bankg=1 bank=0 row =07fe 
-                 302 	 channel=0 WR0  bankg=1 bank=0 column=170 
-                 304 	 channel=0 WR1  bankg=1 bank=0 column=170 
-                 456 	 channel=0 PRE  bankg=1 bank=0 
-  
- -----different bank 
-                 458 	 channel=0 ACT0 bankg=6 bank=3 row =43ff 
-                 460 	 channel=0 ACT1 bankg=6 bank=3 row =43ff 
-                 536 	 channel=0 RD0  bankg=6 bank=3 column=3f0 
-                 538 	 channel=0 RD1  bankg=6 bank=3 column=3f0 
-                 574 	 channel=0 PRE  bankg=6 bank=3 
-  
- -----different bank 
-                 576 	 channel=0 ACT0 bankg=7 bank=3 row =43ff 
-                 578 	 channel=0 ACT1 bankg=7 bank=3 row =43ff 
-                 654 	 channel=0 WR0  bankg=7 bank=3 column=3f0 
-                 656 	 channel=0 WR1  bankg=7 bank=3 column=3f0 
-                 808 	 channel=0 PRE  bankg=7 bank=3 
-  
- -----different bank 
-                 810 	 channel=0 ACT0 bankg=6 bank=3 row =43ff 
-                 812 	 channel=0 ACT1 bankg=6 bank=3 row =43ff 
-                 888 	 channel=0 RD0  bankg=6 bank=3 column=3f0 
-                 890 	 channel=0 RD1  bankg=6 bank=3 column=3f0 
-                 926 	 channel=0 PRE  bankg=6 bank=3 
-  
- -----different bank 
-                 928 	 channel=0 ACT0 bankg=6 bank=3 row =43ff 
-                 930 	 channel=0 ACT1 bankg=6 bank=3 row =43ff 
-                1006 	 channel=0 RD0  bankg=6 bank=3 column=3f0 
-                1008 	 channel=0 RD1  bankg=6 bank=3 column=3f0 
-                1044 	 channel=0 PRE  bankg=6 bank=3 
  
+ bank_g_s_rem_time=        942,d_time=       1060
+ 
+ act_rc_rem_time =          0,d_time=       1060
+                1060 	 channel=0 ACT0 bankg=0 bank=0 row =0008 
+                1062 	 channel=0 ACT1 bankg=0 bank=0 row =0008 
+ 
+ -----time=                1062,@sim_time =                 1062,dimm_counter=                 531 
+ 
+ -----time=                1062,@sim_time =                 1062 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                1064,@sim_time =                 1064,dimm_counter=                 532 
+ 
+ -----time=                1066,@sim_time =                 1066,dimm_counter=                 533 
+ 
+ -----time=                1068,@sim_time =                 1068,dimm_counter=                 534 
+ 
+ -----time=                1070,@sim_time =                 1070,dimm_counter=                 535 
+ 
+ -----time=                1072,@sim_time =                 1072,dimm_counter=                 536 
+ 
+ -----time=                1074,@sim_time =                 1074,dimm_counter=                 537 
+ 
+ -----time=                1076,@sim_time =                 1076,dimm_counter=                 538 
+ 
+ -----time=                1078,@sim_time =                 1078,dimm_counter=                 539 
+ 
+ -----time=                1080,@sim_time =                 1080,dimm_counter=                 540 
+ 
+ -----time=                1082,@sim_time =                 1082,dimm_counter=                 541 
+ 
+ -----time=                1084,@sim_time =                 1084,dimm_counter=                 542 
+ 
+ -----time=                1086,@sim_time =                 1086,dimm_counter=                 543 
+ 
+ -----time=                1088,@sim_time =                 1088,dimm_counter=                 544 
+ 
+ -----time=                1090,@sim_time =                 1090,dimm_counter=                 545 
+ 
+ -----time=                1092,@sim_time =                 1092,dimm_counter=                 546 
+ 
+ -----time=                1094,@sim_time =                 1094,dimm_counter=                 547 
+ 
+ -----time=                1096,@sim_time =                 1096,dimm_counter=                 548 
+ 
+ -----time=                1098,@sim_time =                 1098,dimm_counter=                 549 
+ 
+ -----time=                1100,@sim_time =                 1100,dimm_counter=                 550 
+ 
+ -----time=                1102,@sim_time =                 1102,dimm_counter=                 551 
+ 
+ -----time=                1104,@sim_time =                 1104,dimm_counter=                 552 
+ 
+ -----time=                1106,@sim_time =                 1106,dimm_counter=                 553 
+ 
+ -----time=                1108,@sim_time =                 1108,dimm_counter=                 554 
+ 
+ -----time=                1110,@sim_time =                 1110,dimm_counter=                 555 
+ 
+ -----time=                1112,@sim_time =                 1112,dimm_counter=                 556 
+ 
+ -----time=                1114,@sim_time =                 1114,dimm_counter=                 557 
+ 
+ -----time=                1116,@sim_time =                 1116,dimm_counter=                 558 
+ 
+ -----time=                1118,@sim_time =                 1118,dimm_counter=                 559 
+ 
+ -----time=                1120,@sim_time =                 1120,dimm_counter=                 560 
+ 
+ -----time=                1122,@sim_time =                 1122,dimm_counter=                 561 
+ 
+ -----time=                1124,@sim_time =                 1124,dimm_counter=                 562 
+ 
+ -----time=                1126,@sim_time =                 1126,dimm_counter=                 563 
+ 
+ -----time=                1128,@sim_time =                 1128,dimm_counter=                 564 
+ 
+ -----time=                1130,@sim_time =                 1130,dimm_counter=                 565 
+ 
+ -----time=                1132,@sim_time =                 1132,dimm_counter=                 566 
+ 
+ -----time=                1134,@sim_time =                 1134,dimm_counter=                 567 
+ 
+ -----time=                1136,@sim_time =                 1136,dimm_counter=                 568 
+ 
+ -----time=                1138,@sim_time =                 1138,dimm_counter=                 569 
+                1138 	 channel=0 RD0  bankg=0 bank=0 column=108 
+                1140 	 channel=0 RD1  bankg=0 bank=0 column=108 
+ 
+ -----time=                1140,@sim_time =                 1140,dimm_counter=                 570 
+ 
+ -----time=                1140,@sim_time =                 1140 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                1142,@sim_time =                 1142,dimm_counter=                 571 
+ 
+ -----time=                1144,@sim_time =                 1144,dimm_counter=                 572 
+ 
+ -----time=                1146,@sim_time =                 1146,dimm_counter=                 573 
+ 
+ -----time=                1148,@sim_time =                 1148,dimm_counter=                 574 
+ 
+ -----time=                1150,@sim_time =                 1150,dimm_counter=                 575 
+ 
+ -----time=                1152,@sim_time =                 1152,dimm_counter=                 576 
+ 
+ -----time=                1154,@sim_time =                 1154,dimm_counter=                 577 
+ 
+ -----time=                1156,@sim_time =                 1156,dimm_counter=                 578 
+ 
+ -----time=                1158,@sim_time =                 1158,dimm_counter=                 579 
+ 
+ -----time=                1160,@sim_time =                 1160,dimm_counter=                 580 
+ 
+ -----time=                1162,@sim_time =                 1162,dimm_counter=                 581 
+ 
+ -----time=                1164,@sim_time =                 1164,dimm_counter=                 582 
+ 
+ -----time=                1166,@sim_time =                 1166,dimm_counter=                 583 
+ 
+ -----time=                1168,@sim_time =                 1168,dimm_counter=                 584 
+ 
+ -----time=                1170,@sim_time =                 1170,dimm_counter=                 585 
+ 
+ -----time=                1172,@sim_time =                 1172,dimm_counter=                 586 
+ 
+ -----time=                1174,@sim_time =                 1174,dimm_counter=                 587 
+ 
+ -----time=                1176,@sim_time =                 1176,dimm_counter=                 588 
+ 	 bank_g_time[0][0]=       1176 
+                1176 	 channel=0 PRE  bankg=0 bank=0 
+                 1176 	 done=0 
+ 
+ -----time=                1177,@sim_time =                 1177 
+ 
+ -----time=                1178,@sim_time =                 1178,dimm_counter=                 589 
+ 
+ -----time=                1178,@sim_time =                 1178 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+ 
+ bank_g_s_rem_time=        826,d_time=       1178
+ 
+ act_rc_rem_time =          0,d_time=       1178
+                1178 	 channel=0 ACT0 bankg=1 bank=1 row =0009 
+                1180 	 channel=0 ACT1 bankg=1 bank=1 row =0009 
+ 
+ -----time=                1180,@sim_time =                 1180,dimm_counter=                 590 
+ 
+ -----time=                1180,@sim_time =                 1180 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                1182,@sim_time =                 1182,dimm_counter=                 591 
+ 
+ -----time=                1184,@sim_time =                 1184,dimm_counter=                 592 
+ 
+ -----time=                1186,@sim_time =                 1186,dimm_counter=                 593 
+ 
+ -----time=                1188,@sim_time =                 1188,dimm_counter=                 594 
+ 
+ -----time=                1190,@sim_time =                 1190,dimm_counter=                 595 
+ 
+ -----time=                1192,@sim_time =                 1192,dimm_counter=                 596 
+ 
+ -----time=                1194,@sim_time =                 1194,dimm_counter=                 597 
+ 
+ -----time=                1196,@sim_time =                 1196,dimm_counter=                 598 
+ 
+ -----time=                1198,@sim_time =                 1198,dimm_counter=                 599 
+ 
+ -----time=                1200,@sim_time =                 1200,dimm_counter=                 600 
+ 
+ -----time=                1202,@sim_time =                 1202,dimm_counter=                 601 
+ 
+ -----time=                1204,@sim_time =                 1204,dimm_counter=                 602 
+ 
+ -----time=                1206,@sim_time =                 1206,dimm_counter=                 603 
+ 
+ -----time=                1208,@sim_time =                 1208,dimm_counter=                 604 
+ 
+ -----time=                1210,@sim_time =                 1210,dimm_counter=                 605 
+ 
+ -----time=                1212,@sim_time =                 1212,dimm_counter=                 606 
+ 
+ -----time=                1214,@sim_time =                 1214,dimm_counter=                 607 
+ 
+ -----time=                1216,@sim_time =                 1216,dimm_counter=                 608 
+ 
+ -----time=                1218,@sim_time =                 1218,dimm_counter=                 609 
+ 
+ -----time=                1220,@sim_time =                 1220,dimm_counter=                 610 
+ 
+ -----time=                1222,@sim_time =                 1222,dimm_counter=                 611 
+ 
+ -----time=                1224,@sim_time =                 1224,dimm_counter=                 612 
+ 
+ -----time=                1226,@sim_time =                 1226,dimm_counter=                 613 
+ 
+ -----time=                1228,@sim_time =                 1228,dimm_counter=                 614 
+ 
+ -----time=                1230,@sim_time =                 1230,dimm_counter=                 615 
+ 
+ -----time=                1232,@sim_time =                 1232,dimm_counter=                 616 
+ 
+ -----time=                1234,@sim_time =                 1234,dimm_counter=                 617 
+ 
+ -----time=                1236,@sim_time =                 1236,dimm_counter=                 618 
+ 
+ -----time=                1238,@sim_time =                 1238,dimm_counter=                 619 
+ 
+ -----time=                1240,@sim_time =                 1240,dimm_counter=                 620 
+ 
+ -----time=                1242,@sim_time =                 1242,dimm_counter=                 621 
+ 
+ -----time=                1244,@sim_time =                 1244,dimm_counter=                 622 
+ 
+ -----time=                1246,@sim_time =                 1246,dimm_counter=                 623 
+ 
+ -----time=                1248,@sim_time =                 1248,dimm_counter=                 624 
+ 
+ -----time=                1250,@sim_time =                 1250,dimm_counter=                 625 
+ 
+ -----time=                1252,@sim_time =                 1252,dimm_counter=                 626 
+ 
+ -----time=                1254,@sim_time =                 1254,dimm_counter=                 627 
+ 
+ -----time=                1256,@sim_time =                 1256,dimm_counter=                 628 
+                1256 	 channel=0 RD0  bankg=1 bank=1 column=087 
+                1258 	 channel=0 RD1  bankg=1 bank=1 column=087 
+ 
+ -----time=                1258,@sim_time =                 1258,dimm_counter=                 629 
+ 
+ -----time=                1258,@sim_time =                 1258 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                1260,@sim_time =                 1260,dimm_counter=                 630 
+ 
+ -----time=                1262,@sim_time =                 1262,dimm_counter=                 631 
+ 
+ -----time=                1264,@sim_time =                 1264,dimm_counter=                 632 
+ 
+ -----time=                1266,@sim_time =                 1266,dimm_counter=                 633 
+ 
+ -----time=                1268,@sim_time =                 1268,dimm_counter=                 634 
+ 
+ -----time=                1270,@sim_time =                 1270,dimm_counter=                 635 
+ 
+ -----time=                1272,@sim_time =                 1272,dimm_counter=                 636 
+ 
+ -----time=                1274,@sim_time =                 1274,dimm_counter=                 637 
+ 
+ -----time=                1276,@sim_time =                 1276,dimm_counter=                 638 
+ 
+ -----time=                1278,@sim_time =                 1278,dimm_counter=                 639 
+ 
+ -----time=                1280,@sim_time =                 1280,dimm_counter=                 640 
+ 
+ -----time=                1282,@sim_time =                 1282,dimm_counter=                 641 
+ 
+ -----time=                1284,@sim_time =                 1284,dimm_counter=                 642 
+ 
+ -----time=                1286,@sim_time =                 1286,dimm_counter=                 643 
+ 
+ -----time=                1288,@sim_time =                 1288,dimm_counter=                 644 
+ 
+ -----time=                1290,@sim_time =                 1290,dimm_counter=                 645 
+ 
+ -----time=                1292,@sim_time =                 1292,dimm_counter=                 646 
+ 
+ -----time=                1294,@sim_time =                 1294,dimm_counter=                 647 
+ 	 bank_g_time[1][1]=       1294 
+                1294 	 channel=0 PRE  bankg=1 bank=1 
+                 1294 	 done=0 
+ 
+ -----time=                1295,@sim_time =                 1295 
+ 
+ -----time=                1296,@sim_time =                 1296,dimm_counter=                 648 
+ 
+ -----time=                1296,@sim_time =                 1296 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1296 	 channel=0 ACT0 bankg=2 bank=2 row =000a 
+                1298 	 channel=0 ACT1 bankg=2 bank=2 row =000a 
+ 
+ -----time=                1298,@sim_time =                 1298,dimm_counter=                 649 
+ 
+ -----time=                1298,@sim_time =                 1298 
+ 
+ -----Entered WR0 state 
+ 
+ -----time=                1300,@sim_time =                 1300,dimm_counter=                 650 
+ 
+ -----time=                1302,@sim_time =                 1302,dimm_counter=                 651 
+ 
+ -----time=                1304,@sim_time =                 1304,dimm_counter=                 652 
+ 
+ -----time=                1306,@sim_time =                 1306,dimm_counter=                 653 
+ 
+ -----time=                1308,@sim_time =                 1308,dimm_counter=                 654 
+ 
+ -----time=                1310,@sim_time =                 1310,dimm_counter=                 655 
+ 
+ -----time=                1312,@sim_time =                 1312,dimm_counter=                 656 
+ 
+ -----time=                1314,@sim_time =                 1314,dimm_counter=                 657 
+ 
+ -----time=                1316,@sim_time =                 1316,dimm_counter=                 658 
+ 
+ -----time=                1318,@sim_time =                 1318,dimm_counter=                 659 
+ 
+ -----time=                1320,@sim_time =                 1320,dimm_counter=                 660 
+ 
+ -----time=                1322,@sim_time =                 1322,dimm_counter=                 661 
+ 
+ -----time=                1324,@sim_time =                 1324,dimm_counter=                 662 
+ 
+ -----time=                1326,@sim_time =                 1326,dimm_counter=                 663 
+ 
+ -----time=                1328,@sim_time =                 1328,dimm_counter=                 664 
+ 
+ -----time=                1330,@sim_time =                 1330,dimm_counter=                 665 
+ 
+ -----time=                1332,@sim_time =                 1332,dimm_counter=                 666 
+ 
+ -----time=                1334,@sim_time =                 1334,dimm_counter=                 667 
+ 
+ -----time=                1336,@sim_time =                 1336,dimm_counter=                 668 
+ 
+ -----time=                1338,@sim_time =                 1338,dimm_counter=                 669 
+ 
+ -----time=                1340,@sim_time =                 1340,dimm_counter=                 670 
+ 
+ -----time=                1342,@sim_time =                 1342,dimm_counter=                 671 
+ 
+ -----time=                1344,@sim_time =                 1344,dimm_counter=                 672 
+ 
+ -----time=                1346,@sim_time =                 1346,dimm_counter=                 673 
+ 
+ -----time=                1348,@sim_time =                 1348,dimm_counter=                 674 
+ 
+ -----time=                1350,@sim_time =                 1350,dimm_counter=                 675 
+ 
+ -----time=                1352,@sim_time =                 1352,dimm_counter=                 676 
+ 
+ -----time=                1354,@sim_time =                 1354,dimm_counter=                 677 
+ 
+ -----time=                1356,@sim_time =                 1356,dimm_counter=                 678 
+ 
+ -----time=                1358,@sim_time =                 1358,dimm_counter=                 679 
+ 
+ -----time=                1360,@sim_time =                 1360,dimm_counter=                 680 
+ 
+ -----time=                1362,@sim_time =                 1362,dimm_counter=                 681 
+ 
+ -----time=                1364,@sim_time =                 1364,dimm_counter=                 682 
+ 
+ -----time=                1366,@sim_time =                 1366,dimm_counter=                 683 
+ 
+ -----time=                1368,@sim_time =                 1368,dimm_counter=                 684 
+ 
+ -----time=                1370,@sim_time =                 1370,dimm_counter=                 685 
+ 
+ -----time=                1372,@sim_time =                 1372,dimm_counter=                 686 
+ 
+ -----time=                1374,@sim_time =                 1374,dimm_counter=                 687 
+                1374 	 channel=0 WR0  bankg=2 bank=2 column=046 
+                1376 	 channel=0 WR1  bankg=2 bank=2 column=046 
+ 
+ -----time=                1376,@sim_time =                 1376,dimm_counter=                 688 
+ 
+ -----time=                1376,@sim_time =                 1376 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                1378,@sim_time =                 1378,dimm_counter=                 689 
+ 
+ -----time=                1380,@sim_time =                 1380,dimm_counter=                 690 
+ 
+ -----time=                1382,@sim_time =                 1382,dimm_counter=                 691 
+ 
+ -----time=                1384,@sim_time =                 1384,dimm_counter=                 692 
+ 
+ -----time=                1386,@sim_time =                 1386,dimm_counter=                 693 
+ 
+ -----time=                1388,@sim_time =                 1388,dimm_counter=                 694 
+ 
+ -----time=                1390,@sim_time =                 1390,dimm_counter=                 695 
+ 
+ -----time=                1392,@sim_time =                 1392,dimm_counter=                 696 
+ 
+ -----time=                1394,@sim_time =                 1394,dimm_counter=                 697 
+ 
+ -----time=                1396,@sim_time =                 1396,dimm_counter=                 698 
+ 
+ -----time=                1398,@sim_time =                 1398,dimm_counter=                 699 
+ 
+ -----time=                1400,@sim_time =                 1400,dimm_counter=                 700 
+ 
+ -----time=                1402,@sim_time =                 1402,dimm_counter=                 701 
+ 
+ -----time=                1404,@sim_time =                 1404,dimm_counter=                 702 
+ 
+ -----time=                1406,@sim_time =                 1406,dimm_counter=                 703 
+ 
+ -----time=                1408,@sim_time =                 1408,dimm_counter=                 704 
+ 
+ -----time=                1410,@sim_time =                 1410,dimm_counter=                 705 
+ 
+ -----time=                1412,@sim_time =                 1412,dimm_counter=                 706 
+ 
+ -----time=                1414,@sim_time =                 1414,dimm_counter=                 707 
+ 
+ -----time=                1416,@sim_time =                 1416,dimm_counter=                 708 
+ 
+ -----time=                1418,@sim_time =                 1418,dimm_counter=                 709 
+ 
+ -----time=                1420,@sim_time =                 1420,dimm_counter=                 710 
+ 
+ -----time=                1422,@sim_time =                 1422,dimm_counter=                 711 
+ 
+ -----time=                1424,@sim_time =                 1424,dimm_counter=                 712 
+ 
+ -----time=                1426,@sim_time =                 1426,dimm_counter=                 713 
+ 
+ -----time=                1428,@sim_time =                 1428,dimm_counter=                 714 
+ 
+ -----time=                1430,@sim_time =                 1430,dimm_counter=                 715 
+ 
+ -----time=                1432,@sim_time =                 1432,dimm_counter=                 716 
+ 
+ -----time=                1434,@sim_time =                 1434,dimm_counter=                 717 
+ 
+ -----time=                1436,@sim_time =                 1436,dimm_counter=                 718 
+ 
+ -----time=                1438,@sim_time =                 1438,dimm_counter=                 719 
+ 
+ -----time=                1440,@sim_time =                 1440,dimm_counter=                 720 
+ 
+ -----time=                1442,@sim_time =                 1442,dimm_counter=                 721 
+ 
+ -----time=                1444,@sim_time =                 1444,dimm_counter=                 722 
+ 
+ -----time=                1446,@sim_time =                 1446,dimm_counter=                 723 
+ 
+ -----time=                1448,@sim_time =                 1448,dimm_counter=                 724 
+ 
+ -----time=                1450,@sim_time =                 1450,dimm_counter=                 725 
+ 
+ -----time=                1452,@sim_time =                 1452,dimm_counter=                 726 
+ 
+ -----time=                1454,@sim_time =                 1454,dimm_counter=                 727 
+ 
+ -----time=                1456,@sim_time =                 1456,dimm_counter=                 728 
+ 
+ -----time=                1458,@sim_time =                 1458,dimm_counter=                 729 
+ 
+ -----time=                1460,@sim_time =                 1460,dimm_counter=                 730 
+ 
+ -----time=                1462,@sim_time =                 1462,dimm_counter=                 731 
+ 
+ -----time=                1464,@sim_time =                 1464,dimm_counter=                 732 
+ 
+ -----time=                1466,@sim_time =                 1466,dimm_counter=                 733 
+ 
+ -----time=                1468,@sim_time =                 1468,dimm_counter=                 734 
+ 
+ -----time=                1470,@sim_time =                 1470,dimm_counter=                 735 
+ 
+ -----time=                1472,@sim_time =                 1472,dimm_counter=                 736 
+ 
+ -----time=                1474,@sim_time =                 1474,dimm_counter=                 737 
+ 
+ -----time=                1476,@sim_time =                 1476,dimm_counter=                 738 
+ 
+ -----time=                1478,@sim_time =                 1478,dimm_counter=                 739 
+ 
+ -----time=                1480,@sim_time =                 1480,dimm_counter=                 740 
+ 
+ -----time=                1482,@sim_time =                 1482,dimm_counter=                 741 
+ 
+ -----time=                1484,@sim_time =                 1484,dimm_counter=                 742 
+ 
+ -----time=                1486,@sim_time =                 1486,dimm_counter=                 743 
+ 
+ -----time=                1488,@sim_time =                 1488,dimm_counter=                 744 
+ 
+ -----time=                1490,@sim_time =                 1490,dimm_counter=                 745 
+ 
+ -----time=                1492,@sim_time =                 1492,dimm_counter=                 746 
+ 
+ -----time=                1494,@sim_time =                 1494,dimm_counter=                 747 
+ 
+ -----time=                1496,@sim_time =                 1496,dimm_counter=                 748 
+ 
+ -----time=                1498,@sim_time =                 1498,dimm_counter=                 749 
+ 
+ -----time=                1500,@sim_time =                 1500,dimm_counter=                 750 
+ 
+ -----time=                1502,@sim_time =                 1502,dimm_counter=                 751 
+ 
+ -----time=                1504,@sim_time =                 1504,dimm_counter=                 752 
+ 
+ -----time=                1506,@sim_time =                 1506,dimm_counter=                 753 
+ 
+ -----time=                1508,@sim_time =                 1508,dimm_counter=                 754 
+ 
+ -----time=                1510,@sim_time =                 1510,dimm_counter=                 755 
+ 
+ -----time=                1512,@sim_time =                 1512,dimm_counter=                 756 
+ 
+ -----time=                1514,@sim_time =                 1514,dimm_counter=                 757 
+ 
+ -----time=                1516,@sim_time =                 1516,dimm_counter=                 758 
+ 
+ -----time=                1518,@sim_time =                 1518,dimm_counter=                 759 
+ 
+ -----time=                1520,@sim_time =                 1520,dimm_counter=                 760 
+ 
+ -----time=                1522,@sim_time =                 1522,dimm_counter=                 761 
+ 
+ -----time=                1524,@sim_time =                 1524,dimm_counter=                 762 
+ 
+ -----time=                1526,@sim_time =                 1526,dimm_counter=                 763 
+ 
+ -----time=                1528,@sim_time =                 1528,dimm_counter=                 764 
+ 	 bank_g_time[2][2]=          0 
+                1528 	 channel=0 PRE  bankg=2 bank=2 
+                 1528 	 done=0 
+ 
+ -----time=                1529,@sim_time =                 1529 
+ 
+ -----time=                1530,@sim_time =                 1530,dimm_counter=                 765 
+ 
+ -----time=                1530,@sim_time =                 1530 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1530 	 channel=0 ACT0 bankg=3 bank=3 row =000b 
+                1532 	 channel=0 ACT1 bankg=3 bank=3 row =000b 
+ 
+ -----time=                1532,@sim_time =                 1532,dimm_counter=                 766 
+ 
+ -----time=                1532,@sim_time =                 1532 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                1534,@sim_time =                 1534,dimm_counter=                 767 
+ 
+ -----time=                1536,@sim_time =                 1536,dimm_counter=                 768 
+ 
+ -----time=                1538,@sim_time =                 1538,dimm_counter=                 769 
+ 
+ -----time=                1540,@sim_time =                 1540,dimm_counter=                 770 
+ 
+ -----time=                1542,@sim_time =                 1542,dimm_counter=                 771 
+ 
+ -----time=                1544,@sim_time =                 1544,dimm_counter=                 772 
+ 
+ -----time=                1546,@sim_time =                 1546,dimm_counter=                 773 
+ 
+ -----time=                1548,@sim_time =                 1548,dimm_counter=                 774 
+ 
+ -----time=                1550,@sim_time =                 1550,dimm_counter=                 775 
+ 
+ -----time=                1552,@sim_time =                 1552,dimm_counter=                 776 
+ 
+ -----time=                1554,@sim_time =                 1554,dimm_counter=                 777 
+ 
+ -----time=                1556,@sim_time =                 1556,dimm_counter=                 778 
+ 
+ -----time=                1558,@sim_time =                 1558,dimm_counter=                 779 
+ 
+ -----time=                1560,@sim_time =                 1560,dimm_counter=                 780 
+ 
+ -----time=                1562,@sim_time =                 1562,dimm_counter=                 781 
+ 
+ -----time=                1564,@sim_time =                 1564,dimm_counter=                 782 
+ 
+ -----time=                1566,@sim_time =                 1566,dimm_counter=                 783 
+ 
+ -----time=                1568,@sim_time =                 1568,dimm_counter=                 784 
+ 
+ -----time=                1570,@sim_time =                 1570,dimm_counter=                 785 
+ 
+ -----time=                1572,@sim_time =                 1572,dimm_counter=                 786 
+ 
+ -----time=                1574,@sim_time =                 1574,dimm_counter=                 787 
+ 
+ -----time=                1576,@sim_time =                 1576,dimm_counter=                 788 
+ 
+ -----time=                1578,@sim_time =                 1578,dimm_counter=                 789 
+ 
+ -----time=                1580,@sim_time =                 1580,dimm_counter=                 790 
+ 
+ -----time=                1582,@sim_time =                 1582,dimm_counter=                 791 
+ 
+ -----time=                1584,@sim_time =                 1584,dimm_counter=                 792 
+ 
+ -----time=                1586,@sim_time =                 1586,dimm_counter=                 793 
+ 
+ -----time=                1588,@sim_time =                 1588,dimm_counter=                 794 
+ 
+ -----time=                1590,@sim_time =                 1590,dimm_counter=                 795 
+ 
+ -----time=                1592,@sim_time =                 1592,dimm_counter=                 796 
+ 
+ -----time=                1594,@sim_time =                 1594,dimm_counter=                 797 
+ 
+ -----time=                1596,@sim_time =                 1596,dimm_counter=                 798 
+ 
+ -----time=                1598,@sim_time =                 1598,dimm_counter=                 799 
+ 
+ -----time=                1600,@sim_time =                 1600,dimm_counter=                 800 
+ 
+ -----time=                1602,@sim_time =                 1602,dimm_counter=                 801 
+ 
+ -----time=                1604,@sim_time =                 1604,dimm_counter=                 802 
+ 
+ -----time=                1606,@sim_time =                 1606,dimm_counter=                 803 
+ 
+ -----time=                1608,@sim_time =                 1608,dimm_counter=                 804 
+                1608 	 channel=0 RD0  bankg=3 bank=3 column=025 
+                1610 	 channel=0 RD1  bankg=3 bank=3 column=025 
+ 
+ -----time=                1610,@sim_time =                 1610,dimm_counter=                 805 
+ 
+ -----time=                1610,@sim_time =                 1610 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                1612,@sim_time =                 1612,dimm_counter=                 806 
+ 
+ -----time=                1614,@sim_time =                 1614,dimm_counter=                 807 
+ 
+ -----time=                1616,@sim_time =                 1616,dimm_counter=                 808 
+ 
+ -----time=                1618,@sim_time =                 1618,dimm_counter=                 809 
+ 
+ -----time=                1620,@sim_time =                 1620,dimm_counter=                 810 
+ 
+ -----time=                1622,@sim_time =                 1622,dimm_counter=                 811 
+ 
+ -----time=                1624,@sim_time =                 1624,dimm_counter=                 812 
+ 
+ -----time=                1626,@sim_time =                 1626,dimm_counter=                 813 
+ 
+ -----time=                1628,@sim_time =                 1628,dimm_counter=                 814 
+ 
+ -----time=                1630,@sim_time =                 1630,dimm_counter=                 815 
+ 
+ -----time=                1632,@sim_time =                 1632,dimm_counter=                 816 
+ 
+ -----time=                1634,@sim_time =                 1634,dimm_counter=                 817 
+ 
+ -----time=                1636,@sim_time =                 1636,dimm_counter=                 818 
+ 
+ -----time=                1638,@sim_time =                 1638,dimm_counter=                 819 
+ 
+ -----time=                1640,@sim_time =                 1640,dimm_counter=                 820 
+ 
+ -----time=                1642,@sim_time =                 1642,dimm_counter=                 821 
+ 
+ -----time=                1644,@sim_time =                 1644,dimm_counter=                 822 
+ 
+ -----time=                1646,@sim_time =                 1646,dimm_counter=                 823 
+ 	 bank_g_time[3][3]=          0 
+                1646 	 channel=0 PRE  bankg=3 bank=3 
+                 1646 	 done=0 
+ 
+ -----time=                1647,@sim_time =                 1647 
+ 
+ -----time=                1648,@sim_time =                 1648,dimm_counter=                 824 
+ 
+ -----time=                1648,@sim_time =                 1648 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1648 	 channel=0 ACT0 bankg=4 bank=0 row =000c 
+                1650 	 channel=0 ACT1 bankg=4 bank=0 row =000c 
+ 
+ -----time=                1650,@sim_time =                 1650,dimm_counter=                 825 
+ 
+ -----time=                1650,@sim_time =                 1650 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                1652,@sim_time =                 1652,dimm_counter=                 826 
+ 
+ -----time=                1654,@sim_time =                 1654,dimm_counter=                 827 
+ 
+ -----time=                1656,@sim_time =                 1656,dimm_counter=                 828 
+ 
+ -----time=                1658,@sim_time =                 1658,dimm_counter=                 829 
+ 
+ -----time=                1660,@sim_time =                 1660,dimm_counter=                 830 
+ 
+ -----time=                1662,@sim_time =                 1662,dimm_counter=                 831 
+ 
+ -----time=                1664,@sim_time =                 1664,dimm_counter=                 832 
+ 
+ -----time=                1666,@sim_time =                 1666,dimm_counter=                 833 
+ 
+ -----time=                1668,@sim_time =                 1668,dimm_counter=                 834 
+ 
+ -----time=                1670,@sim_time =                 1670,dimm_counter=                 835 
+ 
+ -----time=                1672,@sim_time =                 1672,dimm_counter=                 836 
+ 
+ -----time=                1674,@sim_time =                 1674,dimm_counter=                 837 
+ 
+ -----time=                1676,@sim_time =                 1676,dimm_counter=                 838 
+ 
+ -----time=                1678,@sim_time =                 1678,dimm_counter=                 839 
+ 
+ -----time=                1680,@sim_time =                 1680,dimm_counter=                 840 
+ 
+ -----time=                1682,@sim_time =                 1682,dimm_counter=                 841 
+ 
+ -----time=                1684,@sim_time =                 1684,dimm_counter=                 842 
+ 
+ -----time=                1686,@sim_time =                 1686,dimm_counter=                 843 
+ 
+ -----time=                1688,@sim_time =                 1688,dimm_counter=                 844 
+ 
+ -----time=                1690,@sim_time =                 1690,dimm_counter=                 845 
+ 
+ -----time=                1692,@sim_time =                 1692,dimm_counter=                 846 
+ 
+ -----time=                1694,@sim_time =                 1694,dimm_counter=                 847 
+ 
+ -----time=                1696,@sim_time =                 1696,dimm_counter=                 848 
+ 
+ -----time=                1698,@sim_time =                 1698,dimm_counter=                 849 
+ 
+ -----time=                1700,@sim_time =                 1700,dimm_counter=                 850 
+ 
+ -----time=                1702,@sim_time =                 1702,dimm_counter=                 851 
+ 
+ -----time=                1704,@sim_time =                 1704,dimm_counter=                 852 
+ 
+ -----time=                1706,@sim_time =                 1706,dimm_counter=                 853 
+ 
+ -----time=                1708,@sim_time =                 1708,dimm_counter=                 854 
+ 
+ -----time=                1710,@sim_time =                 1710,dimm_counter=                 855 
+ 
+ -----time=                1712,@sim_time =                 1712,dimm_counter=                 856 
+ 
+ -----time=                1714,@sim_time =                 1714,dimm_counter=                 857 
+ 
+ -----time=                1716,@sim_time =                 1716,dimm_counter=                 858 
+ 
+ -----time=                1718,@sim_time =                 1718,dimm_counter=                 859 
+ 
+ -----time=                1720,@sim_time =                 1720,dimm_counter=                 860 
+ 
+ -----time=                1722,@sim_time =                 1722,dimm_counter=                 861 
+ 
+ -----time=                1724,@sim_time =                 1724,dimm_counter=                 862 
+ 
+ -----time=                1726,@sim_time =                 1726,dimm_counter=                 863 
+                1726 	 channel=0 RD0  bankg=4 bank=0 column=014 
+                1728 	 channel=0 RD1  bankg=4 bank=0 column=014 
+ 
+ -----time=                1728,@sim_time =                 1728,dimm_counter=                 864 
+ 
+ -----time=                1728,@sim_time =                 1728 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                1730,@sim_time =                 1730,dimm_counter=                 865 
+ 
+ -----time=                1732,@sim_time =                 1732,dimm_counter=                 866 
+ 
+ -----time=                1734,@sim_time =                 1734,dimm_counter=                 867 
+ 
+ -----time=                1736,@sim_time =                 1736,dimm_counter=                 868 
+ 
+ -----time=                1738,@sim_time =                 1738,dimm_counter=                 869 
+ 
+ -----time=                1740,@sim_time =                 1740,dimm_counter=                 870 
+ 
+ -----time=                1742,@sim_time =                 1742,dimm_counter=                 871 
+ 
+ -----time=                1744,@sim_time =                 1744,dimm_counter=                 872 
+ 
+ -----time=                1746,@sim_time =                 1746,dimm_counter=                 873 
+ 
+ -----time=                1748,@sim_time =                 1748,dimm_counter=                 874 
+ 
+ -----time=                1750,@sim_time =                 1750,dimm_counter=                 875 
+ 
+ -----time=                1752,@sim_time =                 1752,dimm_counter=                 876 
+ 
+ -----time=                1754,@sim_time =                 1754,dimm_counter=                 877 
+ 
+ -----time=                1756,@sim_time =                 1756,dimm_counter=                 878 
+ 
+ -----time=                1758,@sim_time =                 1758,dimm_counter=                 879 
+ 
+ -----time=                1760,@sim_time =                 1760,dimm_counter=                 880 
+ 
+ -----time=                1762,@sim_time =                 1762,dimm_counter=                 881 
+ 
+ -----time=                1764,@sim_time =                 1764,dimm_counter=                 882 
+ 	 bank_g_time[4][0]=          0 
+                1764 	 channel=0 PRE  bankg=4 bank=0 
+                 1764 	 done=0 
+ 
+ -----time=                1765,@sim_time =                 1765 
+ 
+ -----time=                1766,@sim_time =                 1766,dimm_counter=                 883 
+ 
+ -----time=                1766,@sim_time =                 1766 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                1766 	 channel=0 ACT0 bankg=5 bank=1 row =000d 
+                1768 	 channel=0 ACT1 bankg=5 bank=1 row =000d 
+ 
+ -----time=                1768,@sim_time =                 1768,dimm_counter=                 884 
+ 
+ -----time=                1768,@sim_time =                 1768 
+ 
+ -----Entered WR0 state 
+ 
+ -----time=                1770,@sim_time =                 1770,dimm_counter=                 885 
+ 
+ -----time=                1772,@sim_time =                 1772,dimm_counter=                 886 
+ 
+ -----time=                1774,@sim_time =                 1774,dimm_counter=                 887 
+ 
+ -----time=                1776,@sim_time =                 1776,dimm_counter=                 888 
+ 
+ -----time=                1778,@sim_time =                 1778,dimm_counter=                 889 
+ 
+ -----time=                1780,@sim_time =                 1780,dimm_counter=                 890 
+ 
+ -----time=                1782,@sim_time =                 1782,dimm_counter=                 891 
+ 
+ -----time=                1784,@sim_time =                 1784,dimm_counter=                 892 
+ 
+ -----time=                1786,@sim_time =                 1786,dimm_counter=                 893 
+ 
+ -----time=                1788,@sim_time =                 1788,dimm_counter=                 894 
+ 
+ -----time=                1790,@sim_time =                 1790,dimm_counter=                 895 
+ 
+ -----time=                1792,@sim_time =                 1792,dimm_counter=                 896 
+ 
+ -----time=                1794,@sim_time =                 1794,dimm_counter=                 897 
+ 
+ -----time=                1796,@sim_time =                 1796,dimm_counter=                 898 
+ 
+ -----time=                1798,@sim_time =                 1798,dimm_counter=                 899 
+ 
+ -----time=                1800,@sim_time =                 1800,dimm_counter=                 900 
+ 
+ -----time=                1802,@sim_time =                 1802,dimm_counter=                 901 
+ 
+ -----time=                1804,@sim_time =                 1804,dimm_counter=                 902 
+ 
+ -----time=                1806,@sim_time =                 1806,dimm_counter=                 903 
+ 
+ -----time=                1808,@sim_time =                 1808,dimm_counter=                 904 
+ 
+ -----time=                1810,@sim_time =                 1810,dimm_counter=                 905 
+ 
+ -----time=                1812,@sim_time =                 1812,dimm_counter=                 906 
+ 
+ -----time=                1814,@sim_time =                 1814,dimm_counter=                 907 
+ 
+ -----time=                1816,@sim_time =                 1816,dimm_counter=                 908 
+ 
+ -----time=                1818,@sim_time =                 1818,dimm_counter=                 909 
+ 
+ -----time=                1820,@sim_time =                 1820,dimm_counter=                 910 
+ 
+ -----time=                1822,@sim_time =                 1822,dimm_counter=                 911 
+ 
+ -----time=                1824,@sim_time =                 1824,dimm_counter=                 912 
+ 
+ -----time=                1826,@sim_time =                 1826,dimm_counter=                 913 
+ 
+ -----time=                1828,@sim_time =                 1828,dimm_counter=                 914 
+ 
+ -----time=                1830,@sim_time =                 1830,dimm_counter=                 915 
+ 
+ -----time=                1832,@sim_time =                 1832,dimm_counter=                 916 
+ 
+ -----time=                1834,@sim_time =                 1834,dimm_counter=                 917 
+ 
+ -----time=                1836,@sim_time =                 1836,dimm_counter=                 918 
+ 
+ -----time=                1838,@sim_time =                 1838,dimm_counter=                 919 
+ 
+ -----time=                1840,@sim_time =                 1840,dimm_counter=                 920 
+ 
+ -----time=                1842,@sim_time =                 1842,dimm_counter=                 921 
+ 
+ -----time=                1844,@sim_time =                 1844,dimm_counter=                 922 
+                1844 	 channel=0 WR0  bankg=5 bank=1 column=003 
+                1846 	 channel=0 WR1  bankg=5 bank=1 column=003 
+ 
+ -----time=                1846,@sim_time =                 1846,dimm_counter=                 923 
+ 
+ -----time=                1846,@sim_time =                 1846 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                1848,@sim_time =                 1848,dimm_counter=                 924 
+ 
+ -----time=                1850,@sim_time =                 1850,dimm_counter=                 925 
+ 
+ -----time=                1852,@sim_time =                 1852,dimm_counter=                 926 
+ 
+ -----time=                1854,@sim_time =                 1854,dimm_counter=                 927 
+ 
+ -----time=                1856,@sim_time =                 1856,dimm_counter=                 928 
+ 
+ -----time=                1858,@sim_time =                 1858,dimm_counter=                 929 
+ 
+ -----time=                1860,@sim_time =                 1860,dimm_counter=                 930 
+ 
+ -----time=                1862,@sim_time =                 1862,dimm_counter=                 931 
+ 
+ -----time=                1864,@sim_time =                 1864,dimm_counter=                 932 
+ 
+ -----time=                1866,@sim_time =                 1866,dimm_counter=                 933 
+ 
+ -----time=                1868,@sim_time =                 1868,dimm_counter=                 934 
+ 
+ -----time=                1870,@sim_time =                 1870,dimm_counter=                 935 
+ 
+ -----time=                1872,@sim_time =                 1872,dimm_counter=                 936 
+ 
+ -----time=                1874,@sim_time =                 1874,dimm_counter=                 937 
+ 
+ -----time=                1876,@sim_time =                 1876,dimm_counter=                 938 
+ 
+ -----time=                1878,@sim_time =                 1878,dimm_counter=                 939 
+ 
+ -----time=                1880,@sim_time =                 1880,dimm_counter=                 940 
+ 
+ -----time=                1882,@sim_time =                 1882,dimm_counter=                 941 
+ 
+ -----time=                1884,@sim_time =                 1884,dimm_counter=                 942 
+ 
+ -----time=                1886,@sim_time =                 1886,dimm_counter=                 943 
+ 
+ -----time=                1888,@sim_time =                 1888,dimm_counter=                 944 
+ 
+ -----time=                1890,@sim_time =                 1890,dimm_counter=                 945 
+ 
+ -----time=                1892,@sim_time =                 1892,dimm_counter=                 946 
+ 
+ -----time=                1894,@sim_time =                 1894,dimm_counter=                 947 
+ 
+ -----time=                1896,@sim_time =                 1896,dimm_counter=                 948 
+ 
+ -----time=                1898,@sim_time =                 1898,dimm_counter=                 949 
+ 
+ -----time=                1900,@sim_time =                 1900,dimm_counter=                 950 
+ 
+ -----time=                1902,@sim_time =                 1902,dimm_counter=                 951 
+ 
+ -----time=                1904,@sim_time =                 1904,dimm_counter=                 952 
+ 
+ -----time=                1906,@sim_time =                 1906,dimm_counter=                 953 
+ 
+ -----time=                1908,@sim_time =                 1908,dimm_counter=                 954 
+ 
+ -----time=                1910,@sim_time =                 1910,dimm_counter=                 955 
+ 
+ -----time=                1912,@sim_time =                 1912,dimm_counter=                 956 
+ 
+ -----time=                1914,@sim_time =                 1914,dimm_counter=                 957 
+ 
+ -----time=                1916,@sim_time =                 1916,dimm_counter=                 958 
+ 
+ -----time=                1918,@sim_time =                 1918,dimm_counter=                 959 
+ 
+ -----time=                1920,@sim_time =                 1920,dimm_counter=                 960 
+ 
+ -----time=                1922,@sim_time =                 1922,dimm_counter=                 961 
+ 
+ -----time=                1924,@sim_time =                 1924,dimm_counter=                 962 
+ 
+ -----time=                1926,@sim_time =                 1926,dimm_counter=                 963 
+ 
+ -----time=                1928,@sim_time =                 1928,dimm_counter=                 964 
+ 
+ -----time=                1930,@sim_time =                 1930,dimm_counter=                 965 
+ 
+ -----time=                1932,@sim_time =                 1932,dimm_counter=                 966 
+ 
+ -----time=                1934,@sim_time =                 1934,dimm_counter=                 967 
+ 
+ -----time=                1936,@sim_time =                 1936,dimm_counter=                 968 
+ 
+ -----time=                1938,@sim_time =                 1938,dimm_counter=                 969 
+ 
+ -----time=                1940,@sim_time =                 1940,dimm_counter=                 970 
+ 
+ -----time=                1942,@sim_time =                 1942,dimm_counter=                 971 
+ 
+ -----time=                1944,@sim_time =                 1944,dimm_counter=                 972 
+ 
+ -----time=                1946,@sim_time =                 1946,dimm_counter=                 973 
+ 
+ -----time=                1948,@sim_time =                 1948,dimm_counter=                 974 
+ 
+ -----time=                1950,@sim_time =                 1950,dimm_counter=                 975 
+ 
+ -----time=                1952,@sim_time =                 1952,dimm_counter=                 976 
+ 
+ -----time=                1954,@sim_time =                 1954,dimm_counter=                 977 
+ 
+ -----time=                1956,@sim_time =                 1956,dimm_counter=                 978 
+ 
+ -----time=                1958,@sim_time =                 1958,dimm_counter=                 979 
+ 
+ -----time=                1960,@sim_time =                 1960,dimm_counter=                 980 
+ 
+ -----time=                1962,@sim_time =                 1962,dimm_counter=                 981 
+ 
+ -----time=                1964,@sim_time =                 1964,dimm_counter=                 982 
+ 
+ -----time=                1966,@sim_time =                 1966,dimm_counter=                 983 
+ 
+ -----time=                1968,@sim_time =                 1968,dimm_counter=                 984 
+ 
+ -----time=                1970,@sim_time =                 1970,dimm_counter=                 985 
+ 
+ -----time=                1972,@sim_time =                 1972,dimm_counter=                 986 
+ 
+ -----time=                1974,@sim_time =                 1974,dimm_counter=                 987 
+ 
+ -----time=                1976,@sim_time =                 1976,dimm_counter=                 988 
+ 
+ -----time=                1978,@sim_time =                 1978,dimm_counter=                 989 
+ 
+ -----time=                1980,@sim_time =                 1980,dimm_counter=                 990 
+ 
+ -----time=                1982,@sim_time =                 1982,dimm_counter=                 991 
+ 
+ -----time=                1984,@sim_time =                 1984,dimm_counter=                 992 
+ 
+ -----time=                1986,@sim_time =                 1986,dimm_counter=                 993 
+ 
+ -----time=                1988,@sim_time =                 1988,dimm_counter=                 994 
+ 
+ -----time=                1990,@sim_time =                 1990,dimm_counter=                 995 
+ 
+ -----time=                1992,@sim_time =                 1992,dimm_counter=                 996 
+ 
+ -----time=                1994,@sim_time =                 1994,dimm_counter=                 997 
+ 
+ -----time=                1996,@sim_time =                 1996,dimm_counter=                 998 
+ 
+ -----time=                1998,@sim_time =                 1998,dimm_counter=                 999 
+ 	 bank_g_time[5][1]=          0 
+                1998 	 channel=0 PRE  bankg=5 bank=1 
+                 1998 	 done=0 
+ 
+ -----time=                1999,@sim_time =                 1999 
+ 
+ -----time=                2000,@sim_time =                 2000,dimm_counter=                1000 
+ 
+ -----time=                2000,@sim_time =                 2000 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2000 	 channel=0 ACT0 bankg=6 bank=2 row =000e 
+                2002 	 channel=0 ACT1 bankg=6 bank=2 row =000e 
+ 
+ -----time=                2002,@sim_time =                 2002,dimm_counter=                1001 
+ 
+ -----time=                2002,@sim_time =                 2002 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                2004,@sim_time =                 2004,dimm_counter=                1002 
+ 
+ -----time=                2006,@sim_time =                 2006,dimm_counter=                1003 
+ 
+ -----time=                2008,@sim_time =                 2008,dimm_counter=                1004 
+ 
+ -----time=                2010,@sim_time =                 2010,dimm_counter=                1005 
+ 
+ -----time=                2012,@sim_time =                 2012,dimm_counter=                1006 
+ 
+ -----time=                2014,@sim_time =                 2014,dimm_counter=                1007 
+ 
+ -----time=                2016,@sim_time =                 2016,dimm_counter=                1008 
+ 
+ -----time=                2018,@sim_time =                 2018,dimm_counter=                1009 
+ 
+ -----time=                2020,@sim_time =                 2020,dimm_counter=                1010 
+ 
+ -----time=                2022,@sim_time =                 2022,dimm_counter=                1011 
+ 
+ -----time=                2024,@sim_time =                 2024,dimm_counter=                1012 
+ 
+ -----time=                2026,@sim_time =                 2026,dimm_counter=                1013 
+ 
+ -----time=                2028,@sim_time =                 2028,dimm_counter=                1014 
+ 
+ -----time=                2030,@sim_time =                 2030,dimm_counter=                1015 
+ 
+ -----time=                2032,@sim_time =                 2032,dimm_counter=                1016 
+ 
+ -----time=                2034,@sim_time =                 2034,dimm_counter=                1017 
+ 
+ -----time=                2036,@sim_time =                 2036,dimm_counter=                1018 
+ 
+ -----time=                2038,@sim_time =                 2038,dimm_counter=                1019 
+ 
+ -----time=                2040,@sim_time =                 2040,dimm_counter=                1020 
+ 
+ -----time=                2042,@sim_time =                 2042,dimm_counter=                1021 
+ 
+ -----time=                2044,@sim_time =                 2044,dimm_counter=                1022 
+ 
+ -----time=                2046,@sim_time =                 2046,dimm_counter=                1023 
+ 
+ -----time=                2048,@sim_time =                 2048,dimm_counter=                1024 
+ 
+ -----time=                2050,@sim_time =                 2050,dimm_counter=                1025 
+ 
+ -----time=                2052,@sim_time =                 2052,dimm_counter=                1026 
+ 
+ -----time=                2054,@sim_time =                 2054,dimm_counter=                1027 
+ 
+ -----time=                2056,@sim_time =                 2056,dimm_counter=                1028 
+ 
+ -----time=                2058,@sim_time =                 2058,dimm_counter=                1029 
+ 
+ -----time=                2060,@sim_time =                 2060,dimm_counter=                1030 
+ 
+ -----time=                2062,@sim_time =                 2062,dimm_counter=                1031 
+ 
+ -----time=                2064,@sim_time =                 2064,dimm_counter=                1032 
+ 
+ -----time=                2066,@sim_time =                 2066,dimm_counter=                1033 
+ 
+ -----time=                2068,@sim_time =                 2068,dimm_counter=                1034 
+ 
+ -----time=                2070,@sim_time =                 2070,dimm_counter=                1035 
+ 
+ -----time=                2072,@sim_time =                 2072,dimm_counter=                1036 
+ 
+ -----time=                2074,@sim_time =                 2074,dimm_counter=                1037 
+ 
+ -----time=                2076,@sim_time =                 2076,dimm_counter=                1038 
+ 
+ -----time=                2078,@sim_time =                 2078,dimm_counter=                1039 
+                2078 	 channel=0 RD0  bankg=6 bank=2 column=012 
+                2080 	 channel=0 RD1  bankg=6 bank=2 column=012 
+ 
+ -----time=                2080,@sim_time =                 2080,dimm_counter=                1040 
+ 
+ -----time=                2080,@sim_time =                 2080 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                2082,@sim_time =                 2082,dimm_counter=                1041 
+ 
+ -----time=                2084,@sim_time =                 2084,dimm_counter=                1042 
+ 
+ -----time=                2086,@sim_time =                 2086,dimm_counter=                1043 
+ 
+ -----time=                2088,@sim_time =                 2088,dimm_counter=                1044 
+ 
+ -----time=                2090,@sim_time =                 2090,dimm_counter=                1045 
+ 
+ -----time=                2092,@sim_time =                 2092,dimm_counter=                1046 
+ 
+ -----time=                2094,@sim_time =                 2094,dimm_counter=                1047 
+ 
+ -----time=                2096,@sim_time =                 2096,dimm_counter=                1048 
+ 
+ -----time=                2098,@sim_time =                 2098,dimm_counter=                1049 
+ 
+ -----time=                2100,@sim_time =                 2100,dimm_counter=                1050 
+ 
+ -----time=                2102,@sim_time =                 2102,dimm_counter=                1051 
+ 
+ -----time=                2104,@sim_time =                 2104,dimm_counter=                1052 
+ 
+ -----time=                2106,@sim_time =                 2106,dimm_counter=                1053 
+ 
+ -----time=                2108,@sim_time =                 2108,dimm_counter=                1054 
+ 
+ -----time=                2110,@sim_time =                 2110,dimm_counter=                1055 
+ 
+ -----time=                2112,@sim_time =                 2112,dimm_counter=                1056 
+ 
+ -----time=                2114,@sim_time =                 2114,dimm_counter=                1057 
+ 
+ -----time=                2116,@sim_time =                 2116,dimm_counter=                1058 
+ 	 bank_g_time[6][2]=          0 
+                2116 	 channel=0 PRE  bankg=6 bank=2 
+                 2116 	 done=0 
+ 
+ -----time=                2117,@sim_time =                 2117 
+ 
+ -----time=                2118,@sim_time =                 2118,dimm_counter=                1059 
+ 
+ -----time=                2118,@sim_time =                 2118 
+ 
+ -----Entered ACT0 state 
+ 
+ -----different bank 
+                2118 	 channel=0 ACT0 bankg=7 bank=3 row =000f 
+                2120 	 channel=0 ACT1 bankg=7 bank=3 row =000f 
+ 
+ -----time=                2120,@sim_time =                 2120,dimm_counter=                1060 
+ 
+ -----time=                2120,@sim_time =                 2120 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                2122,@sim_time =                 2122,dimm_counter=                1061 
+ 
+ -----time=                2124,@sim_time =                 2124,dimm_counter=                1062 
+ 
+ -----time=                2126,@sim_time =                 2126,dimm_counter=                1063 
+ 
+ -----time=                2128,@sim_time =                 2128,dimm_counter=                1064 
+ 
+ -----time=                2130,@sim_time =                 2130,dimm_counter=                1065 
+ 
+ -----time=                2132,@sim_time =                 2132,dimm_counter=                1066 
+ 
+ -----time=                2134,@sim_time =                 2134,dimm_counter=                1067 
+ 
+ -----time=                2136,@sim_time =                 2136,dimm_counter=                1068 
+ 
+ -----time=                2138,@sim_time =                 2138,dimm_counter=                1069 
+ 
+ -----time=                2140,@sim_time =                 2140,dimm_counter=                1070 
+ 
+ -----time=                2142,@sim_time =                 2142,dimm_counter=                1071 
+ 
+ -----time=                2144,@sim_time =                 2144,dimm_counter=                1072 
+ 
+ -----time=                2146,@sim_time =                 2146,dimm_counter=                1073 
+ 
+ -----time=                2148,@sim_time =                 2148,dimm_counter=                1074 
+ 
+ -----time=                2150,@sim_time =                 2150,dimm_counter=                1075 
+ 
+ -----time=                2152,@sim_time =                 2152,dimm_counter=                1076 
+ 
+ -----time=                2154,@sim_time =                 2154,dimm_counter=                1077 
+ 
+ -----time=                2156,@sim_time =                 2156,dimm_counter=                1078 
+ 
+ -----time=                2158,@sim_time =                 2158,dimm_counter=                1079 
+ 
+ -----time=                2160,@sim_time =                 2160,dimm_counter=                1080 
+ 
+ -----time=                2162,@sim_time =                 2162,dimm_counter=                1081 
+ 
+ -----time=                2164,@sim_time =                 2164,dimm_counter=                1082 
+ 
+ -----time=                2166,@sim_time =                 2166,dimm_counter=                1083 
+ 
+ -----time=                2168,@sim_time =                 2168,dimm_counter=                1084 
+ 
+ -----time=                2170,@sim_time =                 2170,dimm_counter=                1085 
+ 
+ -----time=                2172,@sim_time =                 2172,dimm_counter=                1086 
+ 
+ -----time=                2174,@sim_time =                 2174,dimm_counter=                1087 
+ 
+ -----time=                2176,@sim_time =                 2176,dimm_counter=                1088 
+ 
+ -----time=                2178,@sim_time =                 2178,dimm_counter=                1089 
+ 
+ -----time=                2180,@sim_time =                 2180,dimm_counter=                1090 
+ 
+ -----time=                2182,@sim_time =                 2182,dimm_counter=                1091 
+ 
+ -----time=                2184,@sim_time =                 2184,dimm_counter=                1092 
+ 
+ -----time=                2186,@sim_time =                 2186,dimm_counter=                1093 
+ 
+ -----time=                2188,@sim_time =                 2188,dimm_counter=                1094 
+ 
+ -----time=                2190,@sim_time =                 2190,dimm_counter=                1095 
+ 
+ -----time=                2192,@sim_time =                 2192,dimm_counter=                1096 
+ 
+ -----time=                2194,@sim_time =                 2194,dimm_counter=                1097 
+ 
+ -----time=                2196,@sim_time =                 2196,dimm_counter=                1098 
+                2196 	 channel=0 RD0  bankg=7 bank=3 column=021 
+                2198 	 channel=0 RD1  bankg=7 bank=3 column=021 
+ 
+ -----time=                2198,@sim_time =                 2198,dimm_counter=                1099 
+ 
+ -----time=                2198,@sim_time =                 2198 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                2200,@sim_time =                 2200,dimm_counter=                1100 
+ 
+ -----time=                2202,@sim_time =                 2202,dimm_counter=                1101 
+ 
+ -----time=                2204,@sim_time =                 2204,dimm_counter=                1102 
+ 
+ -----time=                2206,@sim_time =                 2206,dimm_counter=                1103 
+ 
+ -----time=                2208,@sim_time =                 2208,dimm_counter=                1104 
+ 
+ -----time=                2210,@sim_time =                 2210,dimm_counter=                1105 
+ 
+ -----time=                2212,@sim_time =                 2212,dimm_counter=                1106 
+ 
+ -----time=                2214,@sim_time =                 2214,dimm_counter=                1107 
+ 
+ -----time=                2216,@sim_time =                 2216,dimm_counter=                1108 
+ 
+ -----time=                2218,@sim_time =                 2218,dimm_counter=                1109 
+ 
+ -----time=                2220,@sim_time =                 2220,dimm_counter=                1110 
+ 
+ -----time=                2222,@sim_time =                 2222,dimm_counter=                1111 
+ 
+ -----time=                2224,@sim_time =                 2224,dimm_counter=                1112 
+ 
+ -----time=                2226,@sim_time =                 2226,dimm_counter=                1113 
+ 
+ -----time=                2228,@sim_time =                 2228,dimm_counter=                1114 
+ 
+ -----time=                2230,@sim_time =                 2230,dimm_counter=                1115 
+ 
+ -----time=                2232,@sim_time =                 2232,dimm_counter=                1116 
+ 
+ -----time=                2234,@sim_time =                 2234,dimm_counter=                1117 
+ 	 bank_g_time[7][3]=          0 
+                2234 	 channel=0 PRE  bankg=7 bank=3 
+                 2234 	 done=0 
+ 
+ -----time=                2235,@sim_time =                 2235 
+ 
+ -----time=                2236,@sim_time =                 2236,dimm_counter=                1118 
+ 
+ -----time=                2236,@sim_time =                 2236 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+ 
+ bank_g_s_rem_time=       1060,d_time=       2236
+ 
+ act_rc_rem_time =          0,d_time=       2236
+                2236 	 channel=0 ACT0 bankg=0 bank=0 row =0010 
+                2238 	 channel=0 ACT1 bankg=0 bank=0 row =0010 
+ 
+ -----time=                2238,@sim_time =                 2238,dimm_counter=                1119 
+ 
+ -----time=                2238,@sim_time =                 2238 
+ 
+ -----Entered WR0 state 
+ 
+ -----time=                2240,@sim_time =                 2240,dimm_counter=                1120 
+ 
+ -----time=                2242,@sim_time =                 2242,dimm_counter=                1121 
+ 
+ -----time=                2244,@sim_time =                 2244,dimm_counter=                1122 
+ 
+ -----time=                2246,@sim_time =                 2246,dimm_counter=                1123 
+ 
+ -----time=                2248,@sim_time =                 2248,dimm_counter=                1124 
+ 
+ -----time=                2250,@sim_time =                 2250,dimm_counter=                1125 
+ 
+ -----time=                2252,@sim_time =                 2252,dimm_counter=                1126 
+ 
+ -----time=                2254,@sim_time =                 2254,dimm_counter=                1127 
+ 
+ -----time=                2256,@sim_time =                 2256,dimm_counter=                1128 
+ 
+ -----time=                2258,@sim_time =                 2258,dimm_counter=                1129 
+ 
+ -----time=                2260,@sim_time =                 2260,dimm_counter=                1130 
+ 
+ -----time=                2262,@sim_time =                 2262,dimm_counter=                1131 
+ 
+ -----time=                2264,@sim_time =                 2264,dimm_counter=                1132 
+ 
+ -----time=                2266,@sim_time =                 2266,dimm_counter=                1133 
+ 
+ -----time=                2268,@sim_time =                 2268,dimm_counter=                1134 
+ 
+ -----time=                2270,@sim_time =                 2270,dimm_counter=                1135 
+ 
+ -----time=                2272,@sim_time =                 2272,dimm_counter=                1136 
+ 
+ -----time=                2274,@sim_time =                 2274,dimm_counter=                1137 
+ 
+ -----time=                2276,@sim_time =                 2276,dimm_counter=                1138 
+ 
+ -----time=                2278,@sim_time =                 2278,dimm_counter=                1139 
+ 
+ -----time=                2280,@sim_time =                 2280,dimm_counter=                1140 
+ 
+ -----time=                2282,@sim_time =                 2282,dimm_counter=                1141 
+ 
+ -----time=                2284,@sim_time =                 2284,dimm_counter=                1142 
+ 
+ -----time=                2286,@sim_time =                 2286,dimm_counter=                1143 
+ 
+ -----time=                2288,@sim_time =                 2288,dimm_counter=                1144 
+ 
+ -----time=                2290,@sim_time =                 2290,dimm_counter=                1145 
+ 
+ -----time=                2292,@sim_time =                 2292,dimm_counter=                1146 
+ 
+ -----time=                2294,@sim_time =                 2294,dimm_counter=                1147 
+ 
+ -----time=                2296,@sim_time =                 2296,dimm_counter=                1148 
+ 
+ -----time=                2298,@sim_time =                 2298,dimm_counter=                1149 
+ 
+ -----time=                2300,@sim_time =                 2300,dimm_counter=                1150 
+ 
+ -----time=                2302,@sim_time =                 2302,dimm_counter=                1151 
+ 
+ -----time=                2304,@sim_time =                 2304,dimm_counter=                1152 
+ 
+ -----time=                2306,@sim_time =                 2306,dimm_counter=                1153 
+ 
+ -----time=                2308,@sim_time =                 2308,dimm_counter=                1154 
+ 
+ -----time=                2310,@sim_time =                 2310,dimm_counter=                1155 
+ 
+ -----time=                2312,@sim_time =                 2312,dimm_counter=                1156 
+ 
+ -----time=                2314,@sim_time =                 2314,dimm_counter=                1157 
+                2314 	 channel=0 WR0  bankg=0 bank=0 column=040 
+                2316 	 channel=0 WR1  bankg=0 bank=0 column=040 
+ 
+ -----time=                2316,@sim_time =                 2316,dimm_counter=                1158 
+ 
+ -----time=                2316,@sim_time =                 2316 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                2318,@sim_time =                 2318,dimm_counter=                1159 
+ 
+ -----time=                2320,@sim_time =                 2320,dimm_counter=                1160 
+ 
+ -----time=                2322,@sim_time =                 2322,dimm_counter=                1161 
+ 
+ -----time=                2324,@sim_time =                 2324,dimm_counter=                1162 
+ 
+ -----time=                2326,@sim_time =                 2326,dimm_counter=                1163 
+ 
+ -----time=                2328,@sim_time =                 2328,dimm_counter=                1164 
+ 
+ -----time=                2330,@sim_time =                 2330,dimm_counter=                1165 
+ 
+ -----time=                2332,@sim_time =                 2332,dimm_counter=                1166 
+ 
+ -----time=                2334,@sim_time =                 2334,dimm_counter=                1167 
+ 
+ -----time=                2336,@sim_time =                 2336,dimm_counter=                1168 
+ 
+ -----time=                2338,@sim_time =                 2338,dimm_counter=                1169 
+ 
+ -----time=                2340,@sim_time =                 2340,dimm_counter=                1170 
+ 
+ -----time=                2342,@sim_time =                 2342,dimm_counter=                1171 
+ 
+ -----time=                2344,@sim_time =                 2344,dimm_counter=                1172 
+ 
+ -----time=                2346,@sim_time =                 2346,dimm_counter=                1173 
+ 
+ -----time=                2348,@sim_time =                 2348,dimm_counter=                1174 
+ 
+ -----time=                2350,@sim_time =                 2350,dimm_counter=                1175 
+ 
+ -----time=                2352,@sim_time =                 2352,dimm_counter=                1176 
+ 
+ -----time=                2354,@sim_time =                 2354,dimm_counter=                1177 
+ 
+ -----time=                2356,@sim_time =                 2356,dimm_counter=                1178 
+ 
+ -----time=                2358,@sim_time =                 2358,dimm_counter=                1179 
+ 
+ -----time=                2360,@sim_time =                 2360,dimm_counter=                1180 
+ 
+ -----time=                2362,@sim_time =                 2362,dimm_counter=                1181 
+ 
+ -----time=                2364,@sim_time =                 2364,dimm_counter=                1182 
+ 
+ -----time=                2366,@sim_time =                 2366,dimm_counter=                1183 
+ 
+ -----time=                2368,@sim_time =                 2368,dimm_counter=                1184 
+ 
+ -----time=                2370,@sim_time =                 2370,dimm_counter=                1185 
+ 
+ -----time=                2372,@sim_time =                 2372,dimm_counter=                1186 
+ 
+ -----time=                2374,@sim_time =                 2374,dimm_counter=                1187 
+ 
+ -----time=                2376,@sim_time =                 2376,dimm_counter=                1188 
+ 
+ -----time=                2378,@sim_time =                 2378,dimm_counter=                1189 
+ 
+ -----time=                2380,@sim_time =                 2380,dimm_counter=                1190 
+ 
+ -----time=                2382,@sim_time =                 2382,dimm_counter=                1191 
+ 
+ -----time=                2384,@sim_time =                 2384,dimm_counter=                1192 
+ 
+ -----time=                2386,@sim_time =                 2386,dimm_counter=                1193 
+ 
+ -----time=                2388,@sim_time =                 2388,dimm_counter=                1194 
+ 
+ -----time=                2390,@sim_time =                 2390,dimm_counter=                1195 
+ 
+ -----time=                2392,@sim_time =                 2392,dimm_counter=                1196 
+ 
+ -----time=                2394,@sim_time =                 2394,dimm_counter=                1197 
+ 
+ -----time=                2396,@sim_time =                 2396,dimm_counter=                1198 
+ 
+ -----time=                2398,@sim_time =                 2398,dimm_counter=                1199 
+ 
+ -----time=                2400,@sim_time =                 2400,dimm_counter=                1200 
+ 
+ -----time=                2402,@sim_time =                 2402,dimm_counter=                1201 
+ 
+ -----time=                2404,@sim_time =                 2404,dimm_counter=                1202 
+ 
+ -----time=                2406,@sim_time =                 2406,dimm_counter=                1203 
+ 
+ -----time=                2408,@sim_time =                 2408,dimm_counter=                1204 
+ 
+ -----time=                2410,@sim_time =                 2410,dimm_counter=                1205 
+ 
+ -----time=                2412,@sim_time =                 2412,dimm_counter=                1206 
+ 
+ -----time=                2414,@sim_time =                 2414,dimm_counter=                1207 
+ 
+ -----time=                2416,@sim_time =                 2416,dimm_counter=                1208 
+ 
+ -----time=                2418,@sim_time =                 2418,dimm_counter=                1209 
+ 
+ -----time=                2420,@sim_time =                 2420,dimm_counter=                1210 
+ 
+ -----time=                2422,@sim_time =                 2422,dimm_counter=                1211 
+ 
+ -----time=                2424,@sim_time =                 2424,dimm_counter=                1212 
+ 
+ -----time=                2426,@sim_time =                 2426,dimm_counter=                1213 
+ 
+ -----time=                2428,@sim_time =                 2428,dimm_counter=                1214 
+ 
+ -----time=                2430,@sim_time =                 2430,dimm_counter=                1215 
+ 
+ -----time=                2432,@sim_time =                 2432,dimm_counter=                1216 
+ 
+ -----time=                2434,@sim_time =                 2434,dimm_counter=                1217 
+ 
+ -----time=                2436,@sim_time =                 2436,dimm_counter=                1218 
+ 
+ -----time=                2438,@sim_time =                 2438,dimm_counter=                1219 
+ 
+ -----time=                2440,@sim_time =                 2440,dimm_counter=                1220 
+ 
+ -----time=                2442,@sim_time =                 2442,dimm_counter=                1221 
+ 
+ -----time=                2444,@sim_time =                 2444,dimm_counter=                1222 
+ 
+ -----time=                2446,@sim_time =                 2446,dimm_counter=                1223 
+ 
+ -----time=                2448,@sim_time =                 2448,dimm_counter=                1224 
+ 
+ -----time=                2450,@sim_time =                 2450,dimm_counter=                1225 
+ 
+ -----time=                2452,@sim_time =                 2452,dimm_counter=                1226 
+ 
+ -----time=                2454,@sim_time =                 2454,dimm_counter=                1227 
+ 
+ -----time=                2456,@sim_time =                 2456,dimm_counter=                1228 
+ 
+ -----time=                2458,@sim_time =                 2458,dimm_counter=                1229 
+ 
+ -----time=                2460,@sim_time =                 2460,dimm_counter=                1230 
+ 
+ -----time=                2462,@sim_time =                 2462,dimm_counter=                1231 
+ 
+ -----time=                2464,@sim_time =                 2464,dimm_counter=                1232 
+ 
+ -----time=                2466,@sim_time =                 2466,dimm_counter=                1233 
+ 
+ -----time=                2468,@sim_time =                 2468,dimm_counter=                1234 
+ 	 bank_g_time[0][0]=       2468 
+                2468 	 channel=0 PRE  bankg=0 bank=0 
+                 2468 	 done=0 
+ 
+ -----time=                2469,@sim_time =                 2469 
+ 
+ -----time=                2470,@sim_time =                 2470,dimm_counter=                1235 
+ 
+ -----time=                2470,@sim_time =                 2470 
+ 
+ -----Entered ACT0 state 
+ 
+ -----same bank 
+ 
+ bank_g_s_rem_time=       1176,d_time=       2470
+ 
+ act_rc_rem_time =          0,d_time=       2470
+                2470 	 channel=0 ACT0 bankg=1 bank=1 row =0011 
+                2472 	 channel=0 ACT1 bankg=1 bank=1 row =0011 
+ 
+ -----time=                2472,@sim_time =                 2472,dimm_counter=                1236 
+ 
+ -----time=                2472,@sim_time =                 2472 
+ 
+ -----Entered RD0 state 
+ 
+ -----time=                2474,@sim_time =                 2474,dimm_counter=                1237 
+ 
+ -----time=                2476,@sim_time =                 2476,dimm_counter=                1238 
+ 
+ -----time=                2478,@sim_time =                 2478,dimm_counter=                1239 
+ 
+ -----time=                2480,@sim_time =                 2480,dimm_counter=                1240 
+ 
+ -----time=                2482,@sim_time =                 2482,dimm_counter=                1241 
+ 
+ -----time=                2484,@sim_time =                 2484,dimm_counter=                1242 
+ 
+ -----time=                2486,@sim_time =                 2486,dimm_counter=                1243 
+ 
+ -----time=                2488,@sim_time =                 2488,dimm_counter=                1244 
+ 
+ -----time=                2490,@sim_time =                 2490,dimm_counter=                1245 
+ 
+ -----time=                2492,@sim_time =                 2492,dimm_counter=                1246 
+ 
+ -----time=                2494,@sim_time =                 2494,dimm_counter=                1247 
+ 
+ -----time=                2496,@sim_time =                 2496,dimm_counter=                1248 
+ 
+ -----time=                2498,@sim_time =                 2498,dimm_counter=                1249 
+ 
+ -----time=                2500,@sim_time =                 2500,dimm_counter=                1250 
+ 
+ -----time=                2502,@sim_time =                 2502,dimm_counter=                1251 
+ 
+ -----time=                2504,@sim_time =                 2504,dimm_counter=                1252 
+ 
+ -----time=                2506,@sim_time =                 2506,dimm_counter=                1253 
+ 
+ -----time=                2508,@sim_time =                 2508,dimm_counter=                1254 
+ 
+ -----time=                2510,@sim_time =                 2510,dimm_counter=                1255 
+ 
+ -----time=                2512,@sim_time =                 2512,dimm_counter=                1256 
+ 
+ -----time=                2514,@sim_time =                 2514,dimm_counter=                1257 
+ 
+ -----time=                2516,@sim_time =                 2516,dimm_counter=                1258 
+ 
+ -----time=                2518,@sim_time =                 2518,dimm_counter=                1259 
+ 
+ -----time=                2520,@sim_time =                 2520,dimm_counter=                1260 
+ 
+ -----time=                2522,@sim_time =                 2522,dimm_counter=                1261 
+ 
+ -----time=                2524,@sim_time =                 2524,dimm_counter=                1262 
+ 
+ -----time=                2526,@sim_time =                 2526,dimm_counter=                1263 
+ 
+ -----time=                2528,@sim_time =                 2528,dimm_counter=                1264 
+ 
+ -----time=                2530,@sim_time =                 2530,dimm_counter=                1265 
+ 
+ -----time=                2532,@sim_time =                 2532,dimm_counter=                1266 
+ 
+ -----time=                2534,@sim_time =                 2534,dimm_counter=                1267 
+ 
+ -----time=                2536,@sim_time =                 2536,dimm_counter=                1268 
+ 
+ -----time=                2538,@sim_time =                 2538,dimm_counter=                1269 
+ 
+ -----time=                2540,@sim_time =                 2540,dimm_counter=                1270 
+ 
+ -----time=                2542,@sim_time =                 2542,dimm_counter=                1271 
+ 
+ -----time=                2544,@sim_time =                 2544,dimm_counter=                1272 
+ 
+ -----time=                2546,@sim_time =                 2546,dimm_counter=                1273 
+ 
+ -----time=                2548,@sim_time =                 2548,dimm_counter=                1274 
+                2548 	 channel=0 RD0  bankg=1 bank=1 column=08f 
+                2550 	 channel=0 RD1  bankg=1 bank=1 column=08f 
+ 
+ -----time=                2550,@sim_time =                 2550,dimm_counter=                1275 
+ 
+ -----time=                2550,@sim_time =                 2550 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                2552,@sim_time =                 2552,dimm_counter=                1276 
+ 
+ -----time=                2554,@sim_time =                 2554,dimm_counter=                1277 
+ 
+ -----time=                2556,@sim_time =                 2556,dimm_counter=                1278 
+ 
+ -----time=                2558,@sim_time =                 2558,dimm_counter=                1279 
+ 
+ -----time=                2560,@sim_time =                 2560,dimm_counter=                1280 
+ 
+ -----time=                2562,@sim_time =                 2562,dimm_counter=                1281 
+ 
+ -----time=                2564,@sim_time =                 2564,dimm_counter=                1282 
+ 
+ -----time=                2566,@sim_time =                 2566,dimm_counter=                1283 
+ 
+ -----time=                2568,@sim_time =                 2568,dimm_counter=                1284 
+ 
+ -----time=                2570,@sim_time =                 2570,dimm_counter=                1285 
+ 
+ -----time=                2572,@sim_time =                 2572,dimm_counter=                1286 
+ 
+ -----time=                2574,@sim_time =                 2574,dimm_counter=                1287 
+ 
+ -----time=                2576,@sim_time =                 2576,dimm_counter=                1288 
+ 
+ -----time=                2578,@sim_time =                 2578,dimm_counter=                1289 
+ 
+ -----time=                2580,@sim_time =                 2580,dimm_counter=                1290 
+ 
+ -----time=                2582,@sim_time =                 2582,dimm_counter=                1291 
+ 
+ -----time=                2584,@sim_time =                 2584,dimm_counter=                1292 
+ 
+ -----time=                2586,@sim_time =                 2586,dimm_counter=                1293 
+ 	 bank_g_time[1][1]=       2586 
+                2586 	 channel=0 PRE  bankg=1 bank=1 
+                 2586 	 done=0 
+ 
+ -----time=                2587,@sim_time =                 2587 
+ 
+ -----time=                2588,@sim_time =                 2588,dimm_counter=                1294 
+ 
+ -----time=                2588,@sim_time =                 2588 
+ 
+ -----Entered PRE state 
+ 
+ -----time=                2590,@sim_time =                 2590,dimm_counter=                1295 
