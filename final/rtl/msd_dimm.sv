@@ -180,10 +180,7 @@ module msd_dimm;
                      if (debug_en)
                         $fwrite(out_file," \n -----Entered PRE state \n");
                      if (op_out == 0 || op_out == 2) begin
-                        if (cl)
-                           wait ((d_time + tCL + tBURST +2) == sim_time);
-                        else
-                           wait ((d_time + tRTP +2) == sim_time);
+                         wait ((d_time + tCL + tBURST +2) == sim_time);
                      end
                      if (op_out == 1)
                         wait((d_time + tCWL + tBURST + tWR +2) == sim_time);
@@ -238,7 +235,6 @@ module msd_dimm;
        void'($value$plusargs("ip_file=%s", ip_file));
        void'($value$plusargs("op_file=%s", op_file));
        void'($value$plusargs("debug_en=%d",debug_en));
-       void'($value$plusargs("cl=%d",cl));
        violation_flag = 0;
   end              
                    
